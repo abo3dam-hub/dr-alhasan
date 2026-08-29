@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "procedures": "Procedures",
+    "beforeAfter": "Before & After",
+    "patientStories": "Patient Stories",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "book": "Book a Consultation"
+  },
+  "hero": {
+    "eyebrow": "AESTHETIC & PLASTIC SURGERY",
+    "title": "Refined Beauty. Confident You.",
+    "description": "Personalized aesthetic and surgical care designed around you, with a focus on precision and natural-looking results.",
+    "explore": "Explore Procedures",
+    "book": "Book a Consultation"
+  }
+}
