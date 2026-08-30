@@ -19,9 +19,9 @@ export default function ProceduresPreview() {
   const Arrow = isRtl ? ArrowLeft : ArrowRight;
 
   return (
-    <section className="py-24 lg:py-32 bg-[var(--ivory)] relative">
+    <section className="py-24 lg:py-32 bg-[var(--gray-50)] relative">
       {/* Subtle decorative element */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--border)] to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--gray-200)] to-transparent" />
 
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         {/* Header */}
@@ -32,13 +32,13 @@ export default function ProceduresPreview() {
           transition={{duration: 0.7}}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-[var(--champagne-muted)] mb-4">
+          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-[var(--green-700)] mb-4">
             {t('eyebrow')}
           </p>
-          <h2 className="text-3xl lg:text-5xl font-semibold leading-[1.15] tracking-tight text-[var(--charcoal-deep)] mb-4">
+          <h2 className="text-3xl lg:text-5xl font-semibold leading-[1.15] tracking-tight text-[var(--gray-900)] mb-4">
             {t('title')}
           </h2>
-          <p className="text-base text-[var(--charcoal)]/60">
+          <p className="text-base text-[var(--gray-500)]">
             {t('subtitle')}
           </p>
         </motion.div>
@@ -55,20 +55,20 @@ export default function ProceduresPreview() {
             >
               <Link
                 href={`/procedures/${key}`}
-                className="group block bg-[var(--cream)] rounded-sm border border-[var(--border-light)] overflow-hidden hover:border-[var(--champagne)]/40 transition-all duration-300 hover:shadow-lg"
+                className="group block bg-[var(--white)] rounded-sm border border-[var(--gray-200)] overflow-hidden hover:border-[var(--green-300)] transition-all duration-300 hover:shadow-lg"
               >
                 {/* Image placeholder */}
-                <div className="aspect-[4/3] bg-[var(--ivory-warm)] flex items-center justify-center text-[var(--champagne)]/20 text-sm relative overflow-hidden">
+                <div className="aspect-[4/3] bg-[var(--gray-100)] flex items-center justify-center text-[var(--gray-400)] text-sm relative overflow-hidden">
                   {t(`${key}.imagePlaceholder`)}
                   {/* Hover overlay */}
-                  <div className="absolute inset-0 bg-[var(--champagne)]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 bg-[var(--green-500)]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-lg font-semibold text-[var(--charcoal-deep)] mb-2 group-hover:text-[var(--champagne-muted)] transition-colors">
+                  <h3 className="text-lg font-semibold text-[var(--gray-900)] mb-2 group-hover:text-[var(--green-700)] transition-colors">
                     {t(`${key}.name`)}
                   </h3>
-                  <p className="text-sm text-[var(--charcoal)]/60 leading-relaxed">
+                  <p className="text-sm text-[var(--gray-500)] leading-relaxed">
                     {t(`${key}.shortDescription`)}
                   </p>
                 </div>
@@ -87,7 +87,7 @@ export default function ProceduresPreview() {
         >
           <Link
             href="/procedures"
-            className="group inline-flex items-center gap-2 text-sm font-medium text-[var(--charcoal)]/70 hover:text-[var(--champagne-muted)] transition-colors"
+            className="group inline-flex items-center gap-2 text-sm font-medium text-[var(--gray-600)] hover:text-[var(--green-700)] transition-colors"
           >
             {t('viewAll')}
             <Arrow className="w-4 h-4 transition-transform group-hover:translate-x-1" />
