@@ -19,14 +19,14 @@ export default function Footer() {
   return (
     <footer className="bg-[var(--gray-800)] text-[var(--gray-300)] relative">
       {/* Top decorative line */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--green-400)]/20 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--gold-400)]/20 to-transparent" />
 
       <div className="mx-auto max-w-7xl px-6 lg:px-12 py-16 lg:py-20">
         <div className="grid md:grid-cols-3 gap-12 lg:gap-24">
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2 text-xl font-semibold text-[var(--gray-50)] mb-4">
-              <span className="text-[var(--green-400)]">✦</span>
+              <span className="text-[var(--gold-400)]">✦</span>
               <span>Dr. AlHasan</span>
             </Link>
             <p className="text-sm leading-relaxed text-[var(--gray-400)] mb-6">
@@ -38,15 +38,15 @@ export default function Footer() {
             {/* Contact info */}
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm text-[var(--gray-400)]">
-                <MapPin className="w-4 h-4 text-[var(--green-400)]/50" />
+                <MapPin className="w-4 h-4 text-[var(--gold-400)]/50" />
                 <span>{locale === 'ar' ? 'القاهرة، مصر' : 'Cairo, Egypt'}</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-[var(--gray-400)]" dir="ltr">
-                <Phone className="w-4 h-4 text-[var(--green-400)]/50" />
+                <Phone className="w-4 h-4 text-[var(--gold-400)]/50" />
                 <span>+20 123 456 7890</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-[var(--gray-400)]">
-                <Mail className="w-4 h-4 text-[var(--green-400)]/50" />
+                <Mail className="w-4 h-4 text-[var(--gold-400)]/50" />
                 <span>info@dr-alhasan.com</span>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function Footer() {
                 <li key={key}>
                   <Link
                     href={href}
-                    className="text-sm text-[var(--gray-400)] hover:text-[var(--green-400)] transition-colors"
+                    className="text-sm text-[var(--gray-400)] hover:text-[var(--gold-400)] transition-colors"
                   >
                     {t(key)}
                   </Link>

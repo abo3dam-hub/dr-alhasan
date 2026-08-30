@@ -20,15 +20,15 @@ export default function Hero() {
       />
 
       {/* Decorative accent line - top */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--green-400)]/30 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--gold-400)]/30 to-transparent" />
 
       {/* Content */}
       <div className="relative mx-auto max-w-7xl w-full px-6 lg:px-12 pt-32 pb-20 lg:pt-40 lg:pb-28">
         <div className="max-w-3xl">
           {/* Eyebrow */}
           <div className="mb-6 animate-fade-in-up">
-            <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-[var(--green-700)] bg-[var(--green-50)] px-4 py-2 rounded-full border border-[var(--green-200)]">
-              <Sparkles className="w-3.5 h-3.5 text-[var(--green-500)]" />
+            <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-[var(--gold-700)] bg-[var(--gold-50)] px-4 py-2 rounded-full border border-[var(--gold-200)]">
+              <Sparkles className="w-3.5 h-3.5 text-[var(--gold-500)]" />
               {t('eyebrow')}
             </span>
           </div>
@@ -47,7 +47,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up delay-400">
             <a
               href="/contact"
-              className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-base font-medium bg-[var(--green-600)] text-white rounded-full hover:bg-[var(--green-700)] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-[1.02]"
+              className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-base font-medium bg-[var(--gold-600)] text-white rounded-full hover:bg-[var(--gold-700)] transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-[1.02]"
             >
               {t('book')}
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -65,7 +65,7 @@ export default function Hero() {
 
         {/* Decorative elements */}
         <div className="absolute top-1/2 -translate-y-1/2 right-12 hidden xl:block animate-fade-in-left delay-600">
-          <div className="w-px h-32 bg-gradient-to-b from-transparent via-[var(--green-400)]/40 to-transparent" />
+          <div className="w-px h-32 bg-gradient-to-b from-transparent via-[var(--gold-400)]/40 to-transparent" />
         </div>
 
         <div className="absolute bottom-20 right-20 hidden xl:block animate-scale-in delay-800">

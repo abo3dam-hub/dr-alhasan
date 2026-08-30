@@ -14,19 +14,19 @@
   --gray-800: #343A40;
   --gray-900: #212529;
 
-  /* Secondary - Green (Medical/Health) */
-  --green-50: #F0FDF4;
-  --green-100: #DCFCE7;
-  --green-200: #BBF7D0;
-  --green-300: #86EFAC;
-  --green-400: #4ADE80;
-  --green-500: #22C55E;
-  --green-600: #16A34A;
-  --green-700: #15803D;
-  --green-800: #166534;
-  --green-900: #14532D;
+  /* Gold (Luxury/Premium) */
+  --gold-50: #FFFBEB;
+  --gold-100: #FEF3C7;
+  --gold-200: #FDE68A;
+  --gold-300: #FCD34D;
+  --gold-400: #FBBF24;
+  --gold-500: #F59E0B;
+  --gold-600: #D97706;
+  --gold-700: #B45309;
+  --gold-800: #92400E;
+  --gold-900: #78350F;
 
-  /* Accent - Purple (Luxury/Premium) */
+  /* Purple (Elegant/Accent) */
   --purple-50: #FAF5FF;
   --purple-100: #F3E8FF;
   --purple-200: #E9D5FF;
@@ -41,8 +41,8 @@
   /* Semantic Colors */
   --background: var(--gray-50);
   --foreground: var(--gray-900);
-  --accent: var(--green-600);
-  --accent-hover: var(--green-700);
+  --accent: var(--gold-600);
+  --accent-hover: var(--gold-700);
   --secondary: var(--purple-600);
   --secondary-hover: var(--purple-700);
   --muted: var(--gray-500);
@@ -76,16 +76,16 @@
   --color-gray-700: var(--gray-700);
   --color-gray-800: var(--gray-800);
   --color-gray-900: var(--gray-900);
-  --color-green-50: var(--green-50);
-  --color-green-100: var(--green-100);
-  --color-green-200: var(--green-200);
-  --color-green-300: var(--green-300);
-  --color-green-400: var(--green-400);
-  --color-green-500: var(--green-500);
-  --color-green-600: var(--green-600);
-  --color-green-700: var(--green-700);
-  --color-green-800: var(--green-800);
-  --color-green-900: var(--green-900);
+  --color-gold-50: var(--gold-50);
+  --color-gold-100: var(--gold-100);
+  --color-gold-200: var(--gold-200);
+  --color-gold-300: var(--gold-300);
+  --color-gold-400: var(--gold-400);
+  --color-gold-500: var(--gold-500);
+  --color-gold-600: var(--gold-600);
+  --color-gold-700: var(--gold-700);
+  --color-gold-800: var(--gold-800);
+  --color-gold-900: var(--gold-900);
   --color-purple-50: var(--purple-50);
   --color-purple-100: var(--purple-100);
   --color-purple-200: var(--purple-200);
@@ -110,7 +110,7 @@ body {
 
 /* ─── Selection ─── */
 ::selection {
-  background-color: var(--green-500);
+  background-color: var(--gold-500);
   color: var(--white);
 }
 
@@ -124,17 +124,6 @@ html {
   from {
     opacity: 0;
     transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
   }
   to {
     opacity: 1;
@@ -206,22 +195,9 @@ html {
   }
 }
 
-@keyframes shimmer {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
-  }
-}
-
 /* ─── Animation Classes ─── */
 .animate-fade-in-up {
   animation: fadeInUp 0.7s ease-out forwards;
-}
-
-.animate-fade-in-down {
-  animation: fadeInDown 0.7s ease-out forwards;
 }
 
 .animate-fade-in-left {
@@ -246,12 +222,6 @@ html {
 
 .animate-pulse {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-.animate-shimmer {
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
-  background-size: 200% 100%;
-  animation: shimmer 2s infinite;
 }
 
 /* ─── Stagger Delays ─── */
@@ -279,15 +249,7 @@ html {
 }
 
 .hover-glow:hover {
-  box-shadow: 0 0 20px rgba(34, 197, 94, 0.3);
-}
-
-.hover-scale {
-  transition: transform 0.3s ease;
-}
-
-.hover-scale:hover {
-  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
 }
 
 /* ─── Card Styles ─── */
@@ -297,35 +259,9 @@ html {
 }
 
 .card-hover:hover {
-  border-color: var(--green-300);
+  border-color: var(--gold-300);
   box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
-}
-
-/* ─── Button Styles ─── */
-.btn-primary {
-  background: var(--green-600);
-  color: var(--white);
-  transition: all 0.3s ease;
-}
-
-.btn-primary:hover {
-  background: var(--green-700);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
-}
-
-.btn-secondary {
-  background: transparent;
-  color: var(--gray-700);
-  border: 1px solid var(--gray-300);
-  transition: all 0.3s ease;
-}
-
-.btn-secondary:hover {
-  border-color: var(--purple-400);
-  color: var(--purple-700);
-  background: var(--purple-50);
 }
 
 /* ─── Reduced motion ─── */

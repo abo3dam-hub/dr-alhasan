@@ -17,8 +17,8 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16 animate-fade-in-up">
-          <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-[var(--green-700)] bg-[var(--green-50)] px-4 py-2 rounded-full border border-[var(--green-200)] mb-6">
-            <Star className="w-3.5 h-3.5 text-[var(--green-500)]" />
+          <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-[var(--gold-700)] bg-[var(--gold-50)] px-4 py-2 rounded-full border border-[var(--gold-200)] mb-6">
+            <Star className="w-3.5 h-3.5 text-[var(--gold-500)]" />
             {t('eyebrow')}
           </span>
           <h2 className="text-3xl lg:text-5xl font-semibold leading-[1.15] tracking-tight text-[var(--gray-900)]">
@@ -44,7 +44,7 @@ export default function Testimonials() {
                 {Array.from({length: 5}).map((_, i) => (
                   <Star
                     key={i}
-                    className="w-4 h-4 fill-[var(--green-500)] text-[var(--green-500)] animate-scale-in"
+                    className="w-4 h-4 fill-[var(--gold-500)] text-[var(--gold-500)] animate-scale-in"
                     style={{animationDelay: `${500 + i * 100}ms`}}
                   />
                 ))}

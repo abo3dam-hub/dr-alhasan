@@ -25,8 +25,8 @@ export default async function ProceduresPage() {
       <section className="pt-32 pb-16 lg:pt-40 lg:pb-24 bg-white relative">
         <div className="mx-auto max-w-7xl px-6 lg:px-12">
           <div className="max-w-3xl animate-fade-in-up">
-            <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-[var(--green-700)] bg-[var(--green-50)] px-4 py-2 rounded-full border border-[var(--green-200)] mb-6">
-              <Sparkles className="w-3.5 h-3.5 text-[var(--green-500)]" />
+            <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-[var(--gold-700)] bg-[var(--gold-50)] px-4 py-2 rounded-full border border-[var(--gold-200)] mb-6">
+              <Sparkles className="w-3.5 h-3.5 text-[var(--gold-500)]" />
               {t('eyebrow')}
             </span>
             <h1 className="text-4xl lg:text-6xl font-semibold leading-[1.1] tracking-tight text-[var(--gray-900)] mb-6">
@@ -46,12 +46,12 @@ export default async function ProceduresPage() {
             {procedures.map(({key, icon: Icon}, idx) => (
               <div
                 key={key}
-                className="bg-white border border-[var(--gray-200)] rounded-sm overflow-hidden hover:border-[var(--green-300)] transition-all duration-300 animate-fade-in-up"
+                className="bg-white border border-[var(--gray-200)] rounded-sm overflow-hidden hover:border-[var(--gold-300)] transition-all duration-300 animate-fade-in-up"
                 style={{animationDelay: `${idx * 150}ms`}}
               >
                 <div className="grid lg:grid-cols-2 gap-0">
                   <div className="aspect-[4/3] lg:aspect-auto bg-[var(--gray-100)] flex items-center justify-center relative overflow-hidden group">
-                    <Icon className="w-16 h-16 text-[var(--green-400)] transition-transform duration-500 group-hover:scale-110" />
+                    <Icon className="w-16 h-16 text-[var(--gold-400)] transition-transform duration-500 group-hover:scale-110" />
                     <div className="absolute top-4 left-4 w-6 h-6 border-t border-l border-[var(--purple-300)]" />
                     <div className="absolute bottom-4 right-4 w-6 h-6 border-b border-r border-[var(--purple-300)]" />
                   </div>
@@ -67,7 +67,7 @@ export default async function ProceduresPage() {
                     <div className="space-y-3 mb-8">
                       {t.raw(`${key}.benefits`).map((benefit: string, bIdx: number) => (
                         <div key={bIdx} className="flex items-center gap-3">
-                          <CheckCircle className="w-4 h-4 text-[var(--green-500)] flex-shrink-0" />
+                          <CheckCircle className="w-4 h-4 text-[var(--gold-500)] flex-shrink-0" />
                           <span className="text-sm text-[var(--gray-600)]">{benefit}</span>
                         </div>
                       ))}
@@ -75,7 +75,7 @@ export default async function ProceduresPage() {
 
                     <Link
                       href="/contact"
-                      className="inline-flex items-center gap-2 text-sm font-medium text-[var(--green-600)] hover:text-[var(--green-700)] transition-colors"
+                      className="inline-flex items-center gap-2 text-sm font-medium text-[var(--gold-600)] hover:text-[var(--gold-700)] transition-colors"
                     >
                       Book Consultation
                       <ArrowRight className="w-4 h-4" />
