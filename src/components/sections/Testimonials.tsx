@@ -1,7 +1,6 @@
 'use client';
 
-import {motion} from 'framer-motion';
-import {useTranslations, useLocale} from 'next-intl';
+import {useTranslations} from 'next-intl';
 import {Star, Quote} from 'lucide-react';
 
 const testimonials = [
@@ -12,44 +11,32 @@ const testimonials = [
 
 export default function Testimonials() {
   const t = useTranslations('testimonials');
-  const locale = useLocale();
 
   return (
-    <section className="py-24 lg:py-32 bg-[var(--ivory)] relative">
-      {/* Subtle decorative element */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--border)] to-transparent" />
-
+    <section className="py-24 lg:py-32 bg-[var(--gray-50)]">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         {/* Header */}
-        <motion.div
-          initial={{opacity: 0, y: 30}}
-          whileInView={{opacity: 1, y: 0}}
-          viewport={{once: true, margin: '-100px'}}
-          transition={{duration: 0.7}}
-          className="text-center max-w-2xl mx-auto mb-16"
-        >
-          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-[var(--champagne-muted)] mb-4">
+        <div className="text-center max-w-2xl mx-auto mb-16 animate-fade-in-up">
+          <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-[var(--gold-700)] bg-[var(--gold-50)] px-4 py-2 rounded-full border border-[var(--gold-200)] mb-6">
+            <Star className="w-3.5 h-3.5 text-[var(--gold-500)]" />
             {t('eyebrow')}
-          </p>
-          <h2 className="text-3xl lg:text-5xl font-semibold leading-[1.15] tracking-tight text-[var(--charcoal-deep)]">
+          </span>
+          <h2 className="text-3xl lg:text-5xl font-semibold leading-[1.15] tracking-tight text-[var(--gray-900)]">
             {t('title')}
           </h2>
-        </motion.div>
+        </div>
 
         {/* Grid */}
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map(({key}, idx) => (
-            <motion.div
+            <div
               key={key}
-              initial={{opacity: 0, y: 30}}
-              whileInView={{opacity: 1, y: 0}}
-              viewport={{once: true, margin: '-50px'}}
-              transition={{duration: 0.6, delay: idx * 0.12}}
-              className="bg-[var(--cream)] border border-[var(--border-light)] rounded-sm p-8 relative group hover:border-[var(--champagne)]/30 transition-colors duration-300"
+              className={`bg-white border border-[var(--gray-200)] rounded-sm p-8 relative group card-hover animate-fade-in-up`}
+              style={{animationDelay: `${200 + idx * 150}ms`}}
             >
               {/* Quote icon */}
-              <div className="absolute top-6 right-6 opacity-10 group-hover:opacity-20 transition-opacity">
-                <Quote className="w-8 h-8 text-[var(--champagne)]" />
+              <div className="absolute top-6 right-6 opacity-10 group-hover:opacity-20 transition-opacity duration-500">
+                <Quote className="w-8 h-8 text-[var(--purple-400)]" />
               </div>
 
               {/* Stars */}
@@ -57,24 +44,25 @@ export default function Testimonials() {
                 {Array.from({length: 5}).map((_, i) => (
                   <Star
                     key={i}
-                    className="w-3.5 h-3.5 fill-[var(--champagne)] text-[var(--champagne)]"
+                    className="w-4 h-4 fill-[var(--gold-500)] text-[var(--gold-500)] animate-scale-in"
+                    style={{animationDelay: `${500 + i * 100}ms`}}
                   />
                 ))}
               </div>
 
-              <p className="text-sm text-[var(--charcoal)]/70 leading-relaxed mb-6 relative z-10">
+              <p className="text-sm text-[var(--gray-600)] leading-relaxed mb-6 relative z-10">
                 &ldquo;{t(`${key}.quote`)}&rdquo;
               </p>
 
-              <div className="border-t border-[var(--border-light)] pt-4">
-                <p className="text-sm font-semibold text-[var(--charcoal-deep)]">
+              <div className="border-t border-[var(--gray-200)] pt-4">
+                <p className="text-sm font-semibold text-[var(--gray-900)]">
                   {t(`${key}.name`)}
                 </p>
-                <p className="text-xs text-[var(--charcoal)]/50 mt-0.5">
+                <p className="text-xs text-[var(--gray-400)] mt-0.5">
                   {t(`${key}.procedure`)}
                 </p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

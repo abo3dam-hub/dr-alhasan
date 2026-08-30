@@ -1,8 +1,7 @@
 'use client';
 
-import {motion} from 'framer-motion';
-import {Award, Clock, Users, Heart} from 'lucide-react';
-import {useLocale, useTranslations} from 'next-intl';
+import {useTranslations, useLocale} from 'next-intl';
+import {Clock, Users, Award, Stethoscope} from 'lucide-react';
 
 const stats = [
   {key: 'years', icon: Clock},
@@ -16,74 +15,50 @@ export default function DoctorIntro() {
   const isRtl = locale === 'ar';
 
   return (
-    <section className="py-24 lg:py-32 bg-[var(--cream)] relative">
-      {/* Subtle decorative element */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--border)] to-transparent" />
-
+    <section className="py-24 lg:py-32 bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
-        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* Image Placeholder */}
-          <motion.div
-            initial={{opacity: 0, x: isRtl ? 30 : -30}}
-            whileInView={{opacity: 1, x: 0}}
-            viewport={{once: true, margin: '-100px'}}
-            transition={{duration: 0.8}}
-            className="relative aspect-[3/4] bg-[var(--ivory-warm)] rounded-sm overflow-hidden"
-          >
-            <div className="absolute inset-0 flex items-center justify-center text-[var(--champagne)]/30 text-sm">
-              {t('imagePlaceholder')}
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          {/* Image */}
+          <div className={`relative aspect-[3/4] bg-[var(--gray-100)] rounded-sm overflow-hidden group hover-lift ${isRtl ? 'animate-slide-in-right' : 'animate-slide-in-left'}`}>
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-[var(--gray-400)] transition-transform duration-500 group-hover:scale-105">
+              <Stethoscope className="w-16 h-16 mb-4 text-[var(--gold-400)]" />
+              <span className="text-sm">{t('imagePlaceholder')}</span>
             </div>
-            {/* Gold accent line */}
-            <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[var(--champagne)] to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[var(--gold-500)] to-transparent" />
+            <div className="absolute top-6 left-6 w-8 h-8 border-t border-l border-[var(--purple-300)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute bottom-6 right-6 w-8 h-8 border-b border-r border-[var(--purple-300)] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+          </div>
 
-            {/* Decorative corner */}
-            <div className="absolute top-6 left-6 w-8 h-8 border-t border-l border-[var(--champagne)]/30" />
-            <div className="absolute bottom-6 right-6 w-8 h-8 border-b border-r border-[var(--champagne)]/30" />
-          </motion.div>
-
-          {/* Text Content */}
-          <motion.div
-            initial={{opacity: 0, x: isRtl ? -30 : 30}}
-            whileInView={{opacity: 1, x: 0}}
-            viewport={{once: true, margin: '-100px'}}
-            transition={{duration: 0.8, delay: 0.15}}
-          >
-            <div className="flex items-center gap-2 mb-4">
-              <Heart className="w-4 h-4 text-[var(--champagne)]" />
-              <p className="text-xs font-semibold tracking-[0.2em] uppercase text-[var(--champagne-muted)]">
+          {/* Text */}
+          <div className={`space-y-6 ${isRtl ? 'animate-slide-in-left' : 'animate-slide-in-right'}`}>
+            <div className="animate-fade-in-up delay-200">
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-[var(--gold-700)] bg-[var(--gold-50)] px-4 py-2 rounded-full border border-[var(--gold-200)]">
+                <Stethoscope className="w-3.5 h-3.5 text-[var(--gold-500)]" />
                 {t('eyebrow')}
-              </p>
+              </span>
             </div>
 
-            <h2 className="text-3xl lg:text-5xl font-semibold leading-[1.15] tracking-tight text-[var(--charcoal-deep)] mb-6">
+            <h2 className="text-3xl lg:text-5xl font-semibold leading-[1.15] tracking-tight text-[var(--gray-900)] animate-fade-in-up delay-300">
               {t('title')}
             </h2>
 
-            <p className="text-base lg:text-lg text-[var(--charcoal)]/70 leading-relaxed mb-8">
+            <p className="text-base lg:text-lg text-[var(--gray-600)] leading-relaxed animate-fade-in-up delay-400">
               {t('description')}
             </p>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8 border-t border-[var(--border-light)]">
-              {stats.map(({key, icon: Icon}) => (
-                <motion.div
-                  key={key}
-                  initial={{opacity: 0, y: 20}}
-                  whileInView={{opacity: 1, y: 0}}
-                  viewport={{once: true}}
-                  transition={{duration: 0.5, delay: 0.3}}
-                  className="text-center"
-                >
-                  <div className="w-10 h-10 rounded-full bg-[var(--champagne)]/10 flex items-center justify-center mx-auto mb-3">
-                    <Icon className="w-4 h-4 text-[var(--champagne)]" />
+            <div className="grid grid-cols-3 gap-6 pt-8 border-t border-[var(--gray-200)] animate-fade-in-up delay-500">
+              {stats.map(({key, icon: Icon}, idx) => (
+                <div key={key} className={`text-center animate-scale-in`} style={{animationDelay: `${600 + idx * 100}ms`}}>
+                  <div className="w-10 h-10 rounded-full bg-[var(--gold-50)] flex items-center justify-center mx-auto mb-3">
+                    <Icon className="w-4 h-4 text-[var(--gold-600)]" />
                   </div>
-                  <p className="text-xs text-[var(--charcoal)]/60 leading-snug">
+                  <p className="text-xs text-[var(--gray-500)] leading-snug">
                     {t(`stats.${key}`)}
                   </p>
-                </motion.div>
+                </div>
               ))}
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

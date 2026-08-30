@@ -2,27 +2,57 @@
 
 /* ─── Luxury Medical Design Tokens ─── */
 :root {
-  --ivory: #F5F0E8;
-  --ivory-warm: #EDE8DD;
-  --charcoal: #2C2C2C;
-  --charcoal-deep: #1A1A1A;
-  --champagne: #C9A96E;
-  --champagne-light: #D4B97A;
-  --champagne-muted: #B8975C;
-  --nude: #D4C4B0;
-  --nude-light: #E0D5C8;
-  --cream: #FAF7F2;
-  --white: #FFFFFF;
-  --black: #0A0A0A;
+  /* Primary - Light Gray */
+  --gray-50: #F8F9FA;
+  --gray-100: #F1F3F5;
+  --gray-200: #E9ECEF;
+  --gray-300: #DEE2E6;
+  --gray-400: #CED4DA;
+  --gray-500: #ADB5BD;
+  --gray-600: #868E96;
+  --gray-700: #495057;
+  --gray-800: #343A40;
+  --gray-900: #212529;
 
-  --background: var(--ivory);
-  --foreground: var(--charcoal);
-  --accent: var(--champagne);
-  --accent-hover: var(--champagne-light);
-  --muted: var(--nude);
-  --surface: var(--cream);
-  --border: #E2DCD2;
-  --border-light: #EDE9E2;
+  /* Gold (Luxury/Premium) */
+  --gold-50: #FFFBEB;
+  --gold-100: #FEF3C7;
+  --gold-200: #FDE68A;
+  --gold-300: #FCD34D;
+  --gold-400: #FBBF24;
+  --gold-500: #F59E0B;
+  --gold-600: #D97706;
+  --gold-700: #B45309;
+  --gold-800: #92400E;
+  --gold-900: #78350F;
+
+  /* Purple (Elegant/Accent) */
+  --purple-50: #FAF5FF;
+  --purple-100: #F3E8FF;
+  --purple-200: #E9D5FF;
+  --purple-300: #D8B4FE;
+  --purple-400: #C084FC;
+  --purple-500: #A855F7;
+  --purple-600: #9333EA;
+  --purple-700: #7E22CE;
+  --purple-800: #6B21A8;
+  --purple-900: #581C87;
+
+  /* Semantic Colors */
+  --background: var(--gray-50);
+  --foreground: var(--gray-900);
+  --accent: var(--gold-600);
+  --accent-hover: var(--gold-700);
+  --secondary: var(--purple-600);
+  --secondary-hover: var(--purple-700);
+  --muted: var(--gray-500);
+  --surface: var(--white);
+  --border: var(--gray-200);
+  --border-light: var(--gray-100);
+
+  /* White & Black */
+  --white: #FFFFFF;
+  --black: #000000;
 }
 
 @theme inline {
@@ -30,20 +60,42 @@
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
   --color-accent-hover: var(--accent-hover);
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
   --color-muted: var(--muted);
   --color-surface: var(--surface);
   --color-border: var(--border);
   --color-border-light: var(--border-light);
-  --color-ivory: var(--ivory);
-  --color-ivory-warm: var(--ivory-warm);
-  --color-charcoal: var(--charcoal);
-  --color-charcoal-deep: var(--charcoal-deep);
-  --color-champagne: var(--champagne);
-  --color-champagne-light: var(--champagne-light);
-  --color-champagne-muted: var(--champagne-muted);
-  --color-nude: var(--nude);
-  --color-nude-light: var(--nude-light);
-  --color-cream: var(--cream);
+  --color-gray-50: var(--gray-50);
+  --color-gray-100: var(--gray-100);
+  --color-gray-200: var(--gray-200);
+  --color-gray-300: var(--gray-300);
+  --color-gray-400: var(--gray-400);
+  --color-gray-500: var(--gray-500);
+  --color-gray-600: var(--gray-600);
+  --color-gray-700: var(--gray-700);
+  --color-gray-800: var(--gray-800);
+  --color-gray-900: var(--gray-900);
+  --color-gold-50: var(--gold-50);
+  --color-gold-100: var(--gold-100);
+  --color-gold-200: var(--gold-200);
+  --color-gold-300: var(--gold-300);
+  --color-gold-400: var(--gold-400);
+  --color-gold-500: var(--gold-500);
+  --color-gold-600: var(--gold-600);
+  --color-gold-700: var(--gold-700);
+  --color-gold-800: var(--gold-800);
+  --color-gold-900: var(--gold-900);
+  --color-purple-50: var(--purple-50);
+  --color-purple-100: var(--purple-100);
+  --color-purple-200: var(--purple-200);
+  --color-purple-300: var(--purple-300);
+  --color-purple-400: var(--purple-400);
+  --color-purple-500: var(--purple-500);
+  --color-purple-600: var(--purple-600);
+  --color-purple-700: var(--purple-700);
+  --color-purple-800: var(--purple-800);
+  --color-purple-900: var(--purple-900);
   --font-sans: var(--font-outfit);
 }
 
@@ -58,13 +110,158 @@ body {
 
 /* ─── Selection ─── */
 ::selection {
-  background-color: var(--champagne);
+  background-color: var(--gold-500);
   color: var(--white);
 }
 
 /* ─── Smooth scroll ─── */
 html {
   scroll-behavior: smooth;
+}
+
+/* ─── CSS Animations ─── */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* ─── Animation Classes ─── */
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s ease-out forwards;
+}
+
+.animate-fade-in-left {
+  animation: fadeInLeft 0.7s ease-out forwards;
+}
+
+.animate-fade-in-right {
+  animation: fadeInRight 0.7s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.5s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ─── Stagger Delays ─── */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+.delay-700 { animation-delay: 700ms; }
+.delay-800 { animation-delay: 800ms; }
+
+/* ─── Hover Effects ─── */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.15);
+}
+
+.hover-glow {
+  transition: box-shadow 0.3s ease;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+}
+
+/* ─── Card Styles ─── */
+.card-hover {
+  transition: all 0.3s ease;
+  border: 1px solid var(--gray-200);
+}
+
+.card-hover:hover {
+  border-color: var(--gold-300);
+  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 
 /* ─── Reduced motion ─── */
