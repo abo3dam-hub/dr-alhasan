@@ -1,7 +1,6 @@
 'use client';
 
-import {motion} from 'framer-motion';
-import {useTranslations, useLocale} from 'next-intl';
+import {useTranslations} from 'next-intl';
 import {Star, Quote} from 'lucide-react';
 
 const testimonials = [
@@ -12,43 +11,31 @@ const testimonials = [
 
 export default function Testimonials() {
   const t = useTranslations('testimonials');
-  const locale = useLocale();
 
   return (
-    <section className="py-24 lg:py-32 bg-[var(--gray-50)] relative">
-      {/* Subtle decorative element */}
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-[var(--gray-200)] to-transparent" />
-
+    <section className="py-24 lg:py-32 bg-[var(--gray-50)]">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         {/* Header */}
-        <motion.div
-          initial={{opacity: 0, y: 30}}
-          whileInView={{opacity: 1, y: 0}}
-          viewport={{once: true, margin: '-100px'}}
-          transition={{duration: 0.7}}
-          className="text-center max-w-2xl mx-auto mb-16"
-        >
-          <p className="text-xs font-semibold tracking-[0.2em] uppercase text-[var(--green-700)] mb-4">
+        <div className="text-center max-w-2xl mx-auto mb-16 animate-fade-in-up">
+          <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] uppercase text-[var(--green-700)] bg-[var(--green-50)] px-4 py-2 rounded-full border border-[var(--green-200)] mb-6">
+            <Star className="w-3.5 h-3.5 text-[var(--green-500)]" />
             {t('eyebrow')}
-          </p>
+          </span>
           <h2 className="text-3xl lg:text-5xl font-semibold leading-[1.15] tracking-tight text-[var(--gray-900)]">
             {t('title')}
           </h2>
-        </motion.div>
+        </div>
 
         {/* Grid */}
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map(({key}, idx) => (
-            <motion.div
+            <div
               key={key}
-              initial={{opacity: 0, y: 30}}
-              whileInView={{opacity: 1, y: 0}}
-              viewport={{once: true, margin: '-50px'}}
-              transition={{duration: 0.6, delay: idx * 0.12}}
-              className="bg-[var(--white)] border border-[var(--gray-200)] rounded-sm p-8 relative group hover:border-[var(--green-300)] transition-colors duration-300"
+              className={`bg-white border border-[var(--gray-200)] rounded-sm p-8 relative group card-hover animate-fade-in-up`}
+              style={{animationDelay: `${200 + idx * 150}ms`}}
             >
               {/* Quote icon */}
-              <div className="absolute top-6 right-6 opacity-10 group-hover:opacity-20 transition-opacity">
+              <div className="absolute top-6 right-6 opacity-10 group-hover:opacity-20 transition-opacity duration-500">
                 <Quote className="w-8 h-8 text-[var(--purple-400)]" />
               </div>
 
@@ -57,7 +44,8 @@ export default function Testimonials() {
                 {Array.from({length: 5}).map((_, i) => (
                   <Star
                     key={i}
-                    className="w-3.5 h-3.5 fill-[var(--green-500)] text-[var(--green-500)]"
+                    className="w-4 h-4 fill-[var(--green-500)] text-[var(--green-500)] animate-scale-in"
+                    style={{animationDelay: `${500 + i * 100}ms`}}
                   />
                 ))}
               </div>
@@ -74,7 +62,7 @@ export default function Testimonials() {
                   {t(`${key}.procedure`)}
                 </p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

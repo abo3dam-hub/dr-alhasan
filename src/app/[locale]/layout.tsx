@@ -39,7 +39,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={outfit.variable}>
-      <body className="bg-[var(--ivory)] text-[var(--charcoal)] antialiased">
+      <body className="bg-[var(--gray-50)] text-[var(--gray-900)] antialiased">
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           <main className="min-h-screen">{children}</main>
