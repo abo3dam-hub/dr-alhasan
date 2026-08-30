@@ -27,6 +27,38 @@
       "certifications": "International Fellowship in Aesthetics"
     }
   },
+  "about": {
+    "eyebrow": "About the Doctor",
+    "title": "Dr. AlHasan: The Art & Science of Aesthetic Excellence",
+    "subtitle": "Over Two Decades of Distinguished Practice in Plastic Surgery",
+    "bio1": "Dr. AlHasan is a renowned plastic surgeon with over twenty years of experience in aesthetic surgery. He graduated with honors from Cairo University Faculty of Medicine and completed his specialized training at leading international medical centers.",
+    "bio2": "He holds a fellowship from the Royal College of Surgeons of England, along with multiple certifications from international aesthetic surgery societies. His reputation is built on delivering natural, refined results that combine artistic vision with clinical precision.",
+    "bio3": "Dr. AlHasan specializes in facial rejuvenation, rhinoplasty, and body contouring procedures. He is known for his unique approach that respects each patient's individual features, aiming to enhance confidence through natural-looking outcomes that exceed expectations.",
+    "philosophy": {
+      "title": "My Treatment Philosophy",
+      "description": "I believe true beauty lies in harmony and balance. Rather than pursuing standardized ideals, I work with each patient to achieve their best version. I combine clinical precision with aesthetic sensibility to create natural, lasting results."
+    },
+    "approach": {
+      "title": "My Approach",
+      "items": [
+        "Comprehensive consultation to understand patient aspirations",
+        "Personalized treatment plan respecting individual differences",
+        "Utilization of latest certified medical technologies",
+        "Meticulous pre and post-operative care",
+        "Natural results that stand the test of time"
+      ]
+    },
+    "qualifications": {
+      "title": "Academic Qualifications",
+      "items": [
+        "Bachelor of Medicine - Cairo University (Honors)",
+        "Master's in Plastic Surgery - Ain Shams University",
+        "Fellowship - Royal College of Surgeons, London",
+        "Fellowship - International Society of Aesthetic Surgery",
+        "Member - Arab Society of Plastic Surgery"
+      ]
+    }
+  },
   "procedures": {
     "eyebrow": "Our Aesthetic Services",
     "title": "Aesthetic Procedures at the Highest International Standards",
@@ -35,22 +67,103 @@
     "rhinoplasty": {
       "imagePlaceholder": "Rhinoplasty",
       "name": "Rhinoplasty",
-      "shortDescription": "Crafting a harmonious, natural nose design that complements your facial features"
+      "shortDescription": "Crafting a harmonious, natural nose design that complements your facial features",
+      "fullDescription": "Rhinoplasty is the most sought-after procedure in aesthetic surgery. Dr. AlHasan employs a unique approach that prioritizes harmony and balance with facial features. We use advanced microsurgical techniques to achieve natural, refined results.",
+      "benefits": [
+        "Improved nasal function and breathing",
+        "Enhanced facial harmony and balance",
+        "Results that last a lifetime",
+        "Minimal downtime with rapid recovery"
+      ]
     },
     "facelift": {
       "imagePlaceholder": "Facelift",
       "name": "Facelift & Rejuvenation",
-      "shortDescription": "A more youthful, refreshed appearance with long-lasting natural results"
+      "shortDescription": "A more youthful, refreshed appearance with long-lasting natural results",
+      "fullDescription": "Dr. AlHasan's facelift procedure combines cutting-edge techniques with artistic precision. We aim to reveal your youthful essence while maintaining your unique facial identity.",
+      "benefits": [
+        "Reduction of aging signs",
+        "Improved skin texture and elasticity",
+        "Natural, long-lasting results",
+        "Minimal scarring and rapid recovery"
+      ]
     },
     "botox": {
       "imagePlaceholder": "Botox",
       "name": "Botox Injections",
-      "shortDescription": "Softening fine lines for naturally smooth, radiant skin"
+      "shortDescription": "Softening fine lines for naturally smooth, radiant skin",
+      "fullDescription": "Dr. AlHasan's Botox treatments are characterized by precision and flexibility. We employ modern techniques to achieve natural results that enhance your beauty without freezing expressions.",
+      "benefits": [
+        "Reduction of fine and deep wrinkles",
+        "Preserved natural facial expressions",
+        "Visible results within days",
+        "Effects lasting 4-6 months"
+      ]
     },
     "liposuction": {
       "imagePlaceholder": "Body Contouring",
       "name": "Body Sculpting",
-      "shortDescription": "Precision body contouring for a refined, elegant silhouette"
+      "shortDescription": "Precision body contouring for a refined, elegant silhouette",
+      "fullDescription": "Dr. AlHasan's body sculpting utilizes advanced laser-assisted liposuction and water jet technologies. We aim to refine body contours with natural, precise results.",
+      "benefits": [
+        "Precise and refined body contouring",
+        "Restored confidence",
+        "Lasting results with healthy lifestyle",
+        "Short recovery period"
+      ]
+    }
+  },
+  "faq": {
+    "eyebrow": "Frequently Asked Questions",
+    "title": "Answers to Your Most Common Questions",
+    "questions": [
+      {
+        "question": "How do I know if I'm a good candidate for aesthetic procedures?",
+        "answer": "A personal consultation with Dr. AlHasan is the first and most important step. Your health condition, aesthetic goals, and the most suitable options will be thoroughly evaluated."
+      },
+      {
+        "question": "What is the recovery period after rhinoplasty?",
+        "answer": "Recovery time varies from patient to patient, but generally takes one to two weeks for initial recovery, with final results taking three to six months to fully develop."
+      },
+      {
+        "question": "Are the results natural and long-lasting?",
+        "answer": "Yes, we adhere to international standards to achieve natural, refined results. Results are long-lasting when following medical advice and maintaining a healthy lifestyle."
+      },
+      {
+        "question": "What is the cost of aesthetic procedures?",
+        "answer": "Costs vary depending on the procedure type and requirements. We offer a free consultation to evaluate your case and provide a detailed quotation."
+      },
+      {
+        "question": "Can I return to work after the procedure?",
+        "answer": "Most procedures allow return to work within one to two weeks. This depends on the procedure type and individual recovery speed."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact Us",
+    "title": "We're Here to Help You Begin Your Journey",
+    "subtitle": "Book your free consultation with Dr. AlHasan today",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "procedure": "Procedure of Interest",
+      "message": "Your Message",
+      "submit": "Submit Request",
+      "namePlaceholder": "Enter your full name",
+      "emailPlaceholder": "example@email.com",
+      "phonePlaceholder": "+20 123 456 7890",
+      "messagePlaceholder": "Tell us about your aspirations..."
+    },
+    "info": {
+      "address": "Address",
+      "addressValue": "Cairo, Egypt",
+      "phone": "Phone",
+      "phoneValue": "+20 123 456 7890",
+      "email": "Email",
+      "emailValue": "info@dr-alhasan.com",
+      "hours": "Working Hours",
+      "hoursValue": "Sunday - Thursday: 10 AM - 6 PM"
     }
   },
   "testimonials": {
