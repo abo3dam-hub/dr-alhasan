@@ -1,15 +1,17 @@
-import {getTranslations} from 'next-intl/server';
+import Hero from '@/components/sections/Hero';
+import DoctorIntro from '@/components/sections/DoctorIntro';
+import ProceduresPreview from '@/components/sections/ProceduresPreview';
+import Testimonials from '@/components/sections/Testimonials';
+import CTASection from '@/components/sections/CTASection';
 
 export default async function HomePage() {
-  const t = await getTranslations();
-
   return (
-    <main style={{padding: '40px'}}>
-      <h1>{t('hero.title')}</h1>
-
-      <p>{t('hero.description')}</p>
-
-      <button>{t('hero.book')}</button>
-    </main>
+    <>
+      <Hero />
+      <DoctorIntro />
+      <ProceduresPreview />
+      <Testimonials />
+      <CTASection />
+    </>
   );
 }

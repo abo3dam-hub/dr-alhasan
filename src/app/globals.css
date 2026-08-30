@@ -1,26 +1,80 @@
 @import "tailwindcss";
 
+/* ─── Luxury Medical Design Tokens ─── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ivory: #F5F0E8;
+  --ivory-warm: #EDE8DD;
+  --charcoal: #2C2C2C;
+  --charcoal-deep: #1A1A1A;
+  --champagne: #C9A96E;
+  --champagne-light: #D4B97A;
+  --champagne-muted: #B8975C;
+  --nude: #D4C4B0;
+  --nude-light: #E0D5C8;
+  --cream: #FAF7F2;
+  --white: #FFFFFF;
+  --black: #0A0A0A;
+
+  --background: var(--ivory);
+  --foreground: var(--charcoal);
+  --accent: var(--champagne);
+  --accent-hover: var(--champagne-light);
+  --muted: var(--nude);
+  --surface: var(--cream);
+  --border: #E2DCD2;
+  --border-light: #EDE9E2;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-border-light: var(--border-light);
+  --color-ivory: var(--ivory);
+  --color-ivory-warm: var(--ivory-warm);
+  --color-charcoal: var(--charcoal);
+  --color-charcoal-deep: var(--charcoal-deep);
+  --color-champagne: var(--champagne);
+  --color-champagne-light: var(--champagne-light);
+  --color-champagne-muted: var(--champagne-muted);
+  --color-nude: var(--nude);
+  --color-nude-light: var(--nude-light);
+  --color-cream: var(--cream);
+  --font-sans: var(--font-outfit);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ─── Base ─── */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans, 'Outfit', sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Selection ─── */
+::selection {
+  background-color: var(--champagne);
+  color: var(--white);
+}
+
+/* ─── Smooth scroll ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Reduced motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -1,9 +1,26 @@
+import type {Metadata} from 'next';
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {hasLocale} from 'next-intl';
 import {notFound} from 'next/navigation';
+import {Outfit} from 'next/font/google';
 
 import {routing} from '@/i18n/routing';
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/layout/Footer';
+
+import '../globals.css';
+
+const outfit = Outfit({
+  subsets: ['latin', 'latin-ext'],
+  display: 'swap',
+  variable: '--font-outfit'
+});
+
+export const metadata: Metadata = {
+  title: 'Dr. AlHasan | Aesthetic & Plastic Surgery',
+  description: 'Premium aesthetic and plastic surgery by Dr. AlHasan. Refined beauty, natural results.'
+};
 
 export default async function LocaleLayout({
   children,
@@ -21,10 +38,12 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
-      <body>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={outfit.variable}>
+      <body className="bg-[var(--ivory)] text-[var(--charcoal)] antialiased">
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <Navbar />
+          <main className="min-h-screen">{children}</main>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

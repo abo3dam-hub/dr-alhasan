@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About the Doctor",
     "procedures": "Procedures",
     "beforeAfter": "Before & After",
     "patientStories": "Patient Stories",
@@ -10,10 +10,72 @@
     "book": "Book a Consultation"
   },
   "hero": {
-    "eyebrow": "AESTHETIC & PLASTIC SURGERY",
-    "title": "Refined Beauty. Confident You.",
-    "description": "Personalized aesthetic and surgical care designed around you, with a focus on precision and natural-looking results.",
-    "explore": "Explore Procedures",
-    "book": "Book a Consultation"
+    "eyebrow": "Plastic Surgery | Advanced Aesthetic Medicine",
+    "title": "Beauty That Exceeds Expectations. Confidence That Lasts a Lifetime.",
+    "description": "We deliver comprehensive aesthetic care at international standards, combining decades of medical expertise with meticulous attention to detail to achieve natural results that align with your aspirations.",
+    "explore": "Explore Our Services",
+    "book": "Book Your Free Consultation"
+  },
+  "doctor": {
+    "imagePlaceholder": "Doctor Photo",
+    "eyebrow": "About the Doctor",
+    "title": "Over Two Decades of Excellence in Aesthetic Surgery",
+    "description": "Dr. AlHasan is a distinguished plastic surgeon who graduated from top medical universities and holds fellowships from prestigious international aesthetic centers. He combines artistic vision with clinical precision, delivering results that harmonize natural beauty with lasting quality.",
+    "stats": {
+      "years": "20+ Years of Expertise",
+      "patients": "5000+ Satisfied Patients",
+      "certifications": "International Fellowship in Aesthetics"
+    }
+  },
+  "procedures": {
+    "eyebrow": "Our Aesthetic Services",
+    "title": "Aesthetic Procedures at the Highest International Standards",
+    "subtitle": "We employ the latest medical technologies and best practices to deliver natural, refined results that exceed expectations",
+    "viewAll": "Explore All Procedures",
+    "rhinoplasty": {
+      "imagePlaceholder": "Rhinoplasty",
+      "name": "Rhinoplasty",
+      "shortDescription": "Crafting a harmonious, natural nose design that complements your facial features"
+    },
+    "facelift": {
+      "imagePlaceholder": "Facelift",
+      "name": "Facelift & Rejuvenation",
+      "shortDescription": "A more youthful, refreshed appearance with long-lasting natural results"
+    },
+    "botox": {
+      "imagePlaceholder": "Botox",
+      "name": "Botox Injections",
+      "shortDescription": "Softening fine lines for naturally smooth, radiant skin"
+    },
+    "liposuction": {
+      "imagePlaceholder": "Body Contouring",
+      "name": "Body Sculpting",
+      "shortDescription": "Precision body contouring for a refined, elegant silhouette"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "Real Success Stories from Our Patients",
+    "testimonial1": {
+      "quote": "An exceptional experience in every aspect. From the first consultation to the final results, professionalism and attention to detail were evident at every step. The results far exceeded my expectations.",
+      "name": "Sarah M.",
+      "procedure": "Rhinoplasty"
+    },
+    "testimonial2": {
+      "quote": "Dr. AlHasan is not just a surgeon — he is a true artist. He understands the subtle details that make all the difference. I recommend him to anyone seeking natural, refined beauty.",
+      "name": "Nour A.",
+      "procedure": "Facelift & Rejuvenation"
+    },
+    "testimonial3": {
+      "quote": "After years of hesitation, I finally decided to have my procedure with Dr. AlHasan. The results were incredible — better than I ever imagined. I'm grateful for his patience and exceptional professionalism.",
+      "name": "Mohamed K.",
+      "procedure": "Body Sculpting"
+    }
+  },
+  "cta": {
+    "eyebrow": "Begin Your Beauty Journey",
+    "title": "Free Consultation to Customize Your Treatment Plan",
+    "description": "Contact us today to schedule a personal consultation with Dr. AlHasan. He will understand your needs and create a comprehensive treatment plan tailored to your circumstances and aspirations.",
+    "book": "Book Your Free Consultation Now"
   }
 }
