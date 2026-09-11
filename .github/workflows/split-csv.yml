@@ -1,0 +1,237 @@
+name: Split Syrian Drugs CSV
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  split-csv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare temporary chunks directory
+        run: |
+          rm -rf temp/syrian_drugs_chunks
+          mkdir -p temp/syrian_drugs_chunks
+
+      - name: Verify source CSV
+        run: |
+          if [ ! -f "syrian_drugs_final_verified.csv" ]; then
+            echo "ERROR: syrian_drugs_final_verified.csv was not found."
+            exit 1
+          fi
+
+          echo "Source file:"
+          ls -lh syrian_drugs_final_verified.csv
+
+          echo "Rows including header:"
+          wc -l syrian_drugs_final_verified.csv
+
+      - name: Split CSV into small chunks
+        run: |
+          SOURCE="syrian_drugs_final_verified.csv"
+          OUTPUT_DIR="temp/syrian_drugs_chunks"
+          LINES_PER_CHUNK=500
+
+          python3 <<'PY'
+          import csv
+          import os
+
+          source = "syrian_drugs_final_verified.csv"
+          output_dir = "temp/syrian_drugs_chunks"
+          lines_per_chunk = 500
+
+          os.makedirs(output_dir, exist_ok=True)
+
+          with open(source, "r", encoding="utf-8-sig", newline="") as f:
+              reader = csv.reader(f)
+
+              try:
+                  header = next(reader)
+              except StopIteration:
+                  raise SystemExit("CSV file is empty.")
+
+              chunk_number = 1
+              row_count = 0
+              output = None
+              writer = None
+
+              def open_chunk(number):
+                  path = os.path.join(
+                      output_dir,
+                      f"part_{number:03d}.csv"
+                  )
+
+                  file = open(
+                      path,
+                      "w",
+                      encoding="utf-8",
+                      newline=""
+                  )
+
+                  csv_writer = csv.writer(
+                      file,
+                      lineterminator="\n"
+                  )
+
+                  csv_writer.writerow(header)
+
+                  return file, csv_writer
+
+              for row in reader:
+                  if row_count % lines_per_chunk == 0:
+                      if output is not None:
+                          output.close()
+
+                      output, writer = open_chunk(chunk_number)
+                      chunk_number += 1
+
+                  writer.writerow(row)
+                  row_count += 1
+
+              if output is not None:
+                  output.close()
+
+          print(f"Total data rows: {row_count}")
+          print(f"Chunks created: {chunk_number - 1}")
+          PY
+
+      - name: Create manifest
+        run: |
+          python3 <<'PY'
+          import csv
+          import hashlib
+          import os
+          from pathlib import Path
+
+          source = Path("syrian_drugs_final_verified.csv")
+          chunks_dir = Path("temp/syrian_drugs_chunks")
+          manifest = chunks_dir / "MANIFEST.txt"
+
+          source_sha256 = hashlib.sha256(source.read_bytes()).hexdigest()
+
+          chunk_files = sorted(chunks_dir.glob("part_*.csv"))
+
+          total_rows = 0
+
+          lines = []
+          lines.append("SYRIAN DRUGS CSV TEMPORARY CHUNKS")
+          lines.append("=" * 40)
+          lines.append("")
+          lines.append(f"Source file: {source.name}")
+          lines.append(f"Source SHA256: {source_sha256}")
+          lines.append(f"Chunk size: 500 data rows")
+          lines.append(f"Number of chunks: {len(chunk_files)}")
+          lines.append("")
+
+          for chunk in chunk_files:
+              with chunk.open(
+                  "r",
+                  encoding="utf-8",
+                  newline=""
+              ) as f:
+                  count = sum(1 for _ in f) - 1
+
+              total_rows += count
+
+              sha256 = hashlib.sha256(
+                  chunk.read_bytes()
+              ).hexdigest()
+
+              lines.append(
+                  f"{chunk.name} | rows={count} | sha256={sha256}"
+              )
+
+          lines.append("")
+          lines.append(f"Total data rows across chunks: {total_rows}")
+          lines.append("")
+          lines.append(
+              "IMPORTANT: This directory is temporary and must be deleted "
+              "after the medicine-database merge analysis is completed."
+          )
+
+          manifest.write_text(
+              "\n".join(lines) + "\n",
+              encoding="utf-8"
+          )
+
+          print(manifest.read_text(encoding="utf-8"))
+          PY
+
+      - name: Validate chunks
+        run: |
+          python3 <<'PY'
+          import csv
+          from pathlib import Path
+
+          source = Path("syrian_drugs_final_verified.csv")
+          chunks_dir = Path("temp/syrian_drugs_chunks")
+
+          with source.open(
+              "r",
+              encoding="utf-8-sig",
+              newline=""
+          ) as f:
+              source_reader = csv.reader(f)
+              source_header = next(source_reader)
+              source_rows = list(source_reader)
+
+          chunk_files = sorted(chunks_dir.glob("part_*.csv"))
+
+          chunk_rows = []
+
+          for chunk in chunk_files:
+              with chunk.open(
+                  "r",
+                  encoding="utf-8",
+                  newline=""
+              ) as f:
+                  reader = csv.reader(f)
+                  header = next(reader)
+
+                  if header != source_header:
+                      raise SystemExit(
+                          f"Header mismatch in {chunk.name}"
+                      )
+
+                  for row in reader:
+                      chunk_rows.append(row)
+
+          if len(chunk_rows) != len(source_rows):
+              raise SystemExit(
+                  f"Row count mismatch: "
+                  f"source={len(source_rows)}, "
+                  f"chunks={len(chunk_rows)}"
+              )
+
+          if chunk_rows != source_rows:
+              raise SystemExit(
+                  "DATA MISMATCH: chunk contents do not exactly "
+                  "match the source CSV."
+              )
+
+          print("VALIDATION PASSED")
+          print(f"Source data rows: {len(source_rows)}")
+          print(f"Chunk data rows: {len(chunk_rows)}")
+          print(f"Chunks: {len(chunk_files)}")
+          PY
+
+      - name: Commit temporary chunks
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add temp/syrian_drugs_chunks
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Temporary: split Syrian drugs CSV into chunks"
+          git push
