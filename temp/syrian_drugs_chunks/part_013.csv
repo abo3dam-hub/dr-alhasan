@@ -1,0 +1,501 @@
+معرف الدواء,اسم الدواء,المواد الفعالة,العيارات,الشكل الصيدلاني,المصنع,التركيب الأصلي,الشكل الأصلي,حالة المصدر
+6001,Glimeraz 1,glimepiride,1mg,قرص,رازي,glimepiride 1mg / tab,tab,بيانات مكتملة
+6002,Glimeraz 2,glimepiride,2mg,قرص,رازي,glimepiride 2mg / tab,tab,بيانات مكتملة
+6003,Glimeraz 4,glimepiride,4mg,قرص,رازي,glimepiride 4mg / tab,tab,بيانات مكتملة
+6004,Graniraz 1,granisetron,1mg,أمبولة,رازي,granisetron 1mg / amp,amp,بيانات مكتملة
+6005,Green AX,,,ظرف,رازي,,sachet,التركيب غير موجود في APK
+6006,Heptadine 2,cyproheptadine,2mg,شراب,رازي,cyproheptadine 2mg / 5ml,syrup,بيانات مكتملة
+6007,Heptadine 4,cyproheptadine,4mg,قرص,رازي,cyproheptadine 4mg / tab,tab,بيانات مكتملة
+6008,Heptiraz 10,adefovir,10mg,قرص,رازي,adefovir 10mg / tab,tab,بيانات مكتملة
+6009,Hydrocip,ciprofloxacin + hydrocortisone 10mg / ml,2mg + ,قطرة أذنية,رازي,ciprofloxacin 2mg+hydrocortisone 10mg / ml,ear-drops,بيانات مكتملة
+6010,Icaris 300,epimedium,300mg,كبسولة,رازي,epimedium 300mg / cap,cap,بيانات مكتملة
+6011,Icaris Fort 450,epimedium,450mg,كبسولة,رازي,epimedium 450mg / cap,cap,بيانات مكتملة
+6012,Indocine 100,indomethacin,100mg,تحاميل,رازي,indomethacin 100mg / supp,supp,بيانات مكتملة
+6013,Indocine 25,indomethacin,25mg,معلق,رازي,indomethacin 25mg / 5ml,susp,بيانات مكتملة
+6014,Isoraze 10,isosorbide Dinitrate,10mg,قرص,رازي,isosorbide Dinitrate 10mg / tab,tab,بيانات مكتملة
+6015,Isoraze SR 20,isosorbide Dinitrate 20mg / SR-cap,,SR-cap,رازي,isosorbide Dinitrate 20mg / SR-cap,SR-cap,بيانات مكتملة
+6016,Isoraze SR 40,isosorbide Dinitrate 40mg / SR-cap,,SR-cap,رازي,isosorbide Dinitrate 40mg / SR-cap,SR-cap,بيانات مكتملة
+6017,Isoraze SR 80,isosorbide Dinitrate 80mg / SR-cap,,SR-cap,رازي,isosorbide Dinitrate 80mg / SR-cap,SR-cap,بيانات مكتملة
+6018,Lamaxidil 2%,minoxidil,2%,شامبو,رازي,minoxidil 2%,shampoo,بيانات مكتملة
+6019,Lamaxidil 5%,minoxidil,5%,محلول,رازي,minoxidil 5%,solu,بيانات مكتملة
+6020,Lamazoral 2%,ketoconazole,2%,كريم,رازي,ketoconazole 2%,cream,بيانات مكتملة
+6021,Laxitose 3.325,lactulose,3325mg,شراب,رازي,lactulose 3325mg / 5ml,syrup,بيانات مكتملة
+6022,Life Water Purified,purified Water,,pl-bottle,رازي,purified Water,pl-bottle,بيانات مكتملة
+6023,Lincoraz 300,lincomycin,300mg,أمبولة,رازي,lincomycin 300mg / amp,amp,بيانات مكتملة
+6024,Lincoraz 600,lincomycin,600mg,أمبولة,رازي,lincomycin 600mg / amp,amp,بيانات مكتملة
+6025,Lioraz 10,baclofen,10mg,قرص,رازي,baclofen 10mg / tab,tab,بيانات مكتملة
+6026,Lioraz 25,baclofen,25mg,قرص,رازي,baclofen 25mg / tab,tab,بيانات مكتملة
+6027,Locazon 0.1%,mometasone,0.1%,كريم,رازي,mometasone 0.1%,cream,بيانات مكتملة
+6028,Lortin 10,loratadine,10mg,قرص,رازي,loratadine 10mg / tab,tab,بيانات مكتملة
+6029,Lortin 5,loratadine,5mg,شراب,رازي,loratadine 5mg / 5ml,syrup,بيانات مكتملة
+6030,Lukamonte 10,montelukast,10mg,قرص مغلف,رازي,montelukast 10mg / c-tab,coated-tab,بيانات مكتملة
+6031,Magoraz 500,magnesium Gluconate,500mg,قرص,رازي,magnesium Gluconate 500mg / tab,tab,بيانات مكتملة
+6032,Mefalar 500,mefenamic Acid,500mg,قرص مغلف,رازي,mefenamic Acid 500mg / c-tab,coated-tab,بيانات مكتملة
+6033,Micoraz,metronidazole + miconazole 200mg / ovule,750mg + ,بويضة مهبلية,رازي,metronidazole 750mg+miconazole 200mg / ovule,ovule,بيانات مكتملة
+6034,Midaz,midazolam,2mg,شراب,رازي,midazolam 2mg / 5ml,syrup,بيانات مكتملة
+6035,Mortimin 100,trimebutine,100mg,تحاميل,رازي,trimebutine 100mg / supp,supp,بيانات مكتملة
+6036,Mortimin 50,trimebutine,50mg,أمبولة,رازي,trimebutine 50mg / amp,amp,بيانات مكتملة
+6037,Moxiflox 0.5%,moxifloxacin,0.5%,قطرة أذنية,رازي,moxifloxacin 0.5%,ear-drops,بيانات مكتملة
+6038,Moxiflox 400,moxifloxacin,400mg,كبسولة,رازي,moxifloxacin 400mg / cap,cap,بيانات مكتملة
+6039,New Anti Cold,chlorpheniramine + paracetamol + phenylephrine,1mg + 125mg + 2.5mg,شراب,رازي,chlorpheniramine 1mg+paracetamol 125mg+phenylephrine 2.5mg / 5ml,syrup,بيانات مكتملة
+6040,New Pectomex,diphenhydramine + ammoniumchloride + phenylephrine + tolu Syrup,7.5mg + 63.5mg + 5mg + 1250mg,شراب,رازي,diphenhydramine 7.5mg+ammoniumchloride 63.5mg+phenylephrine 5mg+tolu Syrup 1250mg / 5ml,syrup,بيانات مكتملة
+6041,New Rabion,thiamine + vit B6 + vit B12,100mg + 100mg + 1mg,أمبولة,رازي,thiamine 100mg+vit B6 100mg+vit B12 1mg / amp,amp,بيانات مكتملة
+6042,New Rabion New,thiamine + vit B6 + vit B12,100mg + 200mg + 1mg,قرص مغلف,رازي,thiamine 100mg+vit B6 200mg+vit B12 1mg / c-tab,coated-tab,بيانات مكتملة
+6043,New Ratamin,multi Vitamins,,قرص,رازي,multi Vitamins / tab,tab,بيانات مكتملة
+6044,New Razimol,pamabrom + paracetamol,25mg + 500mg,قرص مغلف,رازي,pamabrom 25mg+paracetamol 500mg / tab,coated-tab,بيانات مكتملة
+6045,Noroxacine 400,norfloxacin,400mg,قرص مغلف,رازي,norfloxacin 400mg / c-tab,coated-tab,بيانات مكتملة
+6046,Olsum 20,esomeprazole,20mg,كبسولة,رازي,esomeprazole 20mg / cap,cap,بيانات مكتملة
+6047,Olsum 40,esomeprazole,40mg,كبسولة,رازي,esomeprazole 40mg / cap,cap,بيانات مكتملة
+6048,Orlist 120,orlistat,120mg,كبسولة,رازي,orlistat 120mg / cap,cap,بيانات مكتملة
+6049,Orlist 60,orlistat,120mg,كبسولة,رازي,orlistat 120mg / cap,cap,بيانات مكتملة
+6050,Osteo Raz,chondroitin + glucos Amine,400mg + 500mg,قرص مغلف,رازي,chondroitin 400mg+glucos Amine 500mg / tab,coated-tab,بيانات مكتملة
+6051,Otofen,phenazone + procaine 10mg / ml,50mg + ,قطرة أذنية,رازي,phenazone 50mg+procaine 10mg / ml,ear-drops,بيانات مكتملة
+6052,Pambaraz 250,amino Methyl Benzoic Acid,250mg,قرص,رازي,amino Methyl Benzoic Acid 250mg / tab,tab,بيانات مكتملة
+6053,Pambaraz 50,amino Methyl Benzoic Acid,50mg,أمبولة,رازي,amino Methyl Benzoic Acid 50mg / amp,amp,بيانات مكتملة
+6054,Parkoraz 1,pergolide,1mg,قرص,رازي,pergolide 1mg / tab,tab,بيانات مكتملة
+6055,Pirodine 20,piroxicam,20mg,تحاميل,رازي,piroxicam 20mg / supp,supp,بيانات مكتملة
+6056,Progena,betamethasone Dipropionate + gentamicin,0.064% + 0.1%,كريم,رازي,betamethasone Dipropionate 0.064%+gentamicin 0.1%,cream,بيانات مكتملة
+6057,Psoriatin 10,acitretin,10mg,كبسولة,رازي,acitretin 10mg / cap,cap,بيانات مكتملة
+6058,Psoriatin 25,acitretin,25mg,كبسولة,رازي,acitretin 25mg / cap,cap,بيانات مكتملة
+6059,Quadison,betamethasone + clioquinol + gentamicin + tolnaftate,0.05% + 1% + 0.1% + 1%,كريم,رازي,betamethasone 0.05%+clioquinol 1%+gentamicin 0.1%+tolnaftate 1%,cream,بيانات مكتملة
+6060,Rabestine 8,betahistine,8mg,قرص,رازي,betahistine 8mg / tab,tab,بيانات مكتملة
+6061,Rabid,acetyl Salicylic Acid + caffeine + paracetamol,250mg + 65mg + 250mg,قرص مغلف,رازي,acetyl Salicylic Acid 250mg+caffeine 65mg+paracetamol 250mg / c-tab,coated-tab,بيانات مكتملة
+6062,Rabyon Fort,thiamine + vit B6 + vit B12,250mg + 250mg + 1mg,قرص,رازي,thiamine 250mg+vit B6 250mg+vit B12 1mg / tab,tab,بيانات مكتملة
+6063,Racamil 15,meloxicam,15mg,أمبولة,رازي,meloxicam 15mg / amp,amp,بيانات مكتملة
+6064,Rageraz 25,cinnarizine,25mg,قرص مغلف,رازي,cinnarizine 25mg / c-tab,coated-tab,بيانات مكتملة
+6065,Rageraz 75,cinnarizine,75mg,قرص مغلف,رازي,cinnarizine 75mg / c-tab,coated-tab,بيانات مكتملة
+6066,Ralazin 500,sulfasalazine,500mg,تحاميل,رازي,sulfasalazine 500mg / supp,supp,بيانات مكتملة
+6067,Ralazine 500,sulfasalazine,500mg,قرص مغلف,رازي,sulfasalazine 500mg / tab,coated-tab,بيانات مكتملة
+6068,Ralox,aluminium Hydroxide + magnesium Hydroxide,225mg + 200mg,شراب,رازي,aluminium Hydroxide 225mg+magnesium Hydroxide 200mg / 5ml,syrup,بيانات مكتملة
+6069,Ramadole 100,tramadol,100mg,أمبولة,رازي,tramadol 100mg / amp,amp,بيانات مكتملة
+6070,Ramadole 50,tramadol,50mg,كبسولة,رازي,tramadol 50mg / cap,cap,بيانات مكتملة
+6071,Raproxen 250,naproxen,250mg,تحاميل,رازي,naproxen 250mg / supp,supp,بيانات مكتملة
+6072,Rasart 100,losartan,100mg,قرص مغلف,رازي,losartan 100mg / tab,coated-tab,بيانات مكتملة
+6073,Rasart 25,losartan,25mg,قرص مغلف,رازي,losartan 25mg / tab,coated-tab,بيانات مكتملة
+6074,Rasart 50,losartan,50mg,قرص مغلف,رازي,losartan 50mg / tab,coated-tab,بيانات مكتملة
+6075,Rasart Plus 12.5/50,H.C.T.Z. ( Hydro Chlor Thia Zide ) + losartan,12.5mg + 50mg,قرص مغلف,رازي,H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+losartan 50mg / c-tab,coated-tab,بيانات مكتملة
+6076,Rasart Plus 25/100,H.C.T.Z. ( Hydro Chlor Thia Zide ) + losartan,25mg + 100mg,قرص مغلف,رازي,H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg+losartan 100mg / c-tab,coated-tab,بيانات مكتملة
+6077,Rasperine 162,acetyl Salicylic Acid,162mg,قرص مغلف,رازي,acetyl Salicylic Acid 162mg / tab,coated-tab,بيانات مكتملة
+6078,Rasperine 500,acetyl Salicylic Acid,500mg,قرص,رازي,acetyl Salicylic Acid 500mg / tab,tab,بيانات مكتملة
+6079,Rasperine 81,acetyl Salicylic Acid,81mg,قرص,رازي,acetyl Salicylic Acid 81mg / tab,tab,بيانات مكتملة
+6080,Ratamin,minerals + multivitamins, + ,شراب,رازي,minerals+multivitamins / 5ml,syrup,بيانات مكتملة
+6081,Ratamin M,minerals + multivitamins, + ,قرص مغلف,رازي,minerals+multivitamins / c-tab,coated-tab,بيانات مكتملة
+6082,Ratirizine 10,cetirizine,10mg,قرص مغلف,رازي,cetirizine 10mg / c-tab,coated-tab,بيانات مكتملة
+6083,Ratirizine 5,cetirizine,5mg,قرص مغلف,رازي,cetirizine 5mg / c-tab,coated-tab,بيانات مكتملة
+6084,Raviste Allergy 1,clemastine,1mg,قرص,رازي,clemastine 1mg / tab,tab,بيانات مكتملة
+6085,Raviste Allergy 2,clemastine,2mg,أمبولة,رازي,clemastine 2mg / amp,amp,بيانات مكتملة
+6086,Ravitin A,calcium Phosphate + vit A + vit D3 + ascorbic Acid,200mg + 1000i.u. + 100i.u. + 25mg,قرص مغلف,رازي,calcium Phosphate 200mg+vit A 1000i.u.+vit D3 100i.u.+ascorbic Acid 25mg / c-tab,coated-tab,بيانات مكتملة
+6087,Raxine 0.3%,ofloxacin,0.3%,قطرة أذنية,رازي,ofloxacin 0.3%,ear-drops,بيانات مكتملة
+6088,Razen 5,serratiopeptidase,5mg,قرص مغلف,رازي,serratiopeptidase 5mg / c-tab,coated-tab,بيانات مكتملة
+6089,Razen Forte 10,serratiopeptidase,10mg,قرص مغلف,رازي,serratiopeptidase 10mg / c-tab,coated-tab,بيانات مكتملة
+6090,Razid 200,nifuroxazide,200mg,قرص مغلف,رازي,nifuroxazide 200mg / c-tab,coated-tab,بيانات مكتملة
+6091,Razid 220,nifuroxazide,220mg,شراب,رازي,nifuroxazide 220mg / 5ml,syrup,بيانات مكتملة
+6092,Razidilan 10,isoxsuprine,10mg,قرص,رازي,isoxsuprine 10mg / tab,tab,بيانات مكتملة
+6093,Razidilan 20,isoxsuprine,20mg,قرص,رازي,isoxsuprine 20mg / tab,tab,بيانات مكتملة
+6094,Razilax 10,bisacodyl 10mg / ml,,قطرات فموية,رازي,bisacodyl 10mg / ml,oral-drops,بيانات مكتملة
+6095,Razilax 7.5,Sod.Picosulfate 7.5mg / ml,,قطرات فموية,رازي,Sod.Picosulfate 7.5mg / ml,oral-drops,بيانات مكتملة
+6096,Razilit 300,lithium Carbonate,300mg,قرص مغلف,رازي,lithium Carbonate 300mg / c-tab,coated-tab,بيانات مكتملة
+6097,Razilit 400,lithium Carbonate,400mg,قرص مغلف,رازي,lithium Carbonate 400mg / c-tab,coated-tab,بيانات مكتملة
+6098,Razimol 100,paracetamol 100mg / ml,,قطرات فموية,رازي,paracetamol 100mg / ml,oral-drops,بيانات مكتملة
+6099,Razimol 120,paracetamol,120mg,شراب,رازي,paracetamol 120mg / 5ml,syrup,بيانات مكتملة
+6100,Razimol 125,paracetamol,125mg,تحاميل,رازي,paracetamol 125mg / supp,supp,بيانات مكتملة
+6101,Razimol 150,paracetamol,150mg,أمبولة,رازي,paracetamol 150mg / amp,amp,بيانات مكتملة
+6102,Razimol 250,paracetamol,250mg,تحاميل,رازي,paracetamol 250mg / supp,supp,بيانات مكتملة
+6103,Razimol 375,paracetamol,375mg,أمبولة,رازي,paracetamol 375mg / 5ml,amp,بيانات مكتملة
+6104,Razimol 500,paracetamol,500mg,oval-tab,رازي,paracetamol 500mg / tab,oval-tab,بيانات مكتملة
+6105,Razimol 80,paracetamol,80mg,قرص,رازي,paracetamol 80mg / tab,tab,بيانات مكتملة
+6106,Razimol Acti Fast 500,paracetamol,500mg,قرص مغلف,رازي,paracetamol 500mg / c-tab,coated-tab,بيانات مكتملة
+6107,Razimol Cold&Flu,caffeine + paracetamol + phenylephrine,25mg + 500mg + 5mg,قرص مغلف,رازي,caffeine 25mg+paracetamol 500mg+phenylephrine 5mg / tab,coated-tab,بيانات مكتملة
+6108,Razimol Fort 1000,paracetamol,1000mg,قرص مغلف,رازي,paracetamol 1000mg / c-tab,coated-tab,بيانات مكتملة
+6109,Razimol Night,diphenhydramine + paracetamol,25mg + 500mg,قرص مغلف,رازي,diphenhydramine 25mg+paracetamol 500mg / c-tab,coated-tab,بيانات مكتملة
+6110,Razipan,ivy Extract,35mg,شراب,رازي,ivy Extract 35mg / 5ml,syrup,بيانات مكتملة
+6111,Razitel 400,praziquantel,400mg,قرص,رازي,praziquantel 400mg / tab,tab,بيانات مكتملة
+6112,Razitel 600,praziquantel,600mg,قرص,رازي,praziquantel 600mg / tab,tab,بيانات مكتملة
+6113,Razopril 10,fosinopril,10mg,قرص,رازي,fosinopril 10mg / tab,tab,بيانات مكتملة
+6114,Razopril 20,fosinopril,20mg,قرص,رازي,fosinopril 20mg / tab,tab,بيانات مكتملة
+6115,Razopril 40,fosinopril,40mg,قرص,رازي,fosinopril 40mg / tab,tab,بيانات مكتملة
+6116,Refloxacine 400,pefloxacin,400mg,قرص مغلف,رازي,pefloxacin 400mg / c-tab,coated-tab,بيانات مكتملة
+6117,Rinovin,antazoline + naphazoline 0.250mg / ml,5mg + ,nasal-drops,رازي,antazoline 5mg+naphazoline 0.250mg / ml,nasal-drops,بيانات مكتملة
+6118,Rofen 100,ketoprofen,100mg,قرص مغلف,رازي,ketoprofen 100mg / c-tab,coated-tab,بيانات مكتملة
+6119,Rofen 2.5%,ketoprofen,2.5%,جل,رازي,ketoprofen 2.5%,gel,بيانات مكتملة
+6120,Rofen 200,ketoprofen,200mg,كبسولة,رازي,ketoprofen 200mg / cap,cap,بيانات مكتملة
+6121,Rofen 50,ketoprofen,50mg,قرص مغلف,رازي,ketoprofen 50mg / c-tab,coated-tab,بيانات مكتملة
+6122,Rouza 0.5,pizotifen,0.5mg,شراب,رازي,pizotifen 0.5mg / 5ml,syrup,بيانات مكتملة
+6123,Sexobine 5,yohimbine,5mg,قرص,رازي,yohimbine 5mg / tab,tab,بيانات مكتملة
+6124,Skino Raz 15%,azelaic Acid,15%,جل,رازي,azelaic Acid 15%,gel,بيانات مكتملة
+6125,Spirolone 100,spironolactone,100mg,قرص مغلف,رازي,spironolactone 100mg / c-tab,coated-tab,بيانات مكتملة
+6126,Spirolone 25,spironolactone,25mg,قرص مغلف,رازي,spironolactone 25mg / c-tab,coated-tab,بيانات مكتملة
+6127,Spirolone 50,spironolactone,50mg,قرص مغلف,رازي,spironolactone 50mg / c-tab,coated-tab,بيانات مكتملة
+6128,Talna 0.4,tamsulosin,0.4mg,SR-cap,رازي,tamsulosin 0.4mg / cap,SR-cap,بيانات مكتملة
+6129,Thymolife 490,thyme Extract,490mg,شراب,رازي,thyme Extract 490mg / 5ml,syrup,بيانات مكتملة
+6130,Tridoka,lidocaine + tribenoside,2% + 5%,rectal-cream,رازي,lidocaine 2%+tribenoside 5%,rectal-cream,بيانات مكتملة
+6131,Trimezol,sulfamethoxazole + trimethoprim,200mg + 40mg,شراب,رازي,sulfamethoxazole 200mg+trimethoprim 40mg / 5ml,syrup,بيانات مكتملة
+6132,Trimezol Forte,sulfamethoxazole + trimethoprim,800mg + 160mg,قرص مغلف,رازي,sulfamethoxazole 800mg+trimethoprim 160mg / c-tab,coated-tab,بيانات مكتملة
+6133,Trospin 20,trospium Chloride,20mg,قرص مغلف,رازي,trospium Chloride 20mg / c-tab,coated-tab,بيانات مكتملة
+6134,Trospin 5,trospium Chloride,5mg,قرص مغلف,رازي,trospium Chloride 5mg / c-tab,coated-tab,بيانات مكتملة
+6135,Tussicod 7.5,butamirate,7.5mg,شراب,رازي,butamirate 7.5mg / 5ml,syrup,بيانات مكتملة
+6136,Uristop 15,propiverine,15mg,قرص مغلف,رازي,propiverine 15mg / c-tab,coated-tab,بيانات مكتملة
+6137,Ursoraz 250,urso De Oxy Cholic Acid,250mg,شراب,رازي,urso De Oxy Cholic Acid 250mg / 5ml,syrup,بيانات مكتملة
+6138,Ursoraz 400,urso De Oxy Cholic Acid,400mg,قرص,رازي,urso De Oxy Cholic Acid 400mg / tab,tab,بيانات مكتملة
+6139,Verydol 400,etodolac,400mg,قرص مغلف,رازي,etodolac 400mg / c-tab,coated-tab,بيانات مكتملة
+6140,Verydol 600,etodolac,600mg,قرص مغلف,رازي,etodolac 600mg / c-tab,coated-tab,بيانات مكتملة
+6141,Vidoxyl,doxylamine + vit B6,10mg + 10mg,قرص مغلف,رازي,doxylamine 10mg+vit B6 10mg / c-tab,coated-tab,بيانات مكتملة
+6142,Vitamin D3 20000,"vit D3 ( cholecalciferol ) 20,000i.u. / ml",,قطرات فموية,رازي,"vit D3 ( cholecalciferol ) 20,000i.u. / ml",oral-drops,بيانات مكتملة
+6143,Voltaraze 1%,diclofenac Di Ethyl Ammonium,1.16%,جل,رازي,diclofenac Di Ethyl Ammonium 1.16%,gel,بيانات مكتملة
+6144,Voltaraze 100,diclofenac Sodium,100mg,تحاميل,رازي,diclofenac Sodium 100mg / supp,supp,بيانات مكتملة
+6145,Voltaraze 12.5,diclofenac Sodium,12.5mg,تحاميل,رازي,diclofenac Sodium 12.5mg / supp,supp,بيانات مكتملة
+6146,Voltaraze 25,diclofenac Sodium,25mg,تحاميل,رازي,diclofenac Sodium 25mg / supp,supp,بيانات مكتملة
+6147,Voltaraze 50,diclofenac Sodium,50mg,قرص مغلف,رازي,diclofenac Sodium 50mg / tab,coated-tab,بيانات مكتملة
+6148,Voltaraze 75,diclofenac Sodium,75mg,أمبولة,رازي,diclofenac Sodium 75mg / amp,amp,بيانات مكتملة
+6149,Voltaraze K 50,diclofenac Potassium,50mg,قرص,رازي,diclofenac Potassium 50mg / tab,tab,بيانات مكتملة
+6150,Voltaraze SR 100,diclofenac Sodium 100mg / SR-tab,,SR-cap,رازي,diclofenac Sodium 100mg / SR-tab,SR-cap,بيانات مكتملة
+6151,Voperan 10,metoclopramide,10mg,قرص مغلف,رازي,metoclopramide 10mg / c-tab,coated-tab,بيانات مكتملة
+6152,Voperan 2.6,metoclopramide 5mg / ml,,قطرات فموية,رازي,metoclopramide 5mg / ml,oral-drops,بيانات مكتملة
+6153,Voperan 20,metoclopramide,20mg,تحاميل,رازي,metoclopramide 20mg / supp,supp,بيانات مكتملة
+6154,Voperan 5,metoclopramide,5mg,شراب,رازي,metoclopramide 5mg / 5ml,syrup,بيانات مكتملة
+6155,Zidoraxan 500,nitazoxanide,500mg,قرص مغلف,رازي,nitazoxanide 500mg / c-tab,coated-tab,بيانات مكتملة
+6156,Zido Raxan 500,nitazoxanide,500mg,قرص مغلف,رازي,nitazoxanide 500mg / c-tab,coated-tab,بيانات مكتملة
+6157,Zinko C,ascorbic Acid + zinc Sulfate,200mg + 5mg,كبسولة,رازي,ascorbic Acid 200mg+zinc Sulfate 5mg / cap,cap,بيانات مكتملة
+6158,Zitroxi 250,azithromycin,250mg,قرص مغلف,رازي,azithromycin 250mg / c-tab,coated-tab,بيانات مكتملة
+6159,Zitroxi 500,azithromycin,500mg,قرص مغلف,رازي,azithromycin 500mg / c-tab,coated-tab,بيانات مكتملة
+6160,Zitroxi 600,azithromycin,600mg,قرص مغلف,رازي,azithromycin 600mg / c-tab,coated-tab,بيانات مكتملة
+6161,Zoloraz 2.5,zolmitriptan,2.5mg,قرص,رازي,zolmitriptan 2.5mg / tab,tab,بيانات مكتملة
+6162,Zoloraz 5,zolmitriptan,5mg,قرص,رازي,zolmitriptan 5mg / tab,tab,بيانات مكتملة
+6163,Acomate 10,zafirlukast,10mg,قرص مغلف,راشا,zafirlukast 10mg / c-tab,coated-tab,بيانات مكتملة
+6164,Acomate 20,zafirlukast,20mg,قرص مغلف,راشا,zafirlukast 20mg / c-tab,coated-tab,بيانات مكتملة
+6165,Amarium 1,glimepiride,1mg,قرص,راشا,glimepiride 1mg / tab,tab,بيانات مكتملة
+6166,Amarium 2,glimepiride,2mg,قرص,راشا,glimepiride 2mg / tab,tab,بيانات مكتملة
+6167,Amarium 3,glimepiride,3mg,قرص,راشا,glimepiride 3mg / tab,tab,بيانات مكتملة
+6168,Amarium 4,glimepiride,4mg,قرص,راشا,glimepiride 4mg / tab,tab,بيانات مكتملة
+6169,Amlovask 5,amlodipine,5mg,كبسولة,راشا,amlodipine 5mg / cap,cap,بيانات مكتملة
+6170,Avoril 150,irbesartan,150mg,قرص,راشا,irbesartan 150mg / tab,tab,بيانات مكتملة
+6171,Avoril 300,irbesartan,300mg,قرص,راشا,irbesartan 300mg / tab,tab,بيانات مكتملة
+6172,Avoril 75,irbesartan,75mg,قرص,راشا,irbesartan 75mg / tab,tab,بيانات مكتملة
+6173,Bebedor,diphenhydramine,12.5mg,شراب,راشا,diphenhydramine 12.5mg / 5ml,syrup,بيانات مكتملة
+6174,Bitamol 2,salbutamol,2mg,شراب,راشا,salbutamol 2mg / 5ml,syrup,بيانات مكتملة
+6175,Cedine 200,cimetidine,200mg,قرص مغلف,راشا,cimetidine 200mg / c-tab,coated-tab,بيانات مكتملة
+6176,Cedine 400,cimetidine,400mg,قرص مغلف,راشا,cimetidine 400mg / c-tab,coated-tab,بيانات مكتملة
+6177,Chenoracha 250,chenodeoxycholic Acid,250mg,كبسولة,راشا,chenodeoxycholic Acid 250mg / cap,cap,بيانات مكتملة
+6178,Cialestine 10,tadalafil,10mg,قرص مغلف,راشا,tadalafil 10mg / c-tab,coated-tab,بيانات مكتملة
+6179,Cialestine 20,tadalafil,20mg,قرص مغلف,راشا,tadalafil 20mg / c-tab,coated-tab,بيانات مكتملة
+6180,Ciprocin 250,ciprofloxacin,250mg,قرص مغلف,راشا,ciprofloxacin 250mg / c-tab,coated-tab,بيانات مكتملة
+6181,Ciprocin 500,ciprofloxacin,500mg,قرص مغلف,راشا,ciprofloxacin 500mg / c-tab,coated-tab,بيانات مكتملة
+6182,Ciprocin 750,ciprofloxacin,750mg,قرص مغلف,راشا,ciprofloxacin 750mg / c-tab,coated-tab,بيانات مكتملة
+6183,Clofene 50,clomiphene,50mg,قرص,راشا,clomiphene 50mg / tab,tab,بيانات مكتملة
+6184,Colazoline 750,balsalazide Di Sodium,750mg,كبسولة,راشا,balsalazide Di Sodium 750mg / cap,cap,بيانات مكتملة
+6185,Coximal 60,etoricoxib,60mg,قرص مغلف,راشا,etoricoxib 60mg / c-tab,coated-tab,بيانات مكتملة
+6186,Coximal 90,etoricoxib,90mg,قرص مغلف,راشا,etoricoxib 90mg / c-tab,coated-tab,بيانات مكتملة
+6187,Coximal Forte 120,etoricoxib,120mg,قرص مغلف,راشا,etoricoxib 120mg / c-tab,coated-tab,بيانات مكتملة
+6188,Cyproterone 10,cyproterone,10mg,قرص,راشا,cyproterone 10mg / tab,tab,بيانات مكتملة
+6189,Cyproterone 100,cyproterone,100mg,قرص,راشا,cyproterone 100mg / tab,tab,بيانات مكتملة
+6190,Cyproterone 50,cyproterone,50mg,قرص,راشا,cyproterone 50mg / tab,tab,بيانات مكتملة
+6191,Delson 30,dexlansoprazole,30mg,كبسولة,راشا,dexlansoprazole 30mg / cap,cap,بيانات مكتملة
+6192,Delson 60,dexlansoprazole,60mg,كبسولة,راشا,dexlansoprazole 60mg / cap,cap,بيانات مكتملة
+6193,Dexason 0.5,dexamethasone,0.5mg,قرص,راشا,dexamethasone 0.5mg / tab,tab,بيانات مكتملة
+6194,Dexason 0.75,dexamethasone,0.75mg,قرص,راشا,dexamethasone 0.75mg / tab,tab,بيانات مكتملة
+6195,Dexason 1.5,dexamethasone,1.5mg,قرص,راشا,dexamethasone 1.5mg / tab,tab,بيانات مكتملة
+6196,Dexason 20,dexamethasone,20mg,قرص,راشا,dexamethasone 20mg / tab,tab,بيانات مكتملة
+6197,Dexason 4,dexamethasone,4mg,قرص,راشا,dexamethasone 4mg / tab,tab,بيانات مكتملة
+6198,Dexason 6,dexamethasone,6mg,قرص,راشا,dexamethasone 6mg / tab,tab,بيانات مكتملة
+6199,Diclo Syta,diclofenac Potassium + paracetamol,50mg + 500mg,قرص,راشا,diclofenac Potassium 50mg+paracetamol 500mg / tab,tab,بيانات مكتملة
+6200,Dimitrol,amitriptyline + chlordiazepoxide,12.5mg + 5mg,كبسولة,راشا,amitriptyline 12.5mg+chlordiazepoxide 5mg / cap,cap,بيانات مكتملة
+6201,Diotrim,sulfamethoxazole + trimethoprim,400mg + 80mg,قرص,راشا,sulfamethoxazole 400mg+trimethoprim 80mg / tab,tab,بيانات مكتملة
+6202,Diotrim Fort,sulfamethoxazole + trimethoprim,800mg + 160mg,قرص,راشا,sulfamethoxazole 800mg+trimethoprim 160mg / tab,tab,بيانات مكتملة
+6203,Dolopan 1,hyoscine 1mg / ml,,قطرات فموية,راشا,hyoscine 1mg / ml,oral-drops,بيانات مكتملة
+6204,Dolopan 10,hyoscine,10mg,كبسولة,راشا,hyoscine 10mg / cap,cap,بيانات مكتملة
+6205,Erceflagyl,metronidazole + nifuroxazide,600mg + 200mg,كبسولة,راشا,metronidazole 600mg+nifuroxazide 200mg / cap,cap,بيانات مكتملة
+6206,Ergisol 50,levamisole,50mg,قرص,راشا,levamisole 50mg / tab,tab,بيانات مكتملة
+6207,Fimar 500,diloxanide,500mg,قرص,راشا,diloxanide 500mg / tab,tab,بيانات مكتملة
+6208,Ginozol 150,econazole 150mg / ovule,,بويضة مهبلية,راشا,econazole 150mg / ovule,ovule,بيانات مكتملة
+6209,Ginozol 50,econazole 50mg / ovule,,بويضة مهبلية,راشا,econazole 50mg / ovule,ovule,بيانات مكتملة
+6210,Glicoral 1.25,glibenclamide ( glyburide ) + metformin,1.25mg + 250mg,قرص مغلف,راشا,glibenclamide ( glyburide ) 1.25mg+metformin 250mg / c-tab,coated-tab,بيانات مكتملة
+6211,Glicoral 2.5,glibenclamide ( glyburide ) + metformin,2.5mg + 500mg,قرص مغلف,راشا,glibenclamide ( glyburide ) 2.5mg+metformin 500mg / c-tab,coated-tab,بيانات مكتملة
+6212,Glicoral 5,glibenclamide ( glyburide ) + metformin,5mg + 500mg,قرص مغلف,راشا,glibenclamide ( glyburide ) 5mg+metformin 500mg / c-tab,coated-tab,بيانات مكتملة
+6213,Glyxalin 10/5,empagliflozin + linagliptin,10mg + 5mg,قرص مغلف,راشا,empagliflozin 10mg+linagliptin 5mg / c-tab,coated-tab,بيانات مكتملة
+6214,Glyxalin 25/5,empagliflozin + linagliptin,25mg + 5mg,قرص مغلف,راشا,empagliflozin 25mg+linagliptin 5mg / c-tab,coated-tab,بيانات مكتملة
+6215,Gynorash,neomycin + nystatin + polymyxin 35000i.u. / ovule,35000i.u. + 100000i.u. + ,بويضة مهبلية,راشا,neomycin 35000i.u.+nystatin 100000i.u.+polymyxin 35000i.u. / ovule,ovule,بيانات مكتملة
+6216,Healosyl,cincocaine + hydrocotisone,5mg + 5mg,تحاميل,راشا,cincocaine 5mg+hydrocotisone 5mg / supp,supp,بيانات مكتملة
+6217,Indomethacin 25,indomethacin,25mg,كبسولة,راشا,indomethacin 25mg / cap,cap,بيانات مكتملة
+6218,Indovit,indomethacin + thiamine,25mg + 50mg,كبسولة,راشا,indomethacin 25mg+thiamine 50mg / cap,cap,بيانات مكتملة
+6219,Jestalone 5,allylestrenol,5mg,قرص,راشا,allylestrenol 5mg / tab,tab,بيانات مكتملة
+6220,Keto 100,ketoprofen,100mg,تحاميل,راشا,ketoprofen 100mg / supp,supp,بيانات مكتملة
+6221,Lactitol,lactitol,,شراب,راشا,lactitol,syrup,بيانات مكتملة
+6222,Laxine 10,bisacodyl,10mg,قرص مغلف,راشا,bisacodyl 10mg / c-tab,coated-tab,بيانات مكتملة
+6223,Laxine 5,bisacodyl,5mg,تحاميل,راشا,bisacodyl 5mg / supp,supp,بيانات مكتملة
+6224,Laxinole 7.5,Sod.Pico Sulfate 7.5mg / ml,,قطرات فموية,راشا,Sod.Pico Sulfate 7.5mg / ml,oral-drops,بيانات مكتملة
+6225,Letrozole 2.5,letrozole,2.5mg,قرص مغلف,راشا,letrozole 2.5mg / c-tab,coated-tab,بيانات مكتملة
+6226,Levo Thyroxine 100,levo Thyroxine,0.1mg,قرص,راشا,levo Thyroxine 0.1mg / Tab,tab,بيانات مكتملة
+6227,Levo Thyroxine 50,levo Thyroxine,0.050mg,قرص,راشا,levo Thyroxine 0.050mg / Tab,tab,بيانات مكتملة
+6228,Liprosil 450,gemfibrozil,450mg,قرص مغلف,راشا,gemfibrozil 450mg / c-tab,coated-tab,بيانات مكتملة
+6229,Meniserc 16,betahistine,16mg,قرص مغلف,راشا,betahistine 16mg / tab,coated-tab,بيانات مكتملة
+6230,Meniserc 24,betahistine,24mg,قرص مغلف,راشا,betahistine 24mg / tab,coated-tab,بيانات مكتملة
+6231,Meniserc 8,betahistine,16mg,قرص مغلف,راشا,betahistine 16mg / tab,coated-tab,بيانات مكتملة
+6232,Metrostat 100/500,clotrimazole + metronidazole 500mg / ovule,100mg + ,بويضة مهبلية,راشا,clotrimazole 100mg+metronidazole 500mg / ovule,ovule,بيانات مكتملة
+6233,Modexine 100,trimebutine,100mg,قرص,راشا,trimebutine 100mg / tab,tab,بيانات مكتملة
+6234,Modexine Fort 200,trimebutine,200mg,قرص,راشا,trimebutine 200mg / tab,tab,بيانات مكتملة
+6235,Monocantex 10,sod.Dibunate,10mg,شراب,راشا,sod.Dibunate 10mg / 5ml,syrup,بيانات مكتملة
+6236,Monocantex 7.5,sod.Dibunate,7.5mg,شراب,راشا,sod.Dibunate 7.5mg / 5ml,syrup,بيانات مكتملة
+6237,Noracept,drospirenone + ethinylestradiol,3mg + 0.03mg,قرص مغلف,راشا,drospirenone 3mg+ethinylestradiol 0.03mg / c-tab,coated-tab,بيانات مكتملة
+6238,Norestin 5,norethisterone,5mg,قرص مغلف,راشا,norethisterone 5mg / c-tab,coated-tab,بيانات مكتملة
+6239,Parafonil,chlorzoxazone + paracetamol,250mg + 300mg,كبسولة,راشا,chlorzoxazone 250mg+paracetamol 300mg / cap,cap,بيانات مكتملة
+6240,Pectoracha,ammonium Chloride + diphenhydramine + sodium Citrate, + 12.5mg + ,شراب,راشا,ammonium Chloride +diphenhydramine 12.5mg+sodium Citrate / 5ml,syrup,بيانات مكتملة
+6241,Peflox 400,pefloxacin,400mg,كبسولة,راشا,pefloxacin 400mg / cap,cap,بيانات مكتملة
+6242,Peptipac 20,omeprazole + sodium Bicarbonate,20mg + 1100mg,كبسولة,راشا,omeprazole 20mg+sodium Bicarbonate 1100mg / cap,cap,بيانات مكتملة
+6243,Peptipac 40,omeprazole + sodium Bicarbonate,40mg + 1100mg,كبسولة,راشا,omeprazole 40mg+sodium Bicarbonate 1100mg / cap,cap,بيانات مكتملة
+6244,Prandinole 0.5,repaglinide,0.5mg,قرص مغلف,راشا,repaglinide 0.5mg / c-tab,coated-tab,بيانات مكتملة
+6245,Prandinole 1,repaglinide,1mg,قرص مغلف,راشا,repaglinide 1mg / c-tab,coated-tab,بيانات مكتملة
+6246,Prandinole 2,repaglinide,2mg,قرص مغلف,راشا,repaglinide 2mg / c-tab,coated-tab,بيانات مكتملة
+6247,Pravastin 10,pravastatin,10mg,قرص مغلف,راشا,pravastatin 10mg / cap,coated-tab,بيانات مكتملة
+6248,Pravastin 20,pravastatin,20mg,قرص مغلف,راشا,pravastatin 20mg / cap,coated-tab,بيانات مكتملة
+6249,Pravastin 40,pravastatin,40mg,قرص مغلف,راشا,pravastatin 40mg / cap,coated-tab,بيانات مكتملة
+6250,Prevex 100,aceclofenac,100mg,قرص مغلف,راشا,aceclofenac 100mg / c-tab,coated-tab,بيانات مكتملة
+6251,Procyclidine 5,procyclidine,5mg,قرص مغلف,راشا,procyclidine 5mg / c-tab,coated-tab,بيانات مكتملة
+6252,Ribax,chlordiazepoxide + clidinium Bromide,5mg + 2.5mg,كبسولة,راشا,chlordiazepoxide 5mg+clidinium Bromide 2.5mg / cap,cap,بيانات مكتملة
+6253,Ridene 10,piroxicam,10mg,كبسولة,راشا,piroxicam 10mg / cap,cap,بيانات مكتملة
+6254,Ridene 20,piroxicam,20mg,تحاميل,راشا,piroxicam 20mg / supp,supp,بيانات مكتملة
+6255,Ridene Fort 20,piroxicam,20mg,كبسولة,راشا,piroxicam 20mg / cap,cap,بيانات مكتملة
+6256,Risperid 1,risperidone,1mg,قرص مغلف,راشا,risperidone 1mg / c-tab,coated-tab,بيانات مكتملة
+6257,Risperid Fort 2,risperidone,2mg,قرص مغلف,راشا,risperidone 2mg / c-tab,coated-tab,بيانات مكتملة
+6258,Romexine 4,bromhexine,4mg,شراب,راشا,bromhexine 4mg / 5ml,syrup,بيانات مكتملة
+6259,Tensiopril 25,captopril,25mg,قرص,راشا,captopril 25mg / tab,tab,بيانات مكتملة
+6260,Tensiopril 50,captopril,50mg,قرص,راشا,captopril 50mg / tab,tab,بيانات مكتملة
+6261,Toco Racha 100,vit E,100mg,كبسولة,راشا,vit E 100mg / cap,cap,بيانات مكتملة
+6262,Tocoracha Fort 200,vit E,200mg,كبسولة,راشا,vit E 200mg / cap,cap,بيانات مكتملة
+6263,Tonifer,calcium Glycero Phosphate + ferrous Glycero Phosphate + mangenese Glycero Phosphate + sodium Glycero Phosphate + vit,80mg + 15mg + 10mg + 175mg + ,شراب,راشا,calcium Glycero Phosphate 80mg+ferrous Glycero Phosphate 15mg+mangenese Glycero Phosphate 10mg+sodium Glycero Phosphate 175mg+vit,syrup,بيانات مكتملة
+6264,Tribexin,thiamine + vit B6 + vit B12,100mg + 200mg + 0.2mg,قرص مغلف,راشا,thiamine 100mg+vit B6 200mg+vit B12 0.2mg / c-tab,coated-tab,بيانات مكتملة
+6265,Tribexin Extra,thiamine + vit B6 + vit B12,100mg + 100mg + 5mg,قرص مغلف,راشا,thiamine 100mg+vit B6 100mg+vit B12 5mg / c-tab,coated-tab,بيانات مكتملة
+6266,Tribexin Fort,thiamine + vit B6 + vit B12,100mg + 100mg + 1mg,قرص مغلف,راشا,thiamine 100mg+vit B6 100mg+vit B12 1mg / c-tab,coated-tab,بيانات مكتملة
+6267,Tribexin Plus,diclofenac Sodium + thiamine + vit B6 + vit B12,50mg + 50mg + 50mg + 1mg,قرص مغلف,راشا,diclofenac Sodium 50mg+thiamine 50mg+vit B6 50mg+vit B12 1mg / c-tab,coated-tab,بيانات مكتملة
+6268,Ursoracha 250,urso De Oxy Cholic Acid,250mg,كبسولة,راشا,urso De Oxy Cholic Acid 250mg / cap,cap,بيانات مكتملة
+6269,Zaramib,ezetimibe + rosuvastatin,10mg + 10mg,قرص مغلف,راشا,ezetimibe 10mg+rosuvastatin 10mg / c-tab,coated-tab,بيانات مكتملة
+6270,Zero Cough,bromhexine + chlorpheniramine + guiagenesin,4mg + 2mg + 50mg,شراب,راشا,bromhexine 4mg+chlorpheniramine 2mg+guiagenesin 50mg / 5ml,syrup,بيانات مكتملة
+6271,Zero Vomit 16,ondansetron,16mg,تحاميل,راشا,ondansetron 16mg / supp,supp,بيانات مكتملة
+6272,Zolti 2.5,zolmitriptan,2.5mg,قرص مغلف,راشا,zolmitriptan 2.5mg / c-tab,coated-tab,بيانات مكتملة
+6273,Zolti 5,zolmitriptan,5mg,قرص مغلف,راشا,zolmitriptan 5mg / c-tab,coated-tab,بيانات مكتملة
+6274,Aclovat 0.05%,alclomethasone,0.05%,كريم,راما,alclomethasone 0.05%,cream,بيانات مكتملة
+6275,Acyclocort,acyclovir + hydrocortisone,5% + 1%,كريم,راما,acyclovir 5%+hydrocortisone 1%,cream,بيانات مكتملة
+6276,Acyclovir 250,acyclovir 250mg / flexible-amp,,flexible-amp,راما,acyclovir 250mg / flexible-amp,flexible-amp,بيانات مكتملة
+6277,Acyclovir 5%,acyclovir,5%,كريم,راما,acyclovir 5%,cream,بيانات مكتملة
+6278,Adrenaline 5,adrenaline 5mg / flexible-amp,,flexible-amp,راما,adrenaline 5mg / flexible-amp,flexible-amp,بيانات مكتملة
+6279,Allerback 2.5,desloratadine,2.5mg,شراب,راما,desloratadine 2.5mg / 5ml,syrup,بيانات مكتملة
+6280,Allerback 5,desloratadine,5mg,قرص,راما,desloratadine 5mg / tab,tab,بيانات مكتملة
+6281,Aquarama,distilled-water,,flexible-amp,راما,distilled-water,flexible-amp,بيانات مكتملة
+6282,Arginine Forte,arginine,759mg,معلق,راما,arginine 759mg / 5ml,susp,بيانات مكتملة
+6283,Babycomfort,sod.Carbonate + terpinless Dill Seed Oil,52.5mg + 2.3mg,معلق,راما,sod.Carbonate 52.5mg+terpinless Dill Seed Oil 2.3mg / 5ml,susp,بيانات مكتملة
+6284,Beprivin 0.15%,bepotastine,1.5%,قطرة عينية,راما,bepotastine 1.5%,eye-drops,بيانات مكتملة
+6285,Betophthic 0.5%,betaxolol,0.5%,قطرة عينية,راما,betaxolol 0.5%,eye-drops,بيانات مكتملة
+6286,Biofuram 100,nitrofurantoin 100mg / PR-cap,,PR-cap,راما,nitrofurantoin 100mg / PR-cap,PR-cap,بيانات مكتملة
+6287,Biofuram 25,nitrofurantoin,25mg,معلق,راما,nitrofurantoin 25mg / 5ml,susp,بيانات مكتملة
+6288,Brimolol,brimonidine + timolol,0.2% + 0.5%,قطرة عينية,راما,brimonidine 0.2%+timolol 0.5%,eye-drops,بيانات مكتملة
+6289,Brimotone 0.2%,brimonidine,0.2%,قطرة عينية,راما,brimonidine 0.2%,eye-drops,بيانات مكتملة
+6290,Broncho Clear 600,acetyl Cysteine,600mg,كبسولة,راما,acetyl Cysteine 600mg / cap,cap,بيانات مكتملة
+6291,Broncho Rama,dyphylline + guaifenesin,100mg + 50mg,شراب,راما,dyphylline 100mg+guaifenesin 50mg / 5ml,syrup,بيانات مكتملة
+6292,Budesonide 0.25,budesonide,0.250mg,flexible-amp,راما,budesonide 0.250mg / amp,flexible-amp,بيانات مكتملة
+6293,Budesonide 0.5,budesonide,0.5mg,flexible-amp,راما,budesonide 0.5mg / amp,flexible-amp,بيانات مكتملة
+6294,Budesonide 1,budesonide 1mg / flexible-amp,,flexible-amp,راما,budesonide 1mg / flexible-amp,flexible-amp,بيانات مكتملة
+6295,Bupinex 0.05,bupivacaine 0.050mg / flexible-amp,,flexible-amp,راما,bupivacaine 0.050mg / flexible-amp,flexible-amp,بيانات مكتملة
+6296,Calcium 1000,calcium Gluconate,10%,flexible-amp,راما,calcium Gluconate 10%,flexible-amp,بيانات مكتملة
+6297,Calcium Gluconate 10%,calcium Gluconate,10%,flexible-amp,راما,calcium Gluconate 10%,flexible-amp,بيانات مكتملة
+6298,Carbamid 6.5%,carbamide Peroxide,6.5%,قطرة أذنية,راما,carbamide Peroxide 6.5%,ear-drops,بيانات مكتملة
+6299,Carte 2%,carteolol,2%,قطرة عينية,راما,carteolol 2%,eye-drops,بيانات مكتملة
+6300,Chloram Cort,chloramphenicol + dexamethasone Phosphate,0.5% + 0.1%,قطرة عينية,راما,chloramphenicol 0.5%+dexamethasone Phosphate 0.1%,eye-drops,بيانات مكتملة
+6301,Chloram Cort Plus,chloramphenicol + dexamethasone Phosphate + tetra Hydro Zoline,0.5% + 0.1% + 0.025%,قطرة عينية,راما,chloramphenicol 0.5%+dexamethasone Phosphate 0.1%+tetra Hydro Zoline 0.025%,eye-drops,بيانات مكتملة
+6302,Cinodental 0.1%,triamcinolone,0.1%,oral-paste,راما,triamcinolone 0.1%,oral-paste,بيانات مكتملة
+6303,Clesi 2%,sod.Cromoglycate,2%,قطرة عينية,راما,sod.Cromoglycate 2%,eye-drops,بيانات مكتملة
+6304,Clinoben,benzoylperoxide + clindamycin,5% + 1%,جل,راما,benzoylperoxide 5%+clindamycin 1%,gel,بيانات مكتملة
+6305,Cojilac,glycolic Acid + Kojic Acid + octyl Methoxy Cinnamate + vit E, +  +  + ,جل,راما,glycolic Acid +Kojic Acid +octyl Methoxy Cinnamate +vit E,gel,بيانات مكتملة
+6306,Cyclovir Rama,acyclovir,5%,كريم,راما,acyclovir 5%,cream,بيانات مكتملة
+6307,Deodorama,aluminium Sesqui Chloro Hydrate,17%,كريم,راما,aluminium Sesqui Chloro Hydrate 17%,cream,بيانات مكتملة
+6308,Deprizac 20,fluoxetine,20mg,كبسولة,راما,fluoxetine 20mg / c-tab,cap,بيانات مكتملة
+6309,Dermobet 0.05%,betamethasone,0.05%,كريم,راما,betamethasone 0.05%,cream,بيانات مكتملة
+6310,Dermobet Plus,betamethasone + salicylic Acid,0.05% + 2%,لوشن,راما,betamethasone 0.05%+salicylic Acid 2%,lotion,بيانات مكتملة
+6311,Dexabiotic,ciprofloxacin + dexamethasone,0.3% + 0.1%,قطرة أذنية,راما,ciprofloxacin 0.3%+dexamethasone 0.1%,ear-drops,بيانات مكتملة
+6312,Dexoram 0.1%,dexamethasone,0.1%,قطرة عينية,راما,dexamethasone 0.1%,eye-drops,بيانات مكتملة
+6313,Dexoram 2,dexamethasone,2mg,شراب,راما,dexamethasone 2mg / 5ml,syrup,بيانات مكتملة
+6314,Dexoram 4,dexamethasone 4mg / flexible-amp,,flexible-amp,راما,dexamethasone 4mg / flexible-amp,flexible-amp,بيانات مكتملة
+6315,Dexoram 8,dexamethasone 8mg / flexible-amp,,flexible-amp,راما,dexamethasone 8mg / flexible-amp,flexible-amp,بيانات مكتملة
+6316,Diatensil,dorzolamide + timolol,2% + 0.5%,قطرة عينية,راما,dorzolamide 2%+timolol 0.5%,eye-drops,بيانات مكتملة
+6317,Diclofenac Max Rama,betamethasone + diclofenac Sodium + vit B12,5mg + 50mg + 5mg,قرص مغلف,راما,betamethasone 5mg+diclofenac Sodium 50mg+vit B12 5mg / c-tab,coated-tab,بيانات مكتملة
+6318,Diclofenac Rama,diclofenac Sodium 75mg / flexible-amp,,flexible-amp,راما,diclofenac Sodium 75mg / flexible-amp,flexible-amp,بيانات مكتملة
+6319,Doxygerm 100,doxycycline,100mg,كبسولة,راما,doxycycline 100mg / cap,cap,بيانات مكتملة
+6320,Elocort 0.1%,mometasone,0.1%,كريم,راما,mometasone 0.1%,cream,بيانات مكتملة
+6321,Elocort Plus,mometasone + salicylic Acid,0.1% + 5%,مرهم,راما,mometasone 0.1%+salicylic Acid 5%,oint,بيانات مكتملة
+6322,Erythromycin 2%,erythromycin,2%,جل,راما,erythromycin 2%,gel,بيانات مكتملة
+6323,Erythromycin 4%,erythromycin,4%,جل,راما,erythromycin 4%,gel,بيانات مكتملة
+6324,Etapred 0.5%,loteprednol Etabonate,0.5%,قطرة عينية,راما,loteprednol Etabonate 0.5%,eye-drops,بيانات مكتملة
+6325,Etapred Plus,loteprednol Etabonate + tobramycin,0.5% + 0.3%,قطرة عينية,راما,loteprednol Etabonate 0.5%+tobramycin 0.3%,eye-drops,بيانات مكتملة
+6326,Etocoxi Ram 120,etoricoxib,120mg,قرص مغلف,راما,etoricoxib 120mg / c-tab,coated-tab,بيانات مكتملة
+6327,Etocoxiram 120,etoricoxib 120mg / c -tab,,قرص مغلف,راما,etoricoxib 120mg / c -tab,coated-tab,بيانات مكتملة
+6328,Etocoxiram 60,etoricoxib 60mg / c -tab,,قرص مغلف,راما,etoricoxib 60mg / c -tab,coated-tab,بيانات مكتملة
+6329,Etocoxi Ram 60,etoricoxib 60mg / c -tab,,قرص مغلف,راما,etoricoxib 60mg / c -tab,coated-tab,بيانات مكتملة
+6330,Etocoxi Ram 90,etoricoxib 90mg / c -tab,,قرص مغلف,راما,etoricoxib 90mg / c -tab,coated-tab,بيانات مكتملة
+6331,Etocoxiram 90,etoricoxib 90mg / c -tab,,قرص مغلف,راما,etoricoxib 90mg / c -tab,coated-tab,بيانات مكتملة
+6332,Fenergex 2%,promethazine,2%,كريم,راما,promethazine 2%,cream,بيانات مكتملة
+6333,Fluquinol,clioquinol + flumethasone,1% + 0.02%,قطرة أذنية,راما,clioquinol 1%+flumethasone 0.02%,ear-drops,بيانات مكتملة
+6334,Fluticasone 0.05,fluticasone 0.050mg / puff,,بخاخ أنفي,راما,fluticasone 0.050mg / puff,nasal-spray,بيانات مكتملة
+6335,Fluticasone 2,fluticasone,2mg,inh-pls-amp,راما,fluticasone 2mg / amp,inh-pls-amp,بيانات مكتملة
+6336,Fluticasone Plus,azelastine + fluticasone 0.050mg / puff,0.125mg + ,بخاخ أنفي,راما,azelastine 0.125mg+fluticasone 0.050mg / puff,nasal-spray,بيانات مكتملة
+6337,Formoneb 0.02,formoterol,0.02mg,أمبولة,راما,formoterol 0.02mg / amp,amp,بيانات مكتملة
+6338,Formoneb Plus,budesonide + formoterol,1mg + 0.02mg,أمبولة,راما,budesonide 1mg+formoterol 0.02mg / amp,amp,بيانات مكتملة
+6339,Freshness 0.5%,carboxy Methyl Cellulose,0.5%,قطرة عينية,راما,carboxy Methyl Cellulose 0.5%,eye-drops,بيانات مكتملة
+6340,Fucitop 2%,fusidic Acid,2%,كريم,راما,fusidic Acid 2%,cream,بيانات مكتملة
+6341,Fumelon 0.1%,fluorometholone,0.1%,قطرة عينية,راما,fluorometholone 0.1%,eye-drops,بيانات مكتملة
+6342,Fumelon 0.25%,fluorometholone,0.25%,قطرة عينية,راما,fluorometholone 0.25%,eye-drops,بيانات مكتملة
+6343,Fumelon Plus,fluorometholone + tetryzoline,0.1% + 0.025%,قطرة عينية,راما,fluorometholone 0.1%+tetryzoline 0.025%,eye-drops,بيانات مكتملة
+6344,Furazolidone 16.65,furazolidone,16.66mg,معلق,راما,furazolidone 16.66mg / 5ml,susp,بيانات مكتملة
+6345,Furazolidon Plus,furazolidone + metronidazole,25mg + 75mg,معلق,راما,furazolidone 25mg+metronidazole 75mg / 5ml,susp,بيانات مكتملة
+6346,Globirama,multi Vitamins,,شراب,راما,multi Vitamins,syrup,بيانات مكتملة
+6347,Gynostat3 4%,miconazole,4%,vag-cream +app,راما,miconazole 4%,vag-cream +app,بيانات مكتملة
+6348,Handy Care,dimethicone,1.5%,كريم,راما,dimethicone 1.5%,cream,بيانات مكتملة
+6349,Hemo Health,cinchocaine + hydrocortisone 5mg / gr,5mg + ,مرهم,راما,cinchocaine 5mg+hydrocortisone 5mg / gr,oint,بيانات مكتملة
+6350,Hydrocutan 1%,hydrocortisone,1%,كريم,راما,hydrocortisone 1%,cream,بيانات مكتملة
+6351,Hyloram 0.4%,sod.Hyaluronate,0.4%,قطرة عينية,راما,sod.Hyaluronate 0.4%,eye-drops,بيانات مكتملة
+6352,Ipratropium 0.03%,ipratropium,0.03%,بخاخ أنفي,راما,ipratropium 0.03%,nasal-spray,بيانات مكتملة
+6353,Ipratropium 0.5,ipratropium 0.5mg / flexible-amp,,flexible-amp,راما,ipratropium 0.5mg / flexible-amp,flexible-amp,بيانات مكتملة
+6354,Ipratropium Forte 0.06%,ipratropium,0.06%,بخاخ أنفي,راما,ipratropium 0.06%,nasal-spray,بيانات مكتملة
+6355,Ivyram 20,ivy Extract + pipermint Oil + fennel Oil / ml,20mg +  + ,قطرات فموية,راما,ivy Extract 20mg+pipermint Oil+fennel Oil / ml,oral-drops,بيانات مكتملة
+6356,Ivyram 35,ivy Extract,35mg,شراب,راما,ivy Extract 35mg / 5ml,syrup,بيانات مكتملة
+6357,Ivyram Plus,ivy Extract + thym Liquid Extract,22.5mg + 300mg,شراب,راما,ivy Extract 22.5mg+thym Liquid Extract 300mg / 5ml,syrup,بيانات مكتملة
+6358,Ketoconazole 2%,ketoconazole,2%,شامبو,راما,ketoconazole 2%,shampoo,بيانات مكتملة
+6359,Ketoprofen 2.5%,ketoprofen,2.5%,جل,راما,ketoprofen 2.5%,gel,بيانات مكتملة
+6360,Ketoprofen 5,ketoprofen,5mg,شراب,راما,ketoprofen 5mg / 5ml,syrup,بيانات مكتملة
+6361,Lacticlear,lactic Acid,1%,vag-douch,راما,lactic Acid 1%,vag-douch,بيانات مكتملة
+6362,Levetroopil 500,levetiracetam,500mg,شراب,راما,levetiracetam 500mg / 5ml,syrup,بيانات مكتملة
+6363,Levetroopil ER 1000,levetiracetam 1000mg / ER-tab,,ER-tab,راما,levetiracetam 1000mg / ER-tab,ER-tab,بيانات مكتملة
+6364,Levetroopil ER 500,levetiracetam 500mg / ER-tab,,ER-tab,راما,levetiracetam 500mg / ER-tab,ER-tab,بيانات مكتملة
+6365,Levetroopil ER 750,levetiracetam 750mg / ER-tab,,ER-tab,راما,levetiracetam 750mg / ER-tab,ER-tab,بيانات مكتملة
+6366,Levocomplex 100/25,carbidopa + levodopa,25mg + 100mg,قرص,راما,carbidopa 25mg+levodopa 100mg / tab,tab,بيانات مكتملة
+6367,Levocomplex 250/25,carbidopa + levodopa,25mg + 250mg,قرص,راما,carbidopa 25mg+levodopa 250mg / tab,tab,بيانات مكتملة
+6368,Levopenex 0.31,levalbuterol 0.31mg / flexible-amp,,flexible-amp,راما,levalbuterol 0.31mg / flexible-amp,flexible-amp,بيانات مكتملة
+6369,Levopenex 0.63,levalbuterol 0.63mg / flexible-amp,,flexible-amp,راما,levalbuterol 0.63mg / flexible-amp,flexible-amp,بيانات مكتملة
+6370,Levopenex 1,levalbuterol,1mg,شراب,راما,levalbuterol 1mg / 5ml,syrup,بيانات مكتملة
+6371,Levopenex 1.25,levalbuterol 1.25mg / flexible-amp,,flexible-amp,راما,levalbuterol 1.25mg / flexible-amp,flexible-amp,بيانات مكتملة
+6372,Levoram 0.5%,levofloxacin,0.5%,قطرة عينية,راما,levofloxacin 0.5%,eye-drops,بيانات مكتملة
+6373,Levo Ram 500,levofloxacin,500mg,قرص,راما,levofloxacin 500mg / tab,tab,بيانات مكتملة
+6374,Levo Ram 750,levofloxacin,500mg,قرص,راما,levofloxacin 500mg / tab,tab,بيانات مكتملة
+6375,Levoram Fort 1.5,levofloxacin,1.5%,قطرة عينية,راما,levofloxacin 1.5%,eye-drops,بيانات مكتملة
+6376,Levo Tropil 1000,levetiracetam,1000mg,قرص مغلف,راما,levetiracetam 1000mg / c-tab,coated-tab,بيانات مكتملة
+6377,Levo Tropil 500,levetiracetam,500mg,قرص مغلف,راما,levetiracetam 500mg / c-tab,coated-tab,بيانات مكتملة
+6378,Levo Tropil 750,levetiracetam,750mg,قرص مغلف,راما,levetiracetam 750mg / c-tab,coated-tab,بيانات مكتملة
+6379,Lidosol 1%,lidocaine,1%,flexible-amp,راما,lidocaine 1%,flexible-amp,بيانات مكتملة
+6380,Lidosol 2%,lidocaine,2%,جل,راما,lidocaine 2%,gel,بيانات مكتملة
+6381,Lidosol Fort 5%,lidocaine,5%,جل,راما,lidocaine 5%,gel,بيانات مكتملة
+6382,Lidosol Plus,lidocaine + prilocaine,2.5% + 2.5%,جل,راما,lidocaine 2.5%+prilocaine 2.5%,gel,بيانات مكتملة
+6383,Macrocid 1%,azithromycin,1%,قطرة عينية,راما,azithromycin 1%,eye-drops,بيانات مكتملة
+6384,Massage Freeze,camphor + menthol,4% + 4%,كريم,راما,camphor 4%+menthol 4%,cream,بيانات مكتملة
+6385,Massage Hot,menthol + fennel Oil + Eucalyptus Oil + Clove Oil + Ginger Oil + Lavender Oil + Orange Oil, +  +  +  +  +  + ,جل,راما,menthol +fennel Oil +Eucalyptus Oil +Clove Oil +Ginger Oil +Lavender Oil +Orange Oil,gel,بيانات مكتملة
+6386,Medazolam,medazolam,,أمبولة,راما,medazolam,amp,بيانات مكتملة
+6387,Megacort 0.05%,clobetasol,0.05%,كريم,راما,clobetasol 0.05%,cream,بيانات مكتملة
+6388,Megamox 0.5%,moxifloxacin,0.5%,قطرة عينية,راما,moxifloxacin 0.5%,eye-drops,بيانات مكتملة
+6389,Megamox 400,moxifloxacin,400mg,كبسولة,راما,moxifloxacin 400mg / cap,cap,بيانات مكتملة
+6390,Meocetaz 250,acetazolamide 250mg / SR-tab,,SR-tab,راما,acetazolamide 250mg / SR-tab,SR-tab,بيانات مكتملة
+6391,Metoprolol 5,metoprolol 5mg / flexible-amp,,flexible-amp,راما,metoprolol 5mg / flexible-amp,flexible-amp,بيانات مكتملة
+6392,Mg Sulfate 5000,magnesium Sulfate 5000mg / flexible-amp,,flexible-amp,راما,magnesium Sulfate 5000mg / flexible-amp,flexible-amp,بيانات مكتملة
+6393,Micanden 1%,clotrimazole,1%,كريم,راما,clotrimazole 1%,cream,بيانات مكتملة
+6394,Miconazole 2%,miconazole,2%,oral-gel,راما,miconazole 2%,oral-gel,بيانات مكتملة
+6395,Minoxidil 2%,minoxidil,2%,لوشن,راما,minoxidil 2%,lotion,بيانات مكتملة
+6396,Minoxidil 5%,minoxidil,5%,جل,راما,minoxidil 5%,gel,بيانات مكتملة
+6397,Minoxidil for Men 1%,minoxidil,1%,شامبو,راما,minoxidil 1%,shampoo,بيانات مكتملة
+6398,Minoxidil for Women 1%,minoxidil,1%,شامبو,راما,minoxidil 1%,shampoo,بيانات مكتملة
+6399,Miocetaz 250,acetazolamide 250mg / SR-tab,,SR-tab,راما,acetazolamide 250mg / SR-tab,SR-tab,بيانات مكتملة
+6400,Motilax,prucalopride,1mg,قرص مغلف,راما,prucalopride 1mg / c-tab,coated-tab,بيانات مكتملة
+6401,Motilax Fort,prucalopride,2mg,قرص مغلف,راما,prucalopride 2mg / c-tab,coated-tab,بيانات مكتملة
+6402,Multi Rama Grip,chlor Pheniramine + paracetamol + Phenylephrine,2mg + 325mg + 5mg,قرص مغلف,راما,chlor Pheniramine 2mg+paracetamol 325mg+Phenylephrine 5mg / 5ml,coated-tab,بيانات مكتملة
+6403,Na Cl 0.9%,Sod.Chloride,0.9%,قطرة عينية,راما,Sod.Chloride 0.9%,eye-drops,بيانات مكتملة
+6404,Na Cl 5%,Sod.Chloride,5%,قطرة عينية,راما,Sod.Chloride 5%,eye-drops,بيانات مكتملة
+6405,Nasa Clear 0.25,oxymetazoline 0.250mg / ml,,بخاخ أنفي,راما,oxymetazoline 0.250mg / ml,nasal-spray,بيانات مكتملة
+6406,Nasa Clear 0.5,oxymetazoline 0.5mg / ml,,بخاخ أنفي,راما,oxymetazoline 0.5mg / ml,nasal-spray,بيانات مكتملة
+6407,Nasafresh 1,xylometazoline,0.1%,nasal-drops,راما,xylometazoline 0.1%,nasal-drops,بيانات مكتملة
+6408,Nasafresh Mild 0.5,xylometazoline,0.05%,nasal-drops,راما,xylometazoline 0.05%,nasal-drops,بيانات مكتملة
+6409,Nasamin,chlorpheniramine + phenylephrine,4mg + 10mg,شراب,راما,chlorpheniramine 4mg+phenylephrine 10mg / 5ml,syrup,بيانات مكتملة
+6410,Natamycin 1%,natamycin,1%,قطرة عينية,راما,natamycin 1%,eye-drops,بيانات مكتملة
+6411,Nausyl 10,metoclopramide,10mg,pl-amp,راما,metoclopramide 10mg / amp,pl-amp,بيانات مكتملة
+6412,Nazoram,naphazoline + pheniramine,0.025% + 0.3%,قطرة عينية,راما,naphazoline 0.025%+pheniramine 0.3%,eye-drops,بيانات مكتملة
+6413,Nepafenac 0.1%,nepafenac,0.1%,قطرة عينية,راما,nepafenac 0.1%,eye-drops,بيانات مكتملة
+6414,Nervistop 0.5,lorazepam,0.5mg,قرص,راما,lorazepam 0.5mg / tab,tab,بيانات مكتملة
+6415,Nervistop 1,lorazepam,1mg,قرص,راما,lorazepam 1mg / tab,tab,بيانات مكتملة
+6416,Nervistop 2,lorazepam,2mg,قرص,راما,lorazepam 2mg / tab,tab,بيانات مكتملة
+6417,Neuroclidine 5,procyclidine,5mg,قرص,راما,procyclidine 5mg / tab,tab,بيانات مكتملة
+6418,Neutra Flu,ibuprofen + phenyl Ephrine,400mg + 10mg,قرص مغلف,راما,ibuprofen 400mg+phenyl Ephrine 10mg / c-tab,coated-tab,بيانات مكتملة
+6419,New Ergovit D 20000,vit D2 0.5mg / ml,,قطرات فموية,راما,vit D2 0.5mg / ml,oral-drops,بيانات مكتملة
+6420,New Loraphedrine,phenylephrine + triprolidine,10mg + 2.5mg,شراب,راما,phenylephrine 10mg+triprolidine 2.5mg / 5ml,syrup,بيانات مكتملة
+6421,New Pectobron 1.65,oxomemazine,1.65mg,شراب,راما,oxomemazine 1.65mg /5ml,syrup,بيانات مكتملة
+6422,Nitrectal 0.4%,glyceryl Tri Nitrate,0.4%,rectal-oint,راما,glyceryl Tri Nitrate 0.4%,rectal-oint,بيانات مكتملة
+6423,Normalose 66.5%,lactulose,3350mg,شراب,راما,lactulose 3350mg / 5ml,syrup,بيانات مكتملة
+6424,Noroclidin,,,قرص,راما,,tab,التركيب غير موجود في APK
+6425,Nystop 100000,"nystatin 100,000i.u. / ml",,قطرات فموية,راما,"nystatin 100,000i.u. / ml",oral-drops,بيانات مكتملة
+6426,Olanze Ram 10,olanzapine,10mg,قرص,راما,olanzapine 10mg / tab,tab,بيانات مكتملة
+6427,Olanze Ram 15,olanzapine,15mg,قرص,راما,olanzapine 15mg / tab,tab,بيانات مكتملة
+6428,Olanze Ram 2.5,olanzapine,2.5mg,قرص,راما,olanzapine 2.5mg / tab,tab,بيانات مكتملة
+6429,Olanze Ram 5,olanzapine,5mg,قرص,راما,olanzapine 5mg / tab,tab,بيانات مكتملة
+6430,Olanze Ram 7.5,olanzapine,7.5mg,قرص,راما,olanzapine 7.5mg / tab,tab,بيانات مكتملة
+6431,Olopatadine 0.2%,olopatadine,0.2%,قطرة عينية,راما,olopatadine 0.2%,eye-drops,بيانات مكتملة
+6432,Ondanset 4,ondansetron 4mg / flexible-amp,,flexible-amp,راما,ondansetron 4mg / flexible-amp,flexible-amp,بيانات مكتملة
+6433,Ondanset 8,ondansetron 8mg / flexible-amp,,flexible-amp,راما,ondansetron 8mg / flexible-amp,flexible-amp,بيانات مكتملة
+6434,One Flox 400,lomefloxacin,400mg,قرص,راما,lomefloxacin 400mg / cap,tab,بيانات مكتملة
+6435,Ophta Prost 0.01%,bimatoprost,0.01%,قطرة عينية,راما,bimatoprost 0.01%,eye-drops,بيانات مكتملة
+6436,Ophta Prost 0.03%,bimatoprost,0.03%,قطرة عينية,راما,bimatoprost 0.03%,eye-drops,بيانات مكتملة
+6437,Ophta Prost Plus,bimatoprost + timolol,0.03% + 0.5%,قطرة عينية,راما,bimatoprost 0.03%+timolol 0.5%,eye-drops,بيانات مكتملة
+6438,Ophthabrom 0.09%,bromfenac,0.09%,قطرة عينية,راما,bromfenac 0.09%,eye-drops,بيانات مكتملة
+6439,Ophthazomid,sulfacetamide + prednisolone,10% + 0.2%,قطرة عينية,راما,sulfacetamide 10%+prednisolone 0.2%,eye-drops,بيانات مكتملة
+6440,Optrex 0.3%,tobramycin,0.3%,قطرة عينية,راما,tobramycin 0.3%,eye-drops,بيانات مكتملة
+6441,Optrex Cort,dexamethasone + tobramycin,0.1% + 0.3%,قطرة عينية,راما,dexamethasone 0.1%+tobramycin 0.3%,eye-drops,بيانات مكتملة
+6442,Oral Vit D3,vit D3 ( cholecalciferol ) 400i.u. / ml,,قطرات فموية,راما,vit D3 ( cholecalciferol ) 400i.u. / ml,oral-drops,بيانات مكتملة
+6443,Oral Vit Fer,ferrous Sulfate 15mg / ml,,قطرات فموية,راما,ferrous Sulfate 15mg / ml,oral-drops,بيانات مكتملة
+6444,Oralvit Kids,minerals + vitamins, + ,شراب,راما,minerals +vitamins,syrup,بيانات مكتملة
+6445,Oral Vit Multi,minerals + vitamins, + ,قطرات فموية,راما,minerals +vitamins,oral-drops,بيانات مكتملة
+6446,Oral Vit Select,minerals + vitamins, + ,قطرات فموية,راما,minerals +vitamins,oral-drops,بيانات مكتملة
+6447,Osteo Health,calcium + magnesium + vit D3 + zinc,150mg + 75mg + 0.002mg + 3mg,شراب,راما,calcium 150mg+magnesium 75mg+vit D3 0.002mg+zinc 3mg / 5ml,syrup,بيانات مكتملة
+6448,Otipainblock,lidocaine + phenazone,0.1% + 0.4%,قطرة أذنية,راما,lidocaine 0.1%+phenazone 0.4%,ear-drops,بيانات مكتملة
+6449,Oxyurin,oxybutynine,,شراب,راما,oxybutynine,syrup,بيانات مكتملة
+6450,Panthenol Plus,dexpanthenol + vit E,5% + 1%,كريم,راما,dexpanthenol 5%+vit E 1%,cream,بيانات مكتملة
+6451,Panthenol Sept,,,كريم,راما,,cream,التركيب غير موجود في APK
+6452,Panthenol Soft,,,كريم,راما,,cream,التركيب غير موجود في APK
+6453,Papaine Plus,papain + urea 10mg / gr,"650,000i.u. + ",مرهم,راما,"papain 650,000i.u.+urea 10mg / gr",oint,بيانات مكتملة
+6454,Pedistamin,dimetindene 1mg / ml,,قطرات فموية,راما,dimetindene 1mg / ml,oral-drops,بيانات مكتملة
+6455,Permethrin 0.05%,permethrin,5%,كريم,راما,permethrin 5%,cream,بيانات مكتملة
+6456,Permethrin 1%,permethrin,1%,شامبو,راما,permethrin 1%,shampoo,بيانات مكتملة
+6457,Permethrin 2.5%,permethrin,2.5%,محلول,راما,permethrin 2.5%,solu,بيانات مكتملة
+6458,Permethrin 5%,permethrin,5%,محلول,راما,permethrin 5%,solu,بيانات مكتملة
+6459,Phisiofrine 10%,,,قطرة عينية,راما,,eye-drops,التركيب غير موجود في APK
+6460,Physio 0.9%,Sod.Chloride,0.9%,nasal-drops,راما,Sod.Chloride 0.9%,nasal-drops,بيانات مكتملة
+6461,Physio Ram 0.65%,Sod.Chloride,0.65%,بخاخ أنفي,راما,Sod.Chloride 0.65%,nasal-spray,بيانات مكتملة
+6462,Pilocarpin 1.25%,pilocarpine,1.25%,قطرة عينية,راما,pilocarpine 1.25%,eye-drops,بيانات مكتملة
+6463,Pilocarpin 2%,pilocarpine,2%,قطرة عينية,راما,pilocarpine 2%,eye-drops,بيانات مكتملة
+6464,Pizo 0.25,pizotifen,0.250mg,شراب,راما,pizotifen 0.250mg / 5ml,syrup,بيانات مكتملة
+6465,Potassium Chloride 7.46%,potassium Chloride,7.46%,flexible-amp,راما,potassium Chloride 7.46%,flexible-amp,بيانات مكتملة
+6466,Potrisone,betamethasone + calcipotriol,0.05% + 0.005%,جل,راما,betamethasone 0.05%+calcipotriol 0.005%,gel,بيانات مكتملة
+6467,Prednitop 0.1%,prednicarbat,0.1%,كريم,راما,prednicarbat 0.1%,cream,بيانات مكتملة
+6468,Proparacain 0.5%,proparacaine,0.5%,قطرة عينية,راما,proparacaine 0.5%,eye-drops,بيانات مكتملة
+6469,Propofol 1%,propofol,1%,flexible-amp,راما,propofol 1%,flexible-amp,بيانات مكتملة
+6470,Pulmokast,levocetirizine + montelukast,2.5mg + 4mg,شراب,راما,levocetirizine 2.5mg+montelukast 4mg / 5ml,syrup,بيانات مكتملة
+6471,Quadri Plus,betamethasone + clioquinol + gentamicin + tolnaftate 1mg / gr,0.5mg + 10mg + 10mg + ,كريم,راما,betamethasone 0.5mg+clioquinol 10mg+gentamicin 10mg +tolnaftate 1mg / gr,cream,بيانات مكتملة
+6472,Quinophtal 0.3%,ofloxacin,0.3%,قطرة عينية,راما,ofloxacin 0.3%,eye-drops,بيانات مكتملة
+6473,Ramabenzyl,benzyl Benzoate,25%,لوشن,راما,benzyl Benzoate 25%,lotion,بيانات مكتملة
+6474,Rama Gesic 10/250,dicyclomine + mefenamic Acid,10mg + 250mg,قرص,راما,dicyclomine 10mg+mefenamic Acid 250mg / tab,tab,بيانات مكتملة
+6475,Rama Gesic 20/500,dicyclomine + mefenamic Acid,20mg + 500mg,قرص,راما,dicyclomine 20mg+mefenamic Acid 500mg / tab,tab,بيانات مكتملة
+6476,Ramamix,bromhexine + guaifenesin + menthol + terbutalin,4mg + 50mg + 2.5mg + 1.25mg,معلق,راما,bromhexine 4mg+guaifenesin 50mg+menthol 2.5mg+terbutalin 1.25mg / 5ml,susp,بيانات مكتملة
+6477,Ramapred 10,prednisolone,1%,قطرة عينية,راما,prednisolone 1%,eye-drops,بيانات مكتملة
+6478,Ramapred 5,prednisolone,5mg,شراب,راما,prednisolone 5mg / 5ml,syrup,بيانات مكتملة
+6479,Ramapred Plus,phenylephrine + prednisolone,0.12% + 1%,قطرة عينية,راما,phenylephrine 0.12%+prednisolone 1%,eye-drops,بيانات مكتملة
+6480,Ramascon,sod.Alginate + sod.Bi Carbonate,250mg + 133.5mg,معلق,راما,sod.Alginate 250mg+sod.Bi Carbonate 133.5mg / 5ml,susp,بيانات مكتملة
+6481,Ramatriptyl 10,amitriptyline,10mg,قرص مغلف,راما,amitriptyline 10mg / c-tab,coated-tab,بيانات مكتملة
+6482,Ramatriptyl 25,amitriptyline,25mg,قرص مغلف,راما,amitriptyline 25mg / c-tab,coated-tab,بيانات مكتملة
+6483,Ramatriptyl 40,amitriptyline 40mg / ml,,قطرات فموية,راما,amitriptyline 40mg / ml,oral-drops,بيانات مكتملة
+6484,Retinoram 0.025%,tretinoin,0.025%,كريم,راما,tretinoin 0.025%,cream,بيانات مكتملة
+6485,Retinoram 0.05%,tretinoin,0.05%,كريم,راما,tretinoin 0.05%,cream,بيانات مكتملة
+6486,Retinoram 0.1%,tretinoin,0.1%,كريم,راما,tretinoin 0.1%,cream,بيانات مكتملة
+6487,Retinoram Max,fluocinolone + hydroquinon + tritenoin,0.01% + 4% + 0.05%,كريم,راما,fluocinolone 0.01%+hydroquinon 4%+tritenoin 0.05%,cream,بيانات مكتملة
+6488,Retinoram Plus,clindamycin + tretinoin,1% + 0.025%,جل,راما,clindamycin 1%+tretinoin 0.025%,gel,بيانات مكتملة
+6489,Rhinocort 0.055,triam Cinolone 0.055mg / puff,,بخاخ أنفي,راما,triam Cinolone 0.055mg / puff,nasal-spray,بيانات مكتملة
+6490,Rifampin 100,rifampicin,100mg,معلق,راما,rifampicin 100mg / 5ml,susp,بيانات مكتملة
+6491,Rifampin 150,rifampicin,150mg,كبسولة,راما,rifampicin 150mg / cap,cap,بيانات مكتملة
+6492,Rifampin 300,rifampicin,300mg,كبسولة,راما,rifampicin 300mg / cap,cap,بيانات مكتملة
+6493,Rivotriram 0.5,clonazepam,0.5mg,قرص,راما,clonazepam 0.5mg / tab,tab,بيانات مكتملة
+6494,Rivotriram 1,clonazepam,1mg,قرص,راما,clonazepam 1mg / tab,tab,بيانات مكتملة
+6495,Rivotriram 2,clonazepam,2mg,قرص,راما,clonazepam 2mg / tab,tab,بيانات مكتملة
+6496,Rythmocar 200,amiodarone,200mg,قرص,راما,amiodarone 200mg / tab,tab,بيانات مكتملة
+6497,Rythmocar 300,amiodarone 300mg / flexible-amp,,flexible-amp,راما,amiodarone 300mg / flexible-amp,flexible-amp,بيانات مكتملة
+6498,Salbu Neb 1.5,salbutamol 1.5mg / flexible-amp,,flexible-amp,راما,salbutamol 1.5mg / flexible-amp,flexible-amp,بيانات مكتملة
+6499,Salbuneb 1.5,salbutamol 1.5mg / flexible-amp,,flexible-amp,راما,salbutamol 1.5mg / flexible-amp,flexible-amp,بيانات مكتملة
+6500,Salbuneb 2,salbutamol,2mg,شراب,راما,salbutamol 2mg / 5ml,syrup,بيانات مكتملة

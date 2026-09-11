@@ -1,0 +1,501 @@
+معرف الدواء,اسم الدواء,المواد الفعالة,العيارات,الشكل الصيدلاني,المصنع,التركيب الأصلي,الشكل الأصلي,حالة المصدر
+1,Bero D 300000,vit D2,300000i.u.,أمبولة,PPM,vit D2 300000i.u. / amp,amp,بيانات مكتملة
+2,Bero D 600000,vit D2,600000i.u.,أمبولة,PPM,vit D2 600000i.u. / amp,amp,بيانات مكتملة
+3,Lincomycin 600,lincomycin,600mg,أمبولة,PPM,lincomycin 600mg / amp,amp,بيانات مكتملة
+4,Pain Out 75,diclofenac Sodium,75mg,أمبولة,PPM,diclofenac Sodium 75mg / amp,amp,بيانات مكتملة
+5,Tri Nerv,thiamine + vit B6 + vit B12,100mg + 100mg + 1mg,أمبولة,PPM,thiamine 100mg+vit B6 100mg+vit B12 1mg / amp,amp,بيانات مكتملة
+6,Cortaderm 0.1%,mometasone,0.1%,كريم,ابسيلون,mometasone 0.1%,cream,بيانات مكتملة
+7,Abecort 1%,triam Cinolone,0.1%,مرهم,ابن الهيثم,triam Cinolone 0.1%,oint,بيانات مكتملة
+8,Acecloren 100,aceclofenac,100mg,قرص مغلف,ابن الهيثم,aceclofenac 100mg / c-tab,coated-tab,بيانات مكتملة
+9,Acecloren 200,aceclofenac,200mg,تحاميل,ابن الهيثم,aceclofenac 200mg / supp,supp,بيانات مكتملة
+10,Acnecid 10%,benzoyl Peroxide,10%,جل,ابن الهيثم,benzoyl Peroxide 10%,gel,بيانات مكتملة
+11,Acnecid 2.5%,benzoyl Peroxide,2.5%,جل,ابن الهيثم,benzoyl Peroxide 2.5%,gel,بيانات مكتملة
+12,Acnecid 5%,benzoyl Peroxide,5%,جل,ابن الهيثم,benzoyl Peroxide 5%,gel,بيانات مكتملة
+13,Acnetrix,erythromycin + isotretinoin,2% + 0.05%,جل,ابن الهيثم,erythromycin 2%+isotretinoin 0.05%,gel,بيانات مكتملة
+14,Acta Glim 30/2,glimepiride + pioglitazone,2mg + 30mg,قرص,ابن الهيثم,glimepiride 2mg+pioglitazone 30mg / tab,tab,بيانات مكتملة
+15,Acta Glim 30/4,glimepiride + pioglitazone,4mg + 30mg,قرص,ابن الهيثم,glimepiride 4mg+pioglitazone 30mg / tab,tab,بيانات مكتملة
+16,Acta Glim 45/4,glimepiride + pioglitazone,4mg + 45mg,قرص,ابن الهيثم,glimepiride 4mg+pioglitazone 45mg / tab,tab,بيانات مكتملة
+17,Alta Pamulin 1%,retapamulin,1%,مرهم,ابن الهيثم,retapamulin 1%,oint,بيانات مكتملة
+18,Ambroxol 15,ambroxol,15mg,تحاميل,ابن الهيثم,ambroxol 15mg / supp,supp,بيانات مكتملة
+19,Ambroxol 30,ambroxol,30mg,تحاميل,ابن الهيثم,ambroxol 30mg / supp,supp,بيانات مكتملة
+20,Ambroxol 75,ambroxol,75mg,كبسولة,ابن الهيثم,ambroxol 75mg / tab,cap,بيانات مكتملة
+21,Anorel,lidocaine + nifedipine,1.5% + 0.3%,كريم,ابن الهيثم,lidocaine 1.5%+nifedipine 0.3%,cream,بيانات مكتملة
+22,Anti Age,acetyl-L-Carnitine + arginine,225mg + 193mg,كبسولة,ابن الهيثم,acetyl-L-Carnitine 225mg+arginine 193mg / cap,cap,بيانات مكتملة
+23,Anti Angina 1000,ranolazine,1000mg,قرص مغلف,ابن الهيثم,ranolazine 1000mg / c-tab,coated-tab,بيانات مكتملة
+24,Anti Angina 375,ranolazine,375mg,قرص مغلف,ابن الهيثم,ranolazine 375mg / c-tab,coated-tab,بيانات مكتملة
+25,Anti Angina 500,ranolazine,500mg,قرص مغلف,ابن الهيثم,ranolazine 500mg / c-tab,coated-tab,بيانات مكتملة
+26,Anti Angina 750,ranolazine,750mg,قرص مغلف,ابن الهيثم,ranolazine 750mg / c-tab,coated-tab,بيانات مكتملة
+27,Anti Malaria,artemether + lumefantrine,20mg + 120mg,قرص,ابن الهيثم,artemether 20mg+lumefantrine 120mg / tab,tab,بيانات مكتملة
+28,Anti Melasma,fluocinolone + hydroquinone + tretinoin 0.5mg / gr,0.1mg + 40mg + ,كريم,ابن الهيثم,fluocinolone 0.1mg+hydroquinone 40mg+tretinoin 0.5mg / gr,cream,بيانات مكتملة
+29,Anxitin 10,escitalopram,10mg,قرص مغلف,ابن الهيثم,escitalopram 10mg / c-tab,coated-tab,بيانات مكتملة
+30,Anxitin 20,escitalopram,20mg,قرص مغلف,ابن الهيثم,escitalopram 20mg / c-tab,coated-tab,بيانات مكتملة
+31,Anxitin 5,escitalopram,5mg,قرص مغلف,ابن الهيثم,escitalopram 5mg / c-tab,coated-tab,بيانات مكتملة
+32,Aprevomit 125,aprepitant,125mg,كبسولة,ابن الهيثم,aprepitant 125mg / cap,cap,بيانات مكتملة
+33,Aprevomit 40,aprepitant,40mg,كبسولة,ابن الهيثم,aprepitant 40mg / cap,cap,بيانات مكتملة
+34,Aprevomit 80,aprepitant,80mg,كبسولة,ابن الهيثم,aprepitant 80mg / cap,cap,بيانات مكتملة
+35,Aqua Lyte banana,محلول إعاضة شوارد,,شراب,ابن الهيثم,محلول إعاضة شوارد,syrup,بيانات مكتملة
+36,Aqua Lyte cherry,محلول إعاضة شوارد,,شراب,ابن الهيثم,محلول إعاضة شوارد,syrup,بيانات مكتملة
+37,Aqua Lyte fruits,محلول إعاضة شوارد,,شراب,ابن الهيثم,محلول إعاضة شوارد,syrup,بيانات مكتملة
+38,Aqua Lyte orange,محلول إعاضة شوارد,,شراب,ابن الهيثم,محلول إعاضة شوارد,syrup,بيانات مكتملة
+39,Aqua Lyte strewberry,محلول إعاضة شوارد,,شراب,ابن الهيثم,محلول إعاضة شوارد,syrup,بيانات مكتملة
+40,Argenor 1000,arginine,100mg,كبسولة,ابن الهيثم,arginine 100mg / c-tab,cap,بيانات مكتملة
+41,Argenor 500,arginine,500mg,كبسولة,ابن الهيثم,arginine 500mg / cap,cap,بيانات مكتملة
+42,Arginine 1000,arginine,1000mg,شراب,ابن الهيثم,arginine 1000mg / 5ml,syrup,بيانات مكتملة
+43,Arginine Fort 5000,arginine 5000mg / oral-vial,,oral-vial,ابن الهيثم,arginine 5000mg / oral-vial,oral-vial,بيانات مكتملة
+44,Artrofen 160,ketoprofen Lysine,160mg,تحاميل,ابن الهيثم,ketoprofen Lysine 160mg / supp,supp,بيانات مكتملة
+45,Artrofen 320,ketoprofen Lysine,320mg,SR-tab,ابن الهيثم,ketoprofen Lysine 320mg / cap,SR-tab,بيانات مكتملة
+46,Artrofen 5%,ketoprofen Lysine,5%,جل,ابن الهيثم,ketoprofen Lysine 5%,gel,بيانات مكتملة
+47,Artrofen 80,ketoprofen Lysine,160mg,غرغرة,ابن الهيثم,ketoprofen Lysine 160mg / 5ml,gargle,بيانات مكتملة
+48,Atorvastatin 10,atorvastatin,10mg,قرص مغلف,ابن الهيثم,atorvastatin 10mg / c-tab,coated-tab,بيانات مكتملة
+49,Atorvastatin 20,atorvastatin,20mg,قرص مغلف,ابن الهيثم,atorvastatin 20mg / c-tab,coated-tab,بيانات مكتملة
+50,Atorvastatin 40,atorvastatin,40mg,قرص مغلف,ابن الهيثم,atorvastatin 40mg / c-tab,coated-tab,بيانات مكتملة
+51,Atorvastatin 80,atorvastatin,80mg,قرص مغلف,ابن الهيثم,atorvastatin 80mg / c-tab,coated-tab,بيانات مكتملة
+52,Azaflutic 137/50,azelastine + fluticasone 0.050mg / puff,0.137mg + ,بخاخ أنفي,ابن الهيثم,azelastine 0.137mg+fluticasone 0.050mg / puff,nasal-spray,بيانات مكتملة
+53,Azelastine 0.1%,azelastine,0.1%,بخاخ أنفي,ابن الهيثم,azelastine 0.1%,nasal-spray,بيانات مكتملة
+54,Azithromycin 200,azithromycin,200mg,معلق,ابن الهيثم,azithromycin 200mg / 5ml,susp,بيانات مكتملة
+55,Azithromycin 250,azithromycin,250mg,قرص مغلف,ابن الهيثم,azithromycin 250mg / c-tab,coated-tab,بيانات مكتملة
+56,Azithromycin 500,azithromycin,500mg,قرص مغلف,ابن الهيثم,azithromycin 500mg / c-tab,coated-tab,بيانات مكتملة
+57,Azithromycin 600,azithromycin,600mg,قرص مغلف,ابن الهيثم,azithromycin 600mg / c-tab,coated-tab,بيانات مكتملة
+58,Azmixinal,bromhexine + guaifenesin + menthol + terbutaline,4mg + 50mg + 2.5mg + 1.25mg,شراب,ابن الهيثم,bromhexine 4mg+guaifenesin 50mg+menthol 2.5mg+terbutaline 1.25mg / 5ml,syrup,بيانات مكتملة
+59,Baby Forte,L-taurine + manganese + vit B6 + ascorbic Acid + vit E + zinc,100mg + 1.5mg + 1.5mg + 45mg + 7.5mg + 5mg,oral-vial,ابن الهيثم,L-taurine 100mg+manganese 1.5mg+vit B6 1.5mg+ascorbic Acid 45mg+vit E 7.5mg+zinc 5mg / vial,oral-vial,بيانات مكتملة
+60,Bactosin 2%,mupirocin,2%,مرهم,ابن الهيثم,mupirocin 2%,oint,بيانات مكتملة
+61,Beclorecta 3,beclomethasone Dipropionate,3mg,تحاميل,ابن الهيثم,beclomethasone Dipropionate 3mg / supp,supp,بيانات مكتملة
+62,Bedranol 10,propranolol,10mg,قرص,ابن الهيثم,propranolol 10mg / tab,tab,بيانات مكتملة
+63,Bedranol 20,propranolol,20mg,قرص,ابن الهيثم,propranolol 20mg / tab,tab,بيانات مكتملة
+64,Bedranol 40,propranolol,40mg,قرص,ابن الهيثم,propranolol 40mg / tab,tab,بيانات مكتملة
+65,Be Smart,aceglutamide + DL-phosphoserine + L-aspargine + vit B6,60mg + 60mg + 60mg + 25mg,oral-vial,ابن الهيثم,aceglutamide 60mg+DL-phosphoserine 60mg+L-aspargine 60mg+vit B6 25mg / vial,oral-vial,بيانات مكتملة
+66,Beta Active 10,nebivolol,10mg,قرص,ابن الهيثم,nebivolol 10mg / tab,tab,بيانات مكتملة
+67,Beta Active 2.5,nebivolol,2.5mg,قرص,ابن الهيثم,nebivolol 2.5mg / tab,tab,بيانات مكتملة
+68,Beta Active 20,nebivolol,20mg,قرص,ابن الهيثم,nebivolol 20mg / tab,tab,بيانات مكتملة
+69,Beta Active 5,nebivolol,5mg,قرص,ابن الهيثم,nebivolol 5mg / tab,tab,بيانات مكتملة
+70,Beta Active H.C.T. 5/12.5,H.C.T.Z. ( Hydro Chlor Thia Zide ) + nebivolol,12.5mg + 5mg,قرص مغلف,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+nebivolol 5mg / tab,coated-tab,بيانات مكتملة
+71,Beta Active H.C.T. 5/25,H.C.T.Z. ( Hydro Chlor Thia Zide ) + nebivolol,25mg + 5mg,قرص مغلف,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg+nebivolol 5mg / tab,coated-tab,بيانات مكتملة
+72,Bigatran 110,dabigatran,110mg,كبسولة,ابن الهيثم,dabigatran 110mg / cap,cap,بيانات مكتملة
+73,Bigatran 150,dabigatran,150mg,كبسولة,ابن الهيثم,dabigatran 150mg / cap,cap,بيانات مكتملة
+74,Bigatran 75,dabigatran,75mg,كبسولة,ابن الهيثم,dabigatran 75mg / cap,cap,بيانات مكتملة
+75,Bisoprol 10,bisoprolol,10mg,قرص مغلف,ابن الهيثم,bisoprolol 10mg / c-tab,coated-tab,بيانات مكتملة
+76,Bisoprol 2.5,bisoprolol,2.5mg,قرص مغلف,ابن الهيثم,bisoprolol 2.5mg / c-tab,coated-tab,بيانات مكتملة
+77,Bisoprol 5,bisoprolol,5mg,c-tab pl-bottle,ابن الهيثم,bisoprolol 5mg / c-tab,c-tab pl-bottle,بيانات مكتملة
+78,Bisoprol H.C.T. 10/6.25,bisoprolol + H.C.T.Z. ( Hydro Chlor Thia Zide ),10mg + 6.25mg,قرص مغلف,ابن الهيثم,bisoprolol 10mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 6.25mg / tab,coated-tab,بيانات مكتملة
+79,Bisoprol H.C.T. 2.5/6.25,bisoprolol + H.C.T.Z. ( Hydro Chlor Thia Zide ),2.5mg + 6.25mg,قرص مغلف,ابن الهيثم,bisoprolol 2.5mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 6.25mg / tab,coated-tab,بيانات مكتملة
+80,Bisoprol H.C.T. 5/6.25,bisoprolol + H.C.T.Z. ( Hydro Chlor Thia Zide ),5mg + 6.25mg,قرص مغلف,ابن الهيثم,bisoprolol 5mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 6.25mg / tab,coated-tab,بيانات مكتملة
+81,Bona Vit 340,strontium Ranelate,340mg,كبسولة,ابن الهيثم,strontium Ranelate 340mg / cap,cap,بيانات مكتملة
+82,Bradicore 5,ivabradine,5mg,قرص مغلف,ابن الهيثم,ivabradine 5mg / c-tab,coated-tab,بيانات مكتملة
+83,Bradicore 7.5,ivabradine,7.5mg,قرص مغلف,ابن الهيثم,ivabradine 7.5mg / c-tab,coated-tab,بيانات مكتملة
+84,Brodimexin,ammonium Hydrochloride + bromhexine + dextromethorphan + pseudoephedrine,50mg + 4mg + 5mg + 30mg,شراب,ابن الهيثم,ammonium Hydrochloride 50mg+bromhexine 4mg+dextromethorphan 5mg+pseudoephedrine 30mg / 5ml,syrup,بيانات مكتملة
+85,Brodimexin-Old,ammonium Hydrochloride + bromhexine + dextromethorphan + menthol + pseudoephedrine,50mg + 4mg + 5mg + 2.5mg + 30mg,شراب,ابن الهيثم,ammonium Hydrochloride 50mg+bromhexine 4mg+dextromethorphan 5mg+menthol 2.5mg+pseudoephedrine 30mg / 5ml,syrup,بيانات مكتملة
+86,Broncholysine,carbo Cisteine,450mg,شراب,ابن الهيثم,carbo Cisteine 450mg / 5ml,syrup,بيانات مكتملة
+87,Brophenil,dimetindene + phenylephrine 2.5mg / gr,0.250mg + ,nasal-gel,ابن الهيثم,dimetindene 0.250mg+phenylephrine 2.5mg / gr,nasal-gel,بيانات مكتملة
+88,Budelar 200,budesonide 0.2mg / inh-cap,,cap for inhal,ابن الهيثم,budesonide 0.2mg / inh-cap,cap for inhal,بيانات مكتملة
+89,Budelar 400,budesonide 0.4mg / inh-cap,,cap for inhal,ابن الهيثم,budesonide 0.4mg / inh-cap,cap for inhal,بيانات مكتملة
+90,Budevent 12/400,budesonide + formoterol 0.012mg / inh-cap,0.4mg + ,cap for inhal,ابن الهيثم,budesonide 0.4mg+formoterol 0.012mg / inh-cap,cap for inhal,بيانات مكتملة
+91,Budevent 6/200,budesonide + formoterol 0.006mg / inh-cap,0.2mg + ,cap for inhal,ابن الهيثم,budesonide 0.2mg+formoterol 0.006mg / inh-cap,cap for inhal,بيانات مكتملة
+92,Butaxin 5,butamirate 5mg / ml,,قطرات فموية,ابن الهيثم,butamirate 5mg / ml,oral-drops,بيانات مكتملة
+93,Butaxin 7.5,butamirate,7.5mg,شراب,ابن الهيثم,butamirate 7.5mg / 5ml,syrup,بيانات مكتملة
+94,Cadulip 5/10,amlodipine + atorvastatin,5mg + 10mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+atorvastatin 10mg / c-tab,coated-tab,بيانات مكتملة
+95,Cadulip 5/20,amlodipine + atorvastatin,5mg + 20mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+atorvastatin 20mg / c-tab,coated-tab,بيانات مكتملة
+96,Cadulip 5/40,amlodipine + atorvastatin,5mg + 40mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+atorvastatin 40mg / c-tab,coated-tab,بيانات مكتملة
+97,Cafin 55,caffeine 55mg / gum,,gum,ابن الهيثم,caffeine 55mg / gum,gum,بيانات مكتملة
+98,Cafin Plus,caffeine + taurine 25mg / gum,100mg + ,gum,ابن الهيثم,caffeine 100mg+taurine 25mg / gum,gum,بيانات مكتملة
+99,Candesartan 16,candesartan,16mg,قرص,ابن الهيثم,candesartan 16mg / tab,tab,بيانات مكتملة
+100,Candesartan 32,candesartan,32mg,قرص,ابن الهيثم,candesartan 32mg / tab,tab,بيانات مكتملة
+101,Candesartan 4,candesartan,4mg,قرص,ابن الهيثم,candesartan 4mg / tab,tab,بيانات مكتملة
+102,Candesartan 8,candesartan,8mg,قرص,ابن الهيثم,candesartan 8mg / tab,tab,بيانات مكتملة
+103,Cardio Valsartan 24/26,sacubitril + valsartan,24.3mg + 25.7mg,قرص مغلف,ابن الهيثم,sacubitril 24.3mg+valsartan 25.7mg / c-tab,coated-tab,بيانات مكتملة
+104,Cardio Valsartan 49/51,sacubitril + valsartan,48.6mg + 51.4mg,قرص مغلف,ابن الهيثم,sacubitril 48.6mg+valsartan 51.4mg / c-tab,coated-tab,بيانات مكتملة
+105,Cardio Valsartan 97/103,sacubitril + valsartan,97.2mg + 102.8mg,قرص مغلف,ابن الهيثم,sacubitril 97.2mg+valsartan 102.8mg / c-tab,coated-tab,بيانات مكتملة
+106,Catabrez 150,indacaterol 150mg / inh-cap,,inh-cap,ابن الهيثم,indacaterol 150mg / inh-cap,inh-cap,بيانات مكتملة
+107,Catabrez 300,indacaterol 300mg / inh-cap,,inh-cap,ابن الهيثم,indacaterol 300mg / inh-cap,inh-cap,بيانات مكتملة
+108,Cavid MZ,calcium Carbonate + magnesium Hydroxide + vit D + Zincsulfate,400mg + 150mg + 0.005mg + 5mg,قرص مغلف,ابن الهيثم,calcium Carbonate 400mg+magnesium Hydroxide 150mg+vit D 0.005mg+Zincsulfate 5mg / c-tab,coated-tab,بيانات مكتملة
+109,Cetagrip,diphenhydramine + paracetamol + phenylephrine,12.5mg + 325mg + 5mg,قرص مغلف,ابن الهيثم,diphenhydramine 12.5mg+paracetamol 325mg+phenylephrine 5mg / c-tab,coated-tab,بيانات مكتملة
+110,Cetagrip Day&Night,chlorpheniramine + dextromethorphan + paracetamol + phenylephrine,2mg + 15mg + 500mg + 5mg,قرص,ابن الهيثم,chlorpheniramine 2mg+dextromethorphan 15mg+paracetamol 500mg+phenylephrine 5mg / tab,tab,بيانات مكتملة
+111,Chitostat,cellulose Fibers + chitosan + ascorbic Acid, + 500mg + 30mg,قرص مغلف,ابن الهيثم,cellulose Fibers+chitosan 500mg+ascorbic Acid 30mg / c-tab,coated-tab,بيانات مكتملة
+112,Ciprofloxacin 250,ciprofloxacin,250mg,قرص مغلف,ابن الهيثم,ciprofloxacin 250mg / c-tab,coated-tab,بيانات مكتملة
+113,Ciprofloxacin 500,ciprofloxacin,500mg,قرص مغلف,ابن الهيثم,ciprofloxacin 500mg / c-tab,coated-tab,بيانات مكتملة
+114,Ciprofloxacin 750,ciprofloxacin,750mg,قرص مغلف,ابن الهيثم,ciprofloxacin 750mg / c-tab,coated-tab,بيانات مكتملة
+115,Clarithromycin 125,clarithromycin,125mg,dry-syrup,ابن الهيثم,clarithromycin 125mg / 5ml,dry-syrup,بيانات مكتملة
+116,Clarithromycin 250,clarithromycin,250mg,dry-syrup,ابن الهيثم,clarithromycin 250mg / 5ml,dry-syrup,بيانات مكتملة
+117,Clarithromycin MR 500,clarithromycin,500mg,MR-tab,ابن الهيثم,clarithromycin 500mg / c-tab,MR-tab,بيانات مكتملة
+118,Clonazepam 0.5,clonazepam,0.5mg,قرص مغلف,ابن الهيثم,clonazepam 0.5mg / tab,coated-tab,بيانات مكتملة
+119,Clonazepam 1,clonazepam,1mg,قرص مغلف,ابن الهيثم,clonazepam 1mg / tab,coated-tab,بيانات مكتملة
+120,Clonazepam 2,clonazepam,2mg,قرص مغلف,ابن الهيثم,clonazepam 2mg / tab,coated-tab,بيانات مكتملة
+121,Clonazepam 2.5,clonazepam 2.5mg / ml,,قطرات فموية,ابن الهيثم,clonazepam 2.5mg / ml,oral-drops,بيانات مكتملة
+122,Collagen 1000,collagen Hydrolyzed + ascorbic Acid,1000mg + 10mg,قرص مغلف,ابن الهيثم,collagen Hydrolyzed 1000mg+ascorbic Acid 10mg / c-tab,coated-tab,بيانات مكتملة
+123,Coxibet 120,etoricoxib,120mg,قرص مغلف,ابن الهيثم,etoricoxib 120mg / c-tab,coated-tab,بيانات مكتملة
+124,Coxibet 30,etoricoxib,30mg,قرص مغلف,ابن الهيثم,etoricoxib 30mg / c-tab,coated-tab,بيانات مكتملة
+125,Coxibet 60,etoricoxib,60mg,قرص مغلف,ابن الهيثم,etoricoxib 60mg / c-tab,coated-tab,بيانات مكتملة
+126,Coxibet 90,etoricoxib,90mg,قرص مغلف,ابن الهيثم,etoricoxib 90mg / c-tab,coated-tab,بيانات مكتملة
+127,Dapoxetine 30,dapoxetine,30mg,قرص مغلف,ابن الهيثم,dapoxetine 30mg / c-tab,coated-tab,بيانات مكتملة
+128,Dapoxetine 60,dapoxetine,60mg,قرص مغلف,ابن الهيثم,dapoxetine 60mg / c-tab,coated-tab,بيانات مكتملة
+129,Decalerto 10,rivaroxaban,10mg,قرص مغلف,ابن الهيثم,rivaroxaban 10mg / c-tab,coated-tab,بيانات مكتملة
+130,Decalerto 15,rivaroxaban,15mg,قرص مغلف,ابن الهيثم,rivaroxaban 15mg / c-tab,coated-tab,بيانات مكتملة
+131,Decalerto 2.5,rivaroxaban,2.5mg,قرص مغلف,ابن الهيثم,rivaroxaban 2.5mg / c-tab,coated-tab,بيانات مكتملة
+132,Decalerto 20,rivaroxaban,20mg,قرص مغلف,ابن الهيثم,rivaroxaban 20mg / c-tab,coated-tab,بيانات مكتملة
+133,Decaletro 20,rivaroxaban,20mg,قرص مغلف,ابن الهيثم,rivaroxaban 20mg / c-tab,coated-tab,بيانات مكتملة
+134,Dentalin 0.5%,amylocaine,0.5%,oral-gel,ابن الهيثم,amylocaine 0.5%,oral-gel,بيانات مكتملة
+135,Depretin 20,paroxetine,20mg,قرص,ابن الهيثم,paroxetine 20mg / tab,tab,بيانات مكتملة
+136,Depretin 30,paroxetine,30mg,قرص مغلف,ابن الهيثم,paroxetine 30mg / tab,coated-tab,بيانات مكتملة
+137,Depretin 40,paroxetine,40mg,قرص مغلف,ابن الهيثم,paroxetine 40mg / tab,coated-tab,بيانات مكتملة
+138,Dexlans 30,dexlansoprazole 30mg / DR-cap,,DR-cap,ابن الهيثم,dexlansoprazole 30mg / DR-cap,DR-cap,بيانات مكتملة
+139,Dexlans 60,dexlansoprazole 60mg / DR-cap,,DR-cap,ابن الهيثم,dexlansoprazole 60mg / DR-cap,DR-cap,بيانات مكتملة
+140,Diabeset 120,nateglinide,120mg,قرص مغلف,ابن الهيثم,nateglinide 120mg / c-tab,coated-tab,بيانات مكتملة
+141,Diabeset 60,nateglinide,60mg,قرص مغلف,ابن الهيثم,nateglinide 60mg / c-tab,coated-tab,بيانات مكتملة
+142,Digestive Aid,cellulase + dimethicone + methexene + pepsine + ,20mg + 20mg + 1mg + 150mg + ,قرص مغلف,ابن الهيثم,cellulase 20mg+dimethicone 20mg+methexene 1mg+pepsine 150mg+ / c-tab,coated-tab,بيانات مكتملة
+143,Diopiravin 75/100,acetyl Salicylic Acid + clopidogrel,100mg + 75mg,قرص مغلف,ابن الهيثم,acetyl Salicylic Acid 100mg+clopidogrel 75mg / c-tab,coated-tab,بيانات مكتملة
+144,Diopiravin 75/75,acetyl Salicylic Acid + clopidogrel,75mg + 75mg,قرص مغلف,ابن الهيثم,acetyl Salicylic Acid 75mg+clopidogrel 75mg / c-tab,coated-tab,بيانات مكتملة
+145,Diosminal V,diosmin + hesperidin,450mg + 50mg,قرص مغلف,ابن الهيثم,diosmin 450mg+hesperidin 50mg / c-tab,coated-tab,بيانات مكتملة
+146,Dopactive 25/100,carbidopa + levodopa,25mg + 100mg,قرص,ابن الهيثم,carbidopa 25mg+levodopa 100mg / tab,tab,بيانات مكتملة
+147,Dopactive 25/250,carbidopa + levodopa,25mg + 250mg,قرص,ابن الهيثم,carbidopa 25mg+levodopa 250mg / tab,tab,بيانات مكتملة
+148,Duoderm,adapalene + benzoyl Peroxide,0.1% + 2.5%,جل,ابن الهيثم,adapalene 0.1%+benzoyl Peroxide 2.5%,gel,بيانات مكتملة
+149,Duoderm Forte,adapalene + benzoyl Peroxide,0.3% + 2.5%,جل,ابن الهيثم,adapalene 0.3%+benzoyl Peroxide 2.5%,gel,بيانات مكتملة
+150,Elixus 2.5,apixaban,2.5mg,كبسولة,ابن الهيثم,apixaban 2.5mg / cap,cap,بيانات مكتملة
+151,Elixus 5,apixaban,5mg,كبسولة,ابن الهيثم,apixaban 5mg / cap,cap,بيانات مكتملة
+152,Empa Pure 10,empagliflozin,10mg,قرص مغلف,ابن الهيثم,empagliflozin 10mg / c-tab,coated-tab,بيانات مكتملة
+153,Empa Pure 25,empagliflozin,25mg,قرص مغلف,ابن الهيثم,empagliflozin 25mg / c-tab,coated-tab,بيانات مكتملة
+154,Enalapril 10,enalapril,10mg,قرص,ابن الهيثم,enalapril 10mg / tab,tab,بيانات مكتملة
+155,Enalapril 20,enalapril,20mg,قرص,ابن الهيثم,enalapril 20mg / tab,tab,بيانات مكتملة
+156,Enalapril HCT 10/25,enalapril + H.C.T.Z. ( Hydro Chlor Thia Zide ),10mg + 25mg,قرص,ابن الهيثم,enalapril 10mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg / tab,tab,بيانات مكتملة
+157,Enalapril HCT 20/12.5,enalapril + H.C.T.Z. ( Hydro Chlor Thia Zide ),20mg + 12.5mg,قرص,ابن الهيثم,enalapril 20mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg / tab,tab,بيانات مكتملة
+158,Energetic,essential Elements + multivitamins, + ,قرص مغلف,ابن الهيثم,essential Elements+multivitamins / c-tab,coated-tab,بيانات مكتملة
+159,Extra Time,lidocaine + prilocaine,2.5% + 2.5%,جل,ابن الهيثم,lidocaine 2.5%+prilocaine 2.5%,gel,بيانات مكتملة
+160,Fast Action,pseudoephedrine + triprolidine,60mg + 2.5mg,قرص,ابن الهيثم,pseudoephedrine 60mg+triprolidine 2.5mg / tab,tab,بيانات مكتملة
+161,Fenogesic 600,ibuprofen 600mg / sachet,,ظرف,ابن الهيثم,ibuprofen 600mg / sachet,sachet,بيانات مكتملة
+162,Fenogesic Plus,ibuprofen + paracetamol,400mg + 500mg,قرص مغلف,ابن الهيثم,ibuprofen 400mg+paracetamol 500mg / c-tab,coated-tab,بيانات مكتملة
+163,Fexofenadine 120,fexofenadine,120mg,قرص,ابن الهيثم,fexofenadine 120mg / tab,tab,بيانات مكتملة
+164,Fexofenadine 180,fexofenadine,180mg,قرص,ابن الهيثم,fexofenadine 180mg / tab,tab,بيانات مكتملة
+165,Fexofenadine 30,fexofenadine,30mg,معلق,ابن الهيثم,fexofenadine 30mg / 5ml,susp,بيانات مكتملة
+166,Fexofenadine 60,fexofenadine,60mg,كبسولة,ابن الهيثم,fexofenadine 60mg / tab,cap,بيانات مكتملة
+167,Fexofenadine D12,fexofenadine + pseudoephedrine,60mg + 120mg,قرص مغلف,ابن الهيثم,fexofenadine 60mg+pseudoephedrine 120mg / c-tab,coated-tab,بيانات مكتملة
+168,Fexofenadine D24,fexofenadine + pseudoephedrine,180mg + 240mg,SR-tab,ابن الهيثم,fexofenadine 180mg+pseudoephedrine 240mg / c-tab,SR-tab,بيانات مكتملة
+169,Flonacort 0.05,fluticasone 0.050mg / puff,,dose nasal-spray,ابن الهيثم,fluticasone 0.050mg / puff,dose nasal-spray,بيانات مكتملة
+170,Floxalive 500,levofloxacin,500mg,قرص مغلف,ابن الهيثم,levofloxacin 500mg / c-tab,coated-tab,بيانات مكتملة
+171,Floxalive 750,levofloxacin,750mg,قرص مغلف,ابن الهيثم,levofloxacin 750mg / c-tab,coated-tab,بيانات مكتملة
+172,Flucare,loratadine + phenylephrine,2.5mg + 10mg,قرص,ابن الهيثم,loratadine 2.5mg+phenylephrine 10mg / tab,tab,بيانات مكتملة
+173,Fluva 20,fluvastatin,20mg,كبسولة,ابن الهيثم,fluvastatin 20mg / cap,cap,بيانات مكتملة
+174,Fluva 40,fluvastatin,40mg,كبسولة,ابن الهيثم,fluvastatin 40mg / cap,cap,بيانات مكتملة
+175,Fluva 80,fluvastatin 80mg / SR-tab,,SR-tab,ابن الهيثم,fluvastatin 80mg / SR-tab,SR-tab,بيانات مكتملة
+176,Folevit,folic Acid + thiamine + vit B12 + vit PP 12mg / oral-vial,3mg + 6mg + 0.006mg + ,oral-vial,ابن الهيثم,folic Acid 3mg+thiamine 6mg+vit B12 0.006mg+vit PP 12mg / oral-vial,oral-vial,بيانات مكتملة
+177,Folin B12,folic Acid + niacin + vit B12 0.1mg / oral-vial,1.4mg + 20mg + ,oral-vial,ابن الهيثم,folic Acid 1.4mg+niacin 20mg+vit B12 0.1mg / oral-vial,oral-vial,بيانات مكتملة
+178,Forderm,betamethasone + clioquinol + gentamicin + tolnaftate,0.05% + 1% + 0.1% + 1%,كريم,ابن الهيثم,betamethasone 0.05%+clioquinol 1%+gentamicin 0.1%+tolnaftate 1%,cream,بيانات مكتملة
+179,Formovent 0.012,formoterol 0.012mg / inh-cap,,كبسولة,ابن الهيثم,formoterol 0.012mg / inh-cap,cap,بيانات مكتملة
+180,Fosfomycin 2000,fosfomycin 2000mg / sachet,,ظرف,ابن الهيثم,fosfomycin 2000mg / sachet,sachet,بيانات مكتملة
+181,Fosfomycin 3000,fosfomycin 3000mg / sachet,,ظرف,ابن الهيثم,fosfomycin 3000mg / sachet,sachet,بيانات مكتملة
+182,Gain Grow 2%,minoxidil,2%,بخاخ,ابن الهيثم,minoxidil 2%,spray,بيانات مكتملة
+183,Gain Grow 5%,minoxidil,5%,بخاخ,ابن الهيثم,minoxidil 5%,spray,بيانات مكتملة
+184,Gensen Power,ginseng,,قرص مغلف,ابن الهيثم,ginseng,coated-tab,بيانات مكتملة
+185,Glubalance 1000,metformin,1000mg,قرص مغلف,ابن الهيثم,metformin 1000mg / c-tab,coated-tab,بيانات مكتملة
+186,Glubalance 500,metformin,500mg,قرص مغلف,ابن الهيثم,metformin 500mg / c-tab,coated-tab,بيانات مكتملة
+187,Glubalance XR 1000,metformin 1000mg / XR-tab,,XR-tab,ابن الهيثم,metformin 1000mg / XR-tab,XR-tab,بيانات مكتملة
+188,Glubalance XR 500,metformin 500mg / XR-tab,,XR-tab,ابن الهيثم,metformin 500mg / XR-tab,XR-tab,بيانات مكتملة
+189,Glubalance XR 750,metformin 750mg / XR-tab,,XR-tab,ابن الهيثم,metformin 750mg / XR-tab,XR-tab,بيانات مكتملة
+190,Gluco Fer,sod.Ferric Gluconate,300mg,قرص مغلف,ابن الهيثم,sod.Ferric Gluconate 300mg / tab,coated-tab,بيانات مكتملة
+191,Gluco Fer Baby,sod.Ferric Gluconate,126mg,oral-vial,ابن الهيثم,sod.Ferric Gluconate 126mg / vial,oral-vial,بيانات مكتملة
+192,Glucos Amine Collagen,collagen + glucos Amine, + ,كبسولة,ابن الهيثم,collagen +glucos Amine/ c-tab,cap,بيانات مكتملة
+193,Glucos Amine Forte,glucos Amine 1000mg / caplet,,قرص كبسولي,ابن الهيثم,glucos Amine 1000mg / caplet,caplet,بيانات مكتملة
+194,Glucos Amine Gold,chondroitin + copper + folic Acid + ginger Root + glucosamine + manganese + rose Hip + selenium,50mg + 0.5mg + 0.2mg + 40mg + 500mg + 2mg + 50mg + 0.06mg,قرص كبسولي,ابن الهيثم,chondroitin 50mg+copper 0.5mg+folic Acid 0.2mg+ginger Root 40mg+glucosamine 500mg+manganese 2mg+rose Hip 50mg+selenium 0.06mg,caplet,بيانات مكتملة
+195,Glucos Amine Platinium,bromelain + chondroitin + copper + folic Acid + ginger + glucosamine + hyaloronic Acid + manganese 2,100mg + 50mg + 0.5mg + 0.2mg + 40mg + 500mg + 50mg + ,قرص كبسولي,ابن الهيثم,bromelain 100mg+chondroitin 50mg+copper 0.5mg+folic Acid 0.2mg+ginger 40mg+glucosamine 500mg+hyaloronic Acid 50mg+manganese 2,caplet,بيانات مكتملة
+196,Glucos Amine Plus,chondroitin + glucos Amine,400mg + 500mg,قرص مغلف,ابن الهيثم,chondroitin 400mg+glucos Amine 500mg / c-tab,coated-tab,بيانات مكتملة
+197,m m,,,,,,,التركيب غير موجود في APK
+198,Glucos Amine T.S,chondroitin + glucos Amine + Methyl Sulfonyl Methane,200mg + 500mg + 300mg,قرص مغلف,ابن الهيثم,chondroitin 200mg+glucos Amine 500mg+Methyl Sulfonyl Methane 300mg / c-tab,coated-tab,بيانات مكتملة
+199,Glucos Amine USP 500,glucos Amine,500mg,قرص مغلف,ابن الهيثم,glucos Amine 500mg / c-tab,coated-tab,بيانات مكتملة
+200,Glycempa 10/5,empagliflozin + linagliptin,10mg + 5mg,قرص مغلف,ابن الهيثم,empagliflozin 10mg+linagliptin 5mg / c-tab,coated-tab,بيانات مكتملة
+201,Glycempa 25/5,empagliflozin + linagliptin,25mg + 5mg,قرص مغلف,ابن الهيثم,empagliflozin 25mg+linagliptin 5mg / c-tab,coated-tab,بيانات مكتملة
+202,Grand Vita,minerals + multivitamin, + ,شراب,ابن الهيثم,minerals+multivitamin,syrup,بيانات مكتملة
+203,Green Tea Gum,chromium + green Tea Leavs Extract 17.8mg / gum,21mg + ,gum,ابن الهيثم,chromium 21mg+green Tea Leavs Extract 17.8mg / gum,gum,بيانات مكتملة
+204,Guafex,bromhexine + chlorpheniramine + guaifenesin 50mg / dispers-tab,4mg + 2mg + ,dispersable-tab,ابن الهيثم,bromhexine 4mg+chlorpheniramine 2mg+guaifenesin 50mg / dispers-tab,dispersable-tab,بيانات مكتملة
+205,Harmostar 20,duloxetine 20mg / caplet,,قرص كبسولي,ابن الهيثم,duloxetine 20mg / caplet,caplet,بيانات مكتملة
+206,Harmostar 30,duloxetine 30mg / caplet,,قرص كبسولي,ابن الهيثم,duloxetine 30mg / caplet,caplet,بيانات مكتملة
+207,Harmostar 40,duloxetine 40mg / caplet,,قرص كبسولي,ابن الهيثم,duloxetine 40mg / caplet,caplet,بيانات مكتملة
+208,Harmostar 60,duloxetine 60mg / caplet,,قرص كبسولي,ابن الهيثم,duloxetine 60mg / caplet,caplet,بيانات مكتملة
+209,Hazi Cavid,calcium Carbonate + vit D3,625mg + 0.01mg,قرص,ابن الهيثم,calcium Carbonate 625mg+vit D3 0.01mg / tab,tab,بيانات مكتملة
+210,Hazi Cavid Forte,calcium Carbonate + vit D3 0.022mg / sachet,2500mg + ,ظرف,ابن الهيثم,calcium Carbonate 2500mg+vit D3 0.022mg / sachet,sachet,بيانات مكتملة
+211,Hazi Paradol,caffeine + paracetamol + propyphenazone,50mg + 250mg + 150mg,قرص,ابن الهيثم,caffeine 50mg+paracetamol 250mg+propyphenazone 150mg / tab,tab,بيانات مكتملة
+212,Healthy Pregna,multi Vitamins for pregnant womens,,قرص,ابن الهيثم,multi Vitamins for pregnant womens,tab,بيانات مكتملة
+213,Hepaveron 200,ribavirin,200mg,كبسولة,ابن الهيثم,ribavirin 200mg / cap,cap,بيانات مكتملة
+214,High C,ascorbic Acid,500mg,كبسولة,ابن الهيثم,ascorbic Acid 500mg / cap,cap,بيانات مكتملة
+215,High CZinc,ascorbic Acid + zinc,400mg + 50mg,كبسولة,ابن الهيثم,ascorbic Acid 400mg+zinc 50mg / cap,cap,بيانات مكتملة
+216,High D 10000,"vit D3 ( cholecalciferol ) 10,000i.u. / oral-vial",,قطرات فموية,ابن الهيثم,"vit D3 ( cholecalciferol ) 10,000i.u. / oral-vial",oral-drops,بيانات مكتملة
+217,High D 25000,"vit D3 ( cholecalciferol ) 25,000i.u. / oral-vial",,oral-vial,ابن الهيثم,"vit D3 ( cholecalciferol ) 25,000i.u. / oral-vial",oral-vial,بيانات مكتملة
+218,High D 50000,"vit D3 ( cholecalciferol ) 50,000i.u. / oral-vial",,oral-vial,ابن الهيثم,"vit D3 ( cholecalciferol ) 50,000i.u. / oral-vial",oral-vial,بيانات مكتملة
+219,High Zinc 50,zinc,50mg,كبسولة,ابن الهيثم,zinc 50mg / cap,cap,بيانات مكتملة
+220,Hypozide 150 /12.5,H.C.T.Z. ( Hydro Chlor Thia Zide ) + irbesartan,12.5mg + 150mg,قرص,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+irbesartan 150mg / tab,tab,بيانات مكتملة
+221,Hypozide 300 /12.5,H.C.T.Z. ( Hydro Chlor Thia Zide ) + irbesartan,12.5mg + 300mg,قرص,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+irbesartan 300mg / tab,tab,بيانات مكتملة
+222,Indapamide 1.5,indapamide,1.5mg,SR-coated-tab,ابن الهيثم,indapamide 1.5mg / c-tab,SR-coated-tab,بيانات مكتملة
+223,Indomigraine,caffeine + indomethacin + prochlorperazine,75mg + 25mg + 4mg,تحاميل,ابن الهيثم,caffeine 75mg+indomethacin 25mg+prochlorperazine 4mg / supp,supp,بيانات مكتملة
+224,Indomigraine Forte,caffeine + indomethacin + prochlorperazine,150mg + 50mg + 8mg,تحاميل,ابن الهيثم,caffeine 150mg+indomethacin 50mg+prochlorperazine 8mg / supp,supp,بيانات مكتملة
+225,Iron Folic Zinc,iron + folic Acid + zinc 61.8mg / SR-cap,47mg + 0.5mg + ,SR-cap,ابن الهيثم,iron 47mg+folic Acid 0.5mg+zinc 61.8mg / SR-cap,SR-cap,بيانات مكتملة
+226,Isosorbide Mono 10,isosorbide Mononitrate,10mg,قرص,ابن الهيثم,isosorbide Mononitrate 10mg / tab,tab,بيانات مكتملة
+227,Isosorbide Mono 20,isosorbide Mononitrate,20mg,قرص,ابن الهيثم,isosorbide Mononitrate 20mg / tab,tab,بيانات مكتملة
+228,Isosorbide Mono 40,isosorbide Mono Nitrate,40mg,كبسولة,ابن الهيثم,isosorbide Mono Nitrate 40mg / cap,cap,بيانات مكتملة
+229,Isosorbide Mono 60,isosorbide Mononitrate,60mg,كبسولة,ابن الهيثم,isosorbide Mononitrate 60mg / cap,cap,بيانات مكتملة
+230,Isotritine 0.05%,isotretinoin,0.05%,جل,ابن الهيثم,isotretinoin 0.05%,gel,بيانات مكتملة
+231,Lactisyr,vaginal solution with lactic Acid base,,vag-solu,ابن الهيثم,vaginal solution with lactic Acid base / 5ml,vag-solu,بيانات مكتملة
+232,Lactisyr AV,vaginal solution with lactic Acid base,,vag-solu,ابن الهيثم,vaginal solution with lactic Acid base / 5ml,vag-solu,بيانات مكتملة
+233,Lactisyr New,vaginal solution with lactic Acid base,,vag-solu+pump,ابن الهيثم,vaginal solution with lactic Acid base / 5ml,vag-solu+pump,بيانات مكتملة
+234,Lactulose 3330,lactulose,3330mg,شراب,ابن الهيثم,lactulose 3330mg / 5ml,syrup,بيانات مكتملة
+235,Lamic 100,lamotrigine,100mg,قرص,ابن الهيثم,lamotrigine 100mg / tab,tab,بيانات مكتملة
+236,Lamic 200,lamotrigine,200mg,قرص,ابن الهيثم,lamotrigine 200mg / tab,tab,بيانات مكتملة
+237,Lamic 25,lamotrigine,25mg,قرص,ابن الهيثم,lamotrigine 25mg / tab,tab,بيانات مكتملة
+238,Lamic 5,lamotrigine 5mg / chew-tab,,قرص للمضغ,ابن الهيثم,lamotrigine 5mg / chew-tab,chew-tab,بيانات مكتملة
+239,Laxopride 1,prucalopride,1mg,قرص مغلف,ابن الهيثم,prucalopride 1mg / c-tab,coated-tab,بيانات مكتملة
+240,Laxopride 2,prucalopride,2mg,قرص مغلف,ابن الهيثم,prucalopride 2mg / c-tab,coated-tab,بيانات مكتملة
+241,Levo Histamine 2.5,levocetirizine,2.5mg,معلق,ابن الهيثم,levocetirizine 2.5mg / 5ml,susp,بيانات مكتملة
+242,Levo Histamine 5,levocetirizine,5mg,قرص مغلف,ابن الهيثم,levocetirizine 5mg / c-tab,coated-tab,بيانات مكتملة
+243,Levramax 1000,levetiracetam,1000mg,قرص مغلف,ابن الهيثم,levetiracetam 1000mg / c-tab,coated-tab,بيانات مكتملة
+244,Levramax 250,levetiracetam,250mg,قرص مغلف,ابن الهيثم,levetiracetam 250mg / c-tab,coated-tab,بيانات مكتملة
+245,Levramax 500,levetiracetam,500mg,قرص مغلف,ابن الهيثم,levetiracetam 500mg / c-tab,coated-tab,بيانات مكتملة
+246,Levramax 750,levetiracetam,750mg,قرص مغلف,ابن الهيثم,levetiracetam 750mg / c-tab,coated-tab,بيانات مكتملة
+247,Lidocaine 3%,lidocaine,3%,مرهم,ابن الهيثم,lidocaine 3%,oint,بيانات مكتملة
+248,Linta,,,كريم,ابن الهيثم,,cream,التركيب غير موجود في APK
+249,Loprinol 100,allopurinol,100mg,قرص مغلف,ابن الهيثم,allopurinol 100mg / c-tab,coated-tab,بيانات مكتملة
+250,Loprinol 300,allopurinol,300mg,قرص مغلف,ابن الهيثم,allopurinol 300mg / c-tab,coated-tab,بيانات مكتملة
+251,Loricstat 120,febuxostat,120mg,قرص مغلف,ابن الهيثم,febuxostat 120mg / c-tab,coated-tab,بيانات مكتملة
+252,Loricstat 40,febuxostat,40mg,قرص مغلف,ابن الهيثم,febuxostat 40mg / c-tab,coated-tab,بيانات مكتملة
+253,Loricstat 80,febuxostat,80mg,قرص مغلف,ابن الهيثم,febuxostat 80mg / c-tab,coated-tab,بيانات مكتملة
+254,Lornomax 4,lornoxicam,4mg,قرص مغلف,ابن الهيثم,lornoxicam 4mg / c-tab,coated-tab,بيانات مكتملة
+255,Lornomax 8,lornoxicam,8mg,قرص مغلف,ابن الهيثم,lornoxicam 8mg / c-tab,coated-tab,بيانات مكتملة
+256,LSulpiride 25,levo Sulpiride,25mg,قرص,ابن الهيثم,levo Sulpiride 25mg / tab,tab,بيانات مكتملة
+257,Lunail 5%,luliconazole,5%,nail-dropser,ابن الهيثم,luliconazole 5%,nail-dropser,بيانات مكتملة
+258,Mefenamic 50,mefenamic Acid,50mg,معلق,ابن الهيثم,mefenamic Acid 50mg / 5ml,susp,بيانات مكتملة
+259,Metacin 60,acemetacin,60mg,كبسولة,ابن الهيثم,acemetacin 60mg / cap,cap,بيانات مكتملة
+260,Metrospirazol,metronidazole + spiramycin,250mg + 1500000i.u.,قرص مغلف,ابن الهيثم,metronidazole 250mg+spiramycin 1500000i.u. / c-tab,coated-tab,بيانات مكتملة
+261,Metrovagyl,metronidazole + miconazole 150mg / ovule,500mg + ,بويضة مهبلية,ابن الهيثم,metronidazole 500mg+miconazole 150mg / ovule,ovule,بيانات مكتملة
+262,Metroxazide,metronidazole + nifuroxazide,600mg + 200mg,كبسولة,ابن الهيثم,metronidazole 600mg+nifuroxazide 200mg/ 5ml,cap,بيانات مكتملة
+263,MG 130,magnesium Pidolate 1500mg / oral-vial,,oral-vial,ابن الهيثم,magnesium Pidolate 1500mg / oral-vial,oral-vial,بيانات مكتملة
+264,MG 2250,magnesium Pidolate 2250mg / sachet,,ظرف,ابن الهيثم,magnesium Pidolate 2250mg / sachet,sachet,بيانات مكتملة
+265,Micostop 0.2%,tioconazole,0.2%,vag-solu,ابن الهيثم,tioconazole 0.2%,vag-solu,بيانات مكتملة
+266,Micostop 1%,tioconazole,1%,كريم,ابن الهيثم,tioconazole 1%,cream,بيانات مكتملة
+267,Micostop 100,tioconazole 100mg / vag-ovule,,vag-ovule,ابن الهيثم,tioconazole 100mg / vag-ovule,vag-ovule,بيانات مكتملة
+268,Micostop 2%,tioconazole,2%,vag-cream,ابن الهيثم,tioconazole 2%,vag-cream,بيانات مكتملة
+269,Micostop 28%,tioconazole,28%,nail-solu,ابن الهيثم,tioconazole 28%,nail-solu,بيانات مكتملة
+270,Micostop 300,tioconazole 300mg / vag-ovule,,vag-ovule,ابن الهيثم,tioconazole 300mg / vag-ovule,vag-ovule,بيانات مكتملة
+271,Microfibrate 200,fenofibrate Micronised,200mg,كبسولة,ابن الهيثم,fenofibrate Micronised 200mg / cap,cap,بيانات مكتملة
+272,Microfibrate 67,fenofibrate Micronised,67mg,كبسولة,ابن الهيثم,fenofibrate Micronised 67mg / cap,cap,بيانات مكتملة
+273,Mignil 100,miglitol,100mg,قرص مغلف,ابن الهيثم,miglitol 100mg / c-tab,coated-tab,بيانات مكتملة
+274,Mignil 25,miglitol,25mg,قرص مغلف,ابن الهيثم,miglitol 25mg / c-tab,coated-tab,بيانات مكتملة
+275,Mignil 50,miglitol,50mg,قرص مغلف,ابن الهيثم,miglitol 50mg / c-tab,coated-tab,بيانات مكتملة
+276,Migragesic 12.5,almotriptan,12.5mg,قرص مغلف,ابن الهيثم,almotriptan 12.5mg / c-tab,coated-tab,بيانات مكتملة
+277,Mini Vita,essential Elements + multivitamins / chew-tab, + ,قرص للمضغ,ابن الهيثم,essential Elements+multivitamins / chew-tab,chew-tab,بيانات مكتملة
+278,Minocycline 100,minocycline,100mg,قرص,ابن الهيثم,minocycline 100mg / tab,tab,بيانات مكتملة
+279,Mirtapine 15,mirtazapine,15mg,قرص مغلف,ابن الهيثم,mirtazapine 15mg / c-tab,coated-tab,بيانات مكتملة
+280,Mirtapine 30,mirtazapine,30mg,قرص مغلف,ابن الهيثم,mirtazapine 30mg / c-tab,coated-tab,بيانات مكتملة
+281,Monalev,levocetrizine + montelukast 10mg / bi-tab,5mg + ,bi-tab,ابن الهيثم,levocetrizine 5mg+montelukast 10mg / bi-tab,bi-tab,بيانات مكتملة
+282,Morvit,pizotifen + thiamine + vit B2 + vit B3 + vit B6,0.250mg + 0.7mg + 1.14mg + 5mg + 0.7mg,شراب,ابن الهيثم,pizotifen 0.250mg+thiamine 0.7mg+vit B2 1.14mg+vit B3 5mg+vit B6 0.7mg / 5ml,syrup,بيانات مكتملة
+283,Movix Hot,diclofenac Diethyl Ammonium + menthol + methyl Salisylate,1.16% + 5% + 10%,جل,ابن الهيثم,diclofenac Diethyl Ammonium 1.16%+menthol 5%+methyl Salisylate 10%,gel,بيانات مكتملة
+284,Moxicin 400,moxifloxacin,400mg,قرص,ابن الهيثم,moxifloxacin 400mg / tab,tab,بيانات مكتملة
+285,Naftine 1%,naftifine,1%,كريم,ابن الهيثم,naftifine 1%,cream,بيانات مكتملة
+286,Naftine 10,naftifine 10mg / ml,,محلول,ابن الهيثم,naftifine 10mg / ml,solu,بيانات مكتملة
+287,Newdex,dexamethasone + neomycin,0.1% + 0.35%,كريم,ابن الهيثم,dexamethasone 0.1%+neomycin 0.35%,cream,بيانات مكتملة
+288,Newspaslar 40,otilonium,40mg,قرص,ابن الهيثم,otilonium 40mg / tab,tab,بيانات مكتملة
+289,Nexigast 10,esomeprazole 10mg / sachet,,ظرف,ابن الهيثم,esomeprazole 10mg / sachet,sachet,بيانات مكتملة
+290,Nexigast 20,esomeprazole 20mg / DR-cap,,DR-cap,ابن الهيثم,esomeprazole 20mg / DR-cap,DR-cap,بيانات مكتملة
+291,Nexigast 40,esomeprazole 40mg / DR-cap,,DR-cap,ابن الهيثم,esomeprazole 40mg / DR-cap,DR-cap,بيانات مكتملة
+292,Nimesulide 100,nimesulide,100mg,قرص,ابن الهيثم,nimesulide 100mg / tab,tab,بيانات مكتملة
+293,Nimesulide 200,nimesulide,200mg,تحاميل,ابن الهيثم,nimesulide 200mg / supp,supp,بيانات مكتملة
+294,Nimesulide 3%,nimesulide,3%,جل,ابن الهيثم,nimesulide 3%,gel,بيانات مكتملة
+295,Nimesulide 50,nimesulide,50mg,معلق,ابن الهيثم,nimesulide 50mg / 5ml,susp,بيانات مكتملة
+296,Omecarbonate 20,omeprazole + sodium Bi Carbonate,20mg + 1100mg,كبسولة,ابن الهيثم,omeprazole 20mg+sodium Bi Carbonate 1100mg / cap,cap,بيانات مكتملة
+297,Ome Carbonate 40,omeprazole + sod.Bi Carbonate,40mg + 1100mg,كبسولة,ابن الهيثم,omeprazole 40mg+sod.Bi Carbonate 1100mg / cap,cap,بيانات مكتملة
+298,Opicadril 100,racecadotril,100mg,كبسولة,ابن الهيثم,racecadotril 100mg / cap,cap,بيانات مكتملة
+299,Oralog paste 1%,triam Cinolone,0.1%,oral-paste,ابن الهيثم,triam Cinolone 0.1%,oral-paste,بيانات مكتملة
+300,Orlistat 120,orlistat,120mg,كبسولة,ابن الهيثم,orlistat 120mg / cap,cap,بيانات مكتملة
+301,Orphacet,orphenadrine + paracetamol,35mg + 450mg,قرص,ابن الهيثم,orphenadrine 35mg+paracetamol 450mg / tab,tab,بيانات مكتملة
+302,Ortazym,chymotrypsin + trypsin ), + 100000i.u.,قرص مغلف,ابن الهيثم,chymotrypsin+trypsin ) 100000i.u. / c-tab,coated-tab,بيانات مكتملة
+303,Otobiotic,neomycin + polymyxin 10000i.u. / ml,3400i.u. + ,قطرة أذنية,ابن الهيثم,neomycin 3400i.u.+polymyxin 10000i.u. / ml,ear-drops,بيانات مكتملة
+304,Otocain,phenazone + procaine 29mg / ml,25mg + ,قطرة أذنية,ابن الهيثم,phenazone 25mg+procaine 29mg / ml,ear-drops,بيانات مكتملة
+305,Oxydol 2.5/325,oxycodone + paracetamol,2.5mg + 325mg,قرص,ابن الهيثم,oxycodone 2.5mg+paracetamol 325mg / tab,tab,بيانات مكتملة
+306,Oxydol 5/325,oxycodone + paracetamol,5mg + 325mg,قرص,ابن الهيثم,oxycodone 5mg+paracetamol 325mg / tab,tab,بيانات مكتملة
+307,Oxydol Plus 5/325,oxycodone + paracetamol,5mg + 325mg,شراب,ابن الهيثم,oxycodone 5mg+paracetamol 325mg / 5ml,syrup,بيانات مكتملة
+308,Oxydol Plus 7.5/500,oxycodone + paracetamol,7.5mg + 500mg,كبسولة,ابن الهيثم,oxycodone 7.5mg+paracetamol 500mg / cap,cap,بيانات مكتملة
+309,Ozocure 10%,sun Oil ozonized,10%,كريم,ابن الهيثم,sun Oil ozonized 10%,cream,بيانات مكتملة
+310,Panthobic 5%,dexpanthenol,5%,مرهم,ابن الهيثم,dexpanthenol 5%,oint,بيانات مكتملة
+311,Polybiotic,bacitracin + neomycin + polymyxin 5000i.u. / gr,500i.u. + 5mg + ,مرهم,ابن الهيثم,bacitracin 500i.u.+neomycin 5mg+polymyxin 5000i.u. / gr,oint,بيانات مكتملة
+312,Portolac 3333,lactitol,3333mg,شراب,ابن الهيثم,lactitol 3333mg / 5ml,syrup,بيانات مكتملة
+313,Prassuclear 10,prasugrel,10mg,قرص مغلف,ابن الهيثم,prasugrel 10mg / c-tab,coated-tab,بيانات مكتملة
+314,Prassuclear 5,prasugrel,5mg,قرص مغلف,ابن الهيثم,prasugrel 5mg / c-tab,coated-tab,بيانات مكتملة
+315,Profigrip,ibuprofen + pseudoephedrine,200mg + 30mg,قرص مغلف,ابن الهيثم,ibuprofen 200mg+pseudoephedrine 30mg / c-tab,coated-tab,بيانات مكتملة
+316,Profigrip Extra,ibuprofen + pseudoephedrine,400mg + 60mg,قرص مغلف,ابن الهيثم,ibuprofen 400mg+pseudoephedrine 60mg / c-tab,coated-tab,بيانات مكتملة
+317,Profigrip Plus,chlorpheniramine + ibuprofen + phenylephrine,4mg + 200mg + 10mg,قرص مغلف,ابن الهيثم,chlorpheniramine 4mg+ibuprofen 200mg+phenylephrine 10mg / c-tab,coated-tab,بيانات مكتملة
+318,Proqitara 100,pregabalin,100mg,كبسولة,ابن الهيثم,pregabalin 100mg / cap,cap,بيانات مكتملة
+319,Proqitara 150,pregabalin,150mg,كبسولة,ابن الهيثم,pregabalin 150mg / cap,cap,بيانات مكتملة
+320,Proqitara 200,pregabalin,200mg,كبسولة,ابن الهيثم,pregabalin 200mg / cap,cap,بيانات مكتملة
+321,Proqitara 225,pregabalin,225mg,كبسولة,ابن الهيثم,pregabalin 225mg / cap,cap,بيانات مكتملة
+322,Proqitara 25,pregabalin,25mg,كبسولة,ابن الهيثم,pregabalin 25mg / cap,cap,بيانات مكتملة
+323,Proqitara 300,pregabalin,300mg,كبسولة,ابن الهيثم,pregabalin 300mg / cap,cap,بيانات مكتملة
+324,Proqitara 50,pregabalin,50mg,كبسولة,ابن الهيثم,pregabalin 50mg / cap,cap,بيانات مكتملة
+325,Proqitara 75,pregabalin,75mg,كبسولة,ابن الهيثم,pregabalin 75mg / cap,cap,بيانات مكتملة
+326,Proqitara Plus,alpha Lipoic Acid + mecobalamin + pregabalin,150mg + 0.750mg + 75mg,كبسولة,ابن الهيثم,alpha Lipoic Acid 150mg+mecobalamin 0.750mg+pregabalin 75mg / cap,cap,بيانات مكتملة
+327,Protex 300,alpha Lipoic Acid,300mg,كبسولة,ابن الهيثم,alpha Lipoic Acid 300mg / cap,cap,بيانات مكتملة
+328,Psoraclean 0.005%,calcipotriol,0.005%,مرهم,ابن الهيثم,calcipotriol 0.005%,oint,بيانات مكتملة
+329,Psoraclean Plus,betamethasone + calcipotriol,0.05% + 0.005%,مرهم,ابن الهيثم,betamethasone 0.05%+calcipotriol 0.005%,oint,بيانات مكتملة
+330,Psorafix 10,acitretin,10mg,كبسولة,ابن الهيثم,acitretin 10mg / cap,cap,بيانات مكتملة
+331,Psorafix 25,acitretin,25mg,كبسولة,ابن الهيثم,acitretin 25mg / cap,cap,بيانات مكتملة
+332,Ramipril 1.25,ramipril,1.25mg,قرص,ابن الهيثم,ramipril 1.25mg / tab,tab,بيانات مكتملة
+333,Ramipril 10,ramipril,10mg,قرص,ابن الهيثم,ramipril 10mg / tab,tab,بيانات مكتملة
+334,Ramipril 2.5,ramipril,2.5mg,قرص,ابن الهيثم,ramipril 2.5mg / tab,tab,بيانات مكتملة
+335,Ramipril 5,ramipril,5mg,قرص,ابن الهيثم,ramipril 5mg / tab,tab,بيانات مكتملة
+336,Ramipril H.C.T. 10/12.5,H.C.T.Z. ( Hydro Chlor Thia Zide ) + ramipril,12.5mg + 10mg,قرص,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+ramipril 10mg / tab,tab,بيانات مكتملة
+337,Ramipril H.C.T. 10/25,H.C.T.Z. ( Hydro Chlor Thia Zide ) + ramipril,25mg + 10mg,قرص,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg+ramipril 10mg / tab,tab,بيانات مكتملة
+338,Ramipril H.C.T. 2.5/12.5,H.C.T.Z. ( Hydro Chlor Thia Zide ) + ramipril,12.5mg + 2.5mg,قرص,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+ramipril 2.5mg / tab,tab,بيانات مكتملة
+339,Ramipril H.C.T. 5/12.5,H.C.T.Z. ( Hydro Chlor Thia Zide ) + ramipril,12.5mg + 5mg,قرص,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+ramipril 5mg / tab,tab,بيانات مكتملة
+340,Ramipril H.C.T. 5/25,H.C.T.Z. ( Hydro Chlor Thia Zide ) + ramipril,25mg + 5mg,قرص,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg+ramipril 5mg / tab,tab,بيانات مكتملة
+341,Repta Heal,hyaluronate Sodium,,مرهم,ابن الهيثم,hyaluronate Sodium,oint,بيانات مكتملة
+342,Revosyl 4,perindopril Erbomine,4mg,قرص,ابن الهيثم,perindopril Erbomine 4mg / tab,tab,بيانات مكتملة
+343,Revosyl 8,perindopril Erbomine,8mg,قرص,ابن الهيثم,perindopril Erbomine 8mg / tab,tab,بيانات مكتملة
+344,Revosyl Arginine 10,perindopril Arginine,10mg,قرص مغلف,ابن الهيثم,perindopril Arginine 10mg / c-tab,coated-tab,بيانات مكتملة
+345,Revosyl Arginine 2.5,perindopril Arginine,2.5mg,قرص مغلف,ابن الهيثم,perindopril Arginine 2.5mg / c-tab,coated-tab,بيانات مكتملة
+346,Revosyl Arginine 5,perindopril Arginine,5mg,قرص مغلف,ابن الهيثم,perindopril Arginine 5mg / c-tab,coated-tab,بيانات مكتملة
+347,Revosyl Arginine Extra 10/10,amlodipine + perindopril Arginine,10mg + 10mg,قرص,ابن الهيثم,amlodipine 10mg+perindopril Arginine 10mg / c-tab,tab,بيانات مكتملة
+348,Revosyl Arginine Extra 10/5,amlodipine + perindopril Arginine,10mg + 5mg,قرص,ابن الهيثم,amlodipine 10mg+perindopril Arginine 5mg / c-tab,tab,بيانات مكتملة
+349,Revosyl Arginine Extra 5/10,amlodipine + perindopril Arginine,5mg + 10mg,قرص,ابن الهيثم,amlodipine 5mg+perindopril Arginine 10mg / c-tab,tab,بيانات مكتملة
+350,Revosyl Arginine Extra 5/5,amlodipine + perindopril Arginine,5mg + 5mg,قرص,ابن الهيثم,amlodipine 5mg+perindopril Arginine 5mg / c-tab,tab,بيانات مكتملة
+351,Revosyl Arginine Max 10/1.25/5,amlodipine + indapamide + perindopril Arginine,5mg + 1.25mg + 10mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+indapamide 1.25mg+perindopril Arginine 10mg / c-tab,coated-tab,بيانات مكتملة
+352,Revosyl Arginine Max 10/2.5/10,amlodipine + indapamide + perindopril Arginine,10mg + 2.5mg + 10mg,قرص مغلف,ابن الهيثم,amlodipine 10mg+indapamide 2.5mg+perindopril Arginine 10mg / c-tab,coated-tab,بيانات مكتملة
+353,Revosyl Arginine Max 10/2.5/5,amlodipine + indapamide + perindopril Arginine,5mg + 2.5mg + 10mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+indapamide 2.5mg+perindopril Arginine 10mg / c-tab,coated-tab,بيانات مكتملة
+354,Revosyl Arginine Max 5/1.25/5,amlodipine + indapamide + perindopril Arginine,5mg + 1.25mg + 5mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+indapamide 1.25mg+perindopril Arginine 5mg / c-tab,coated-tab,بيانات مكتملة
+355,Revosyl Arginine Plus 0.625/2.5,indapamide + perindopril Arginine,0.625mg + 2.5mg,قرص مغلف,ابن الهيثم,indapamide 0.625mg+perindopril Arginine 2.5mg / c-tab,coated-tab,بيانات مكتملة
+356,Revosyl Arginine Plus 1.25/5,indapamide + perindopril Arginine,1.25mg + 5mg,قرص مغلف,ابن الهيثم,indapamide 1.25mg+perindopril Arginine 5mg / c-tab,coated-tab,بيانات مكتملة
+357,Revosyl Arginine Plus 2.5/10,indapamide + perindopril Arginine,2.5mg + 10mg,قرص مغلف,ابن الهيثم,indapamide 2.5mg+perindopril Arginine 10mg / c-tab,coated-tab,بيانات مكتملة
+358,Revosyl Extra 4/10,amlodipine + perindopril Erbomine,10mg + 4mg,قرص,ابن الهيثم,amlodipine 10mg+perindopril Erbomine 4mg / tab,tab,بيانات مكتملة
+359,Revosyl Extra 4/5,amlodipine + perindopril Erbomine,5mg + 4mg,قرص,ابن الهيثم,amlodipine 5mg+perindopril Erbomine 4mg / tab,tab,بيانات مكتملة
+360,Revosyl Extra 8/10,amlodipine + perindopril Erbomine,10mg + 8mg,قرص,ابن الهيثم,amlodipine 10mg+perindopril Erbomine 8mg / tab,tab,بيانات مكتملة
+361,Revosyl Extra 8/5,amlodipine + perindopril Erbomine,5mg + 8mg,قرص,ابن الهيثم,amlodipine 5mg+perindopril Erbomine 8mg / tab,tab,بيانات مكتملة
+362,Revosyl Plus 0.625/2,indapamide + perindopril Erbomine,0.625mg + 2mg,قرص,ابن الهيثم,indapamide 0.625mg+perindopril Erbomine 2mg / tab,tab,بيانات مكتملة
+363,Revosyl Plus 1.25/4,indapamide + perindopril Erbomine,1.25mg + 4mg,قرص,ابن الهيثم,indapamide 1.25mg+perindopril Erbomine 4mg / tab,tab,بيانات مكتملة
+364,Revosyl Plus 2.5/8,indapamide + perindopril Erbomine,2.5mg + 8mg,قرص,ابن الهيثم,indapamide 2.5mg+perindopril Erbomine 8mg / tab,tab,بيانات مكتملة
+365,Rinavy,sodium Chloride,0.9%,بخاخ أنفي,ابن الهيثم,sodium Chloride 0.9%,nasal-spray,بيانات مكتملة
+366,Rinavy Plus,dexpanthenol + sodium CHloride + sodium H0.2%,3% + 0.9% + ,بخاخ أنفي,ابن الهيثم,dexpanthenol 3%+sodium CHloride 0.9%+sodium H0.2%,nasal-spray,بيانات مكتملة
+367,Risedol 30,risedronate Sodium,30mg,قرص مغلف,ابن الهيثم,risedronate Sodium 30mg / c-tab,coated-tab,بيانات مكتملة
+368,Risedol 35,risedronate Sodium,35mg,قرص مغلف,ابن الهيثم,risedronate Sodium 35mg / c-tab,coated-tab,بيانات مكتملة
+369,Risedol 5,risedronate Sodium,5mg,قرص مغلف,ابن الهيثم,risedronate Sodium 5mg / c-tab,coated-tab,بيانات مكتملة
+370,Risedol 75,risedronate Sodium,70mg,قرص,ابن الهيثم,risedronate Sodium 70mg / c-tab,tab,بيانات مكتملة
+371,Rosacrest 10,rosuvastatin,10mg,قرص مغلف,ابن الهيثم,rosuvastatin 10mg / c-tab,coated-tab,بيانات مكتملة
+372,Rosacrest 20,rosuvastatin,20mg,قرص مغلف,ابن الهيثم,rosuvastatin 20mg / c-tab,coated-tab,بيانات مكتملة
+373,Rosacrest 40,rosuvastatin,40mg,قرص مغلف,ابن الهيثم,rosuvastatin 40mg / c-tab,coated-tab,بيانات مكتملة
+374,Rosacrest 5,rosuvastatin,5mg,قرص مغلف,ابن الهيثم,rosuvastatin 5mg / c-tab,coated-tab,بيانات مكتملة
+375,Scar Derm,allantoin + heparin + onion Extract 100mg / gr,10mg + 50i.u. + ,جل,ابن الهيثم,allantoin 10mg+heparin 50i.u.+onion Extract 100mg / gr,gel,بيانات مكتملة
+376,Seridase 5,serratiopeptidase,5mg,قرص مغلف,ابن الهيثم,serratiopeptidase 5mg / c-tab,coated-tab,بيانات مكتملة
+377,Seridase Fort,serratiopeptidase,10mg,قرص مغلف,ابن الهيثم,serratiopeptidase 10mg / c-tab,coated-tab,بيانات مكتملة
+378,Sildosin 4,silodosin,4mg,كبسولة,ابن الهيثم,silodosin 4mg / cap,cap,بيانات مكتملة
+379,Sildosin 8,silodosin,8mg,كبسولة,ابن الهيثم,silodosin 8mg / cap,cap,بيانات مكتملة
+380,Sitacretin 100,sitagliptin,100mg,قرص مغلف,ابن الهيثم,sitagliptin 100mg / c-tab,coated-tab,بيانات مكتملة
+381,Sitacretin 25,sitagliptin,25mg,قرص مغلف,ابن الهيثم,sitagliptin 25mg / c-tab,coated-tab,بيانات مكتملة
+382,Sitacretin 50,sitagliptin,50mg,قرص مغلف,ابن الهيثم,sitagliptin 50mg / c-tab,coated-tab,بيانات مكتملة
+383,Sitacretin Plus 1000/50,metformin + sitagliptin,1000mg + 50mg,قرص مغلف,ابن الهيثم,metformin 1000mg+sitagliptin 50mg / c-tab,coated-tab,بيانات مكتملة
+384,Sitacretin Plus 500/50,metformin + sitagliptin,500mg + 50mg,قرص مغلف,ابن الهيثم,metformin 500mg+sitagliptin 50mg / c-tab,coated-tab,بيانات مكتملة
+385,Sitacretin Plus 850/50,metformin + sitagliptin,850mg + 50mg,قرص مغلف,ابن الهيثم,metformin 850mg+sitagliptin 50mg / c-tab,coated-tab,بيانات مكتملة
+386,Sitacretin Plus XR 1000/100,metformin + sitagliptin,1000mg + 100mg,XR-tab,ابن الهيثم,metformin 1000mg+sitagliptin 100mg / c-tab,XR-tab,بيانات مكتملة
+387,Sitacretin Plus XR 1000/50,metformin + sitagliptin,1000mg + 100mg,XR-tab pl-bottle,ابن الهيثم,metformin 1000mg+sitagliptin 100mg / c-tab,XR-tab pl-bottle,بيانات مكتملة
+388,Sitacretin Plus XR 500/50,metformin + sitagliptin,1000mg + 100mg,XR-tab,ابن الهيثم,metformin 1000mg+sitagliptin 100mg / c-tab,XR-tab,بيانات مكتملة
+389,Spasticol 100,pinaverium,100mg,قرص مغلف,ابن الهيثم,pinaverium 100mg / c-tab,coated-tab,بيانات مكتملة
+390,Spasticol 50,pinaverium,50mg,قرص مغلف,ابن الهيثم,pinaverium 50mg / c-tab,coated-tab,بيانات مكتملة
+391,Sprivavent 0.0225,tiotropium 0.0225mg / inh-cap,,inh-cap,ابن الهيثم,tiotropium 0.0225mg / inh-cap,inh-cap,بيانات مكتملة
+392,Sucralfate 1,sucralfate,1000mg,شراب,ابن الهيثم,sucralfate 1000mg / 5ml,syrup,بيانات مكتملة
+393,Sukern,sucralose (E995) 250mg / ml - 1 drop =,0.02ml,قطرات فموية,ابن الهيثم,sucralose (E995) 250mg / ml - 1 drop = 0.02ml,oral-drops,بيانات مكتملة
+394,Synpass 1000/12.5,empagliflozin + metformin,12.5mg + 1000mg,قرص مغلف,ابن الهيثم,empagliflozin 12.5mg+metformin 1000mg / c-tab,coated-tab,بيانات مكتملة
+395,Synpass 1000/5,empagliflozin + metformin,5mg + 1000mg,قرص مغلف,ابن الهيثم,empagliflozin 5mg+metformin 1000mg / c-tab,coated-tab,بيانات مكتملة
+396,Synpass 500/12.5,empagliflozin + metformin,12.5mg + 500mg,قرص مغلف,ابن الهيثم,empagliflozin 12.5mg+metformin 500mg / c-tab,coated-tab,بيانات مكتملة
+397,Synpass 500/5,empagliflozin + metformin,5mg + 500mg,قرص مغلف,ابن الهيثم,empagliflozin 5mg+metformin 500mg / c-tab,coated-tab,بيانات مكتملة
+398,Synpass 850/12.5,empagliflozin + metformin,12.5mg + 850mg,قرص مغلف,ابن الهيثم,empagliflozin 12.5mg+metformin 850mg / c-tab,coated-tab,بيانات مكتملة
+399,Synpass 850/5,empagliflozin + metformin,5mg + 850mg,قرص مغلف,ابن الهيثم,empagliflozin 5mg+metformin 850mg / c-tab,coated-tab,بيانات مكتملة
+400,Tadafort 10,tadalafil,10mg,قرص مغلف,ابن الهيثم,tadalafil 10mg / c-tab,coated-tab,بيانات مكتملة
+401,Tadafort 2.5,tadalafil,2.5mg,قرص مغلف,ابن الهيثم,tadalafil 2.5mg / c-tab,coated-tab,بيانات مكتملة
+402,Tadafort 20,tadalafil,20mg,قرص مغلف,ابن الهيثم,tadalafil 20mg / c-tab,coated-tab,بيانات مكتملة
+403,Tadafort 5,tadalafil,5mg,قرص مغلف,ابن الهيثم,tadalafil 5mg / c-tab,coated-tab,بيانات مكتملة
+404,Tafirolflex,chlorzoxazone + paracetamol,250mg + 300mg,كبسولة,ابن الهيثم,chlorzoxazone 250mg+paracetamol 300mg / cap,cap,بيانات مكتملة
+405,Tamsulosin 0.4,tamsulosin,0.4mg,كبسولة,ابن الهيثم,tamsulosin 0.4mg / cap,cap,بيانات مكتملة
+406,Tanozepam 2.5,bromazepam 2.5mg / ml,,قطرات فموية,ابن الهيثم,bromazepam 2.5mg / ml,oral-drops,بيانات مكتملة
+407,Ticathromb 60,ticagrelor,60mg,قرص مغلف,ابن الهيثم,ticagrelor 60mg / c-tab,coated-tab,بيانات مكتملة
+408,Ticathromb 90,ticagrelor,90mg,قرص مغلف,ابن الهيثم,ticagrelor 90mg / c-tab,coated-tab,بيانات مكتملة
+409,Tri Pass Xr 10/5/1000,empagliflozin + linagliptin + metformin,10mg + 5mg + 1000mg,قرص مغلف,ابن الهيثم,empagliflozin 10mg+linagliptin 5mg+metformin 1000mg / c-tab,coated-tab,بيانات مكتملة
+410,Tri Pass Xr 12.5/2.5/1000,empagliflozin + linagliptin + metformin,12.5mg + 2.5mg + 1000mg,قرص مغلف,ابن الهيثم,empagliflozin 12.5mg+linagliptin 2.5mg+metformin 1000mg / c-tab,coated-tab,بيانات مكتملة
+411,Tri Pass Xr 12.5/25/1000,empagliflozin + linagliptin + metformin,12.5mg + 2.5mg + 1000mg,قرص مغلف,ابن الهيثم,empagliflozin 12.5mg+linagliptin 2.5mg+metformin 1000mg / c-tab,coated-tab,بيانات مكتملة
+412,Tri Pass Xr 25/5/1000,empagliflozin + linagliptin + metformin,25mg + 5mg + 1000mg,قرص مغلف,ابن الهيثم,empagliflozin 25mg+linagliptin 5mg+metformin 1000mg / c-tab,coated-tab,بيانات مكتملة
+413,Tri Pass Xr 5/2.5/1000,empagliflozin + linagliptin + metformin,5mg + 2.5mg + 1000mg,قرص مغلف,ابن الهيثم,empagliflozin 5mg+linagliptin 2.5mg+metformin 1000mg / c-tab,coated-tab,بيانات مكتملة
+414,Tri Pass Xr 5/25/1000,empagliflozin + linagliptin + metformin,5mg + 25mg + 1000mg,قرص مغلف,ابن الهيثم,empagliflozin 5mg+linagliptin 25mg+metformin 1000mg / c-tab,coated-tab,بيانات مكتملة
+415,Triptaxine 10/60,naproxen + sumatriptan,60mg + 10mg,قرص مغلف,ابن الهيثم,naproxen 60mg+sumatriptan 10mg / c-tab,coated-tab,بيانات مكتملة
+416,Triptaxine 85/500,naproxen + sumatriptan,500mg + 85mg,قرص مغلف,ابن الهيثم,naproxen 500mg+sumatriptan 85mg / c-tab,coated-tab,بيانات مكتملة
+417,Urispam 15,propiverine,15mg,قرص مغلف,ابن الهيثم,propiverine 15mg / c-tab,coated-tab,بيانات مكتملة
+418,Ursostone 250,urso De Oxy Cholic Acid,250mg,كبسولة,ابن الهيثم,urso De Oxy Cholic Acid 250mg / cap,cap,بيانات مكتملة
+419,Ursostone 300,urso De Oxy Cholic Acid,300mg,كبسولة,ابن الهيثم,urso De Oxy Cholic Acid 300mg / cap,cap,بيانات مكتملة
+420,Valnoom 5,diazepam 5mg / ml,,قطرات فموية,ابن الهيثم,diazepam 5mg / ml,oral-drops,بيانات مكتملة
+421,Valproate 1000,sod.Valproate,1000mg,معلق,ابن الهيثم,sod.Valproate 1000mg / 5ml,susp,بيانات مكتملة
+422,Valproate 200,sod.Valproate,200mg,قرص مغلف,ابن الهيثم,sod.Valproate 200mg / c-tab,coated-tab,بيانات مكتملة
+423,Valproate 500,sod.Valproate,500mg,قرص مغلف,ابن الهيثم,sod.Valproate 500mg / c-tab,coated-tab,بيانات مكتملة
+424,Valsartan 160,valsartan,160mg,كبسولة,ابن الهيثم,valsartan 160mg / c-tab,cap,بيانات مكتملة
+425,Valsartan 320,valsartan,320mg,قرص مغلف,ابن الهيثم,valsartan 320mg / c-tab,coated-tab,بيانات مكتملة
+426,Valsartan 40,valsartan,40mg,قرص مغلف,ابن الهيثم,valsartan 40mg / c-tab,coated-tab,بيانات مكتملة
+427,Valsartan 80,valsartan,80mg,كبسولة,ابن الهيثم,valsartan 80mg / cap,cap,بيانات مكتملة
+428,Valsartan Active 80/5,nebivolol + valsartan,5mg + 80mg,قرص مغلف,ابن الهيثم,nebivolol 5mg+valsartan 80mg / c-tab,coated-tab,بيانات مكتملة
+429,Valsartan Extra 10/160,amlodipine + valsartan,10mg + 160mg,قرص مغلف,ابن الهيثم,amlodipine 10mg+valsartan 160mg / c-tab,coated-tab,بيانات مكتملة
+430,Valsartan Extra 10/320,amlodipine + valsartan,10mg + 320mg,قرص مغلف,ابن الهيثم,amlodipine 10mg+valsartan 320mg / c-tab,coated-tab,بيانات مكتملة
+431,Valsartan Extra 5/160,amlodipine + valsartan,5mg + 160mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+valsartan 160mg / c-tab,coated-tab,بيانات مكتملة
+432,Valsartan Extra 5/320,amlodipine + valsartan,5mg + 320mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+valsartan 320mg / c-tab,coated-tab,بيانات مكتملة
+433,Valsartan Extra 5/80,amlodipine + valsartan,5mg + 80mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+valsartan 80mg / c-tab,coated-tab,بيانات مكتملة
+434,Valsartan H.C.T. 160/12.5,H.C.T.Z. ( Hydro Chlor Thia Zide ) + valsartan,12.5mg + 160mg,قرص مغلف,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+valsartan 160mg / c-tab,coated-tab,بيانات مكتملة
+435,Valsartan H.C.T. 160/25,H.C.T.Z. ( Hydro Chlor Thia Zide ) + valsartan,25mg + 160mg,قرص مغلف,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg+valsartan 160mg / c-tab,coated-tab,بيانات مكتملة
+436,Valsartan H.C.T. 80/12.5,H.C.T.Z. ( Hydro Chlor Thia Zide ) + valsartan,12.5mg + 80mg,قرص مغلف,ابن الهيثم,H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+valsartan 80mg / c-tab,coated-tab,بيانات مكتملة
+437,Valsartan Max 160/10/12.5,amlodipine + H.C.T.Z. ( Hydro Chlor Thia Zide ) + valsartan,10mg + 12.5mg + 160mg,قرص مغلف,ابن الهيثم,amlodipine 10mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+valsartan 160mg / c-tab,coated-tab,بيانات مكتملة
+438,Valsartan Max 160/10/25,amlodipine + H.C.T.Z. ( Hydro Chlor Thia Zide ) + valsartan,10mg + 25mg + 160mg,قرص مغلف,ابن الهيثم,amlodipine 10mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg+valsartan 160mg / c-tab,coated-tab,بيانات مكتملة
+439,Valsartan Max 160/5/12.5,amlodipine + H.C.T.Z. ( Hydro Chlor Thia Zide ) + valsartan,5mg + 12.5mg + 160mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 12.5mg+valsartan 160mg / c-tab,coated-tab,بيانات مكتملة
+440,Valsartan Max 160/5/25,amlodipine + H.C.T.Z. ( Hydro Chlor Thia Zide ) + valsartan,5mg + 25mg + 160mg,قرص مغلف,ابن الهيثم,amlodipine 5mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg+valsartan 160mg / c-tab,coated-tab,بيانات مكتملة
+441,Valsartan Max 320/10/25,amlodipine + H.C.T.Z. ( Hydro Chlor Thia Zide ) + valsartan,10mg + 25mg + 320mg,قرص مغلف,ابن الهيثم,amlodipine 10mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg+valsartan 320mg / c-tab,coated-tab,بيانات مكتملة
+442,Vanhir 11.5%,eflornithin,11.5%,كريم,ابن الهيثم,eflornithin 11.5%,cream,بيانات مكتملة
+443,Vitabiotin,calcium + vit B12 1mg) + (thiamine + vit B2 + vit PP 10mg) / oral-vial,0.5mg +  + 5mg + 6.1mg + ,oral-vial,ابن الهيثم,calcium 0.5mg+vit B12 1mg)+(thiamine 5mg+vit B2 6.1mg+ vit PP 10mg) / oral-vial,oral-vial,بيانات مكتملة
+444,Vitafolic,folic Acid + vit B12 0.250mg / oral-vial,1mg + ,oral-vial,ابن الهيثم,folic Acid 1mg+vit B12 0.250mg / oral-vial,oral-vial,بيانات مكتملة
+445,Vita Globin,copper + folic Acid + iron + vit B6 + vit B12 + zinc,2mg + 0.5mg + 24mg + 5mg + 0.01mg + 12mg,كبسولة,ابن الهيثم,copper 2mg+folic Acid 0.5mg+iron 24mg+vit B6 5mg+vit B12 0.01mg+zinc 12mg / cap,cap,بيانات مكتملة
+446,Vit Selen,selenium + vit A + vit B6 + ascorbic Acid + vit E + zinc,0.1mg + 1mg + 2.2mg + 90mg + 15mg + 15mg,قرص مغلف,ابن الهيثم,selenium 0.1mg+vit A 1mg+vit B6 2.2mg+ascorbic Acid 90mg+vit E 15mg+zinc 15mg / c-tab,coated-tab,بيانات مكتملة
+447,Voltastar K 50,diclofenac Potassium,50mg,قرص مغلف,ابن الهيثم,diclofenac Potassium 50mg / c-tab,coated-tab,بيانات مكتملة
+448,Waxonil 0.5%,sod.Ducosate,0.5%,قطرة أذنية,ابن الهيثم,sod.Ducosate 0.5%,ear-drops,بيانات مكتملة
+449,Xfung 100,fluconazole,100mg,كبسولة,ابن الهيثم,fluconazole 100mg / cap,cap,بيانات مكتملة
+450,Xfung 150,fluconazole,150mg,كبسولة,ابن الهيثم,fluconazole 150mg / cap,cap,بيانات مكتملة
+451,Xfung 200,fluconazole,200mg,كبسولة,ابن الهيثم,fluconazole 200mg / cap,cap,بيانات مكتملة
+452,Xfung 50,fluconazole,50mg,كبسولة,ابن الهيثم,fluconazole 50mg / cap,cap,بيانات مكتملة
+453,Xifarym 200,rifaximin,200mg,قرص مغلف,ابن الهيثم,rifaximin 200mg / c-tab,coated-tab,بيانات مكتملة
+454,Xifarym 550,rifaximin,500mg,قرص مغلف,ابن الهيثم,rifaximin 500mg / c-tab,coated-tab,بيانات مكتملة
+455,Zolidest 200,tedizolid,200mg,قرص مغلف,ابن الهيثم,tedizolid 200mg / c-tab,coated-tab,بيانات مكتملة
+456,Acnoyan,clindamycin + tretinoin,1.2% + 0.025%,جل,ابن حيان,clindamycin 1.2%+tretinoin 0.025%,gel,بيانات مكتملة
+457,Adermin 0.05%,tretinoin,0.05%,كريم,ابن حيان,tretinoin 0.05%,cream,بيانات مكتملة
+458,Adrenaline 1,adrenaline,1mg,أمبولة,ابن حيان,adrenaline 1mg / amp,amp,بيانات مكتملة
+459,Allergal 10,chlorpheniramine,10mg,أمبولة,ابن حيان,chlorpheniramine 10mg / amp,amp,بيانات مكتملة
+460,Alodopa 125,methyldopa,125mg,قرص مغلف,ابن حيان,methyldopa 125mg / c-tab,coated-tab,بيانات مكتملة
+461,Alodopa 250,methyldopa,250mg,قرص مغلف,ابن حيان,methyldopa 250mg / c-tab,coated-tab,بيانات مكتملة
+462,Alodopa 500,methyldopa,500mg,قرص,ابن حيان,methyldopa 500mg / tab,tab,بيانات مكتملة
+463,Amarax 1,glimepiride,1mg,قرص,ابن حيان,glimepiride 1mg / tab,tab,بيانات مكتملة
+464,Amarax 2,glimepiride,2mg,قرص,ابن حيان,glimepiride 2mg / tab,tab,بيانات مكتملة
+465,Amarax 4,glimepiride,4mg,قرص,ابن حيان,glimepiride 4mg / tab,tab,بيانات مكتملة
+466,Amikacin 100,amikacin,100mg,أمبولة,ابن حيان,amikacin 100mg / amp,amp,بيانات مكتملة
+467,Amikacin 500,amikacin,500mg,أمبولة,ابن حيان,amikacin 500mg / amp,amp,بيانات مكتملة
+468,Amoxam 250,amoxicillin + flucloxacillin,125mg + 125mg,dry-syrup,ابن حيان,amoxicillin 125mg+flucloxacillin 125mg / 5ml,dry-syrup,بيانات مكتملة
+469,Amoxam 500,amoxicillin + flucloxacillin,250mg + 250mg,كبسولة,ابن حيان,amoxicillin 250mg+flucloxacillin 250mg / cap,cap,بيانات مكتملة
+470,Astin 162,acetyl Salicylic Acid,160mg,كبسولة,ابن حيان,acetyl Salicylic Acid 160mg / cap,cap,بيانات مكتملة
+471,Astin 81,acetyl Salicylic Acid,81mg,كبسولة,ابن حيان,acetyl Salicylic Acid 81mg / tab,cap,بيانات مكتملة
+472,Atracurium 50,atracurium,50mg,أمبولة,ابن حيان,atracurium 50mg / amp,amp,بيانات مكتملة
+473,Atrombex 10,cisatracurium,4mg,أمبولة,ابن حيان,cisatracurium 4mg / amp,amp,بيانات مكتملة
+474,Atrombex 4,cisatracurium,4mg,أمبولة,ابن حيان,cisatracurium 4mg / amp,amp,بيانات مكتملة
+475,Atropine 1,atropine,1mg,أمبولة,ابن حيان,atropine 1mg / amp,amp,بيانات مكتملة
+476,Aviloxin 400,moxifloxacin,400mg,قرص مغلف,ابن حيان,moxifloxacin 400mg / c-tab,coated-tab,بيانات مكتملة
+477,Betacol,betamethasone + chloramphenicol 5mg / gr,2mg + ,eye-oint,ابن حيان,betamethasone 2mg+chloramphenicol 5mg / gr,eye-oint,بيانات مكتملة
+478,Betacort 4,betamethasone Dipropionate + betamethasone Sodium,10mg + 4mg,أمبولة,ابن حيان,betamethasone Dipropionate 10mg+betamethasone Sodium 4mg / amp,amp,بيانات مكتملة
+479,Biotin 5,vit H 5mg / ml,,أمبولة,ابن حيان,vit H 5mg / ml,amp,بيانات مكتملة
+480,Bisorat 10,bisoprolol,10mg,قرص مغلف,ابن حيان,bisoprolol 10mg / c-tab,coated-tab,بيانات مكتملة
+481,Bisorat 5,bisoprolol,5mg,قرص مغلف,ابن حيان,bisoprolol 5mg / c-tab,coated-tab,بيانات مكتملة
+482,Bromhexan 4,bromhexine,4mg,أمبولة,ابن حيان,bromhexine 4mg / amp,amp,بيانات مكتملة
+483,Captophen 25,captopril,25mg,قرص,ابن حيان,captopril 25mg / tab,tab,بيانات مكتملة
+484,Captophen 50,captopril,50mg,قرص,ابن حيان,captopril 50mg / tab,tab,بيانات مكتملة
+485,Capto Plus 25/15,captopril + H.C.T.Z. ( Hydro Chlor Thia Zide ),25mg + 15mg,قرص مغلف,ابن حيان,captopril 25mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 15mg / c-tab,coated-tab,بيانات مكتملة
+486,Capto Plus 25/25,captopril + H.C.T.Z. ( Hydro Chlor Thia Zide ),25mg + 25mg,قرص مغلف,ابن حيان,captopril 25mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg / c-tab,coated-tab,بيانات مكتملة
+487,Capto Plus 50/15,captopril + H.C.T.Z. ( Hydro Chlor Thia Zide ),50mg + 15mg,قرص,ابن حيان,captopril 50mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 15mg / tab,tab,بيانات مكتملة
+488,Capto Plus 50/25,captopril + H.C.T.Z. ( Hydro Chlor Thia Zide ),50mg + 25mg,قرص,ابن حيان,captopril 50mg+H.C.T.Z. ( Hydro Chlor Thia Zide ) 25mg / tab,tab,بيانات مكتملة
+489,Cefotaxime 1000,cefotaxime 1000mg / dry-vial,,فيال جاف,ابن حيان,cefotaxime 1000mg / dry-vial,dry-vial,بيانات مكتملة
+490,Cefotaxime 500,cefotaxime 500mg / dry-vial,,فيال جاف,ابن حيان,cefotaxime 500mg / dry-vial,dry-vial,بيانات مكتملة
+491,Cetirizine 10,cetirizine,10mg,قرص,ابن حيان,cetirizine 10mg / tab,tab,بيانات مكتملة
+492,Cetirizine 5,cetirizine,5mg,شراب,ابن حيان,cetirizine 5mg / 5ml,syrup,بيانات مكتملة
+493,Cinnarzine 25,cinnarizine,25mg,قرص,ابن حيان,cinnarizine 25mg / tab,tab,بيانات مكتملة
+494,Cinnarzine 75,cinnarizine,75mg,كبسولة,ابن حيان,cinnarizine 75mg / cap,cap,بيانات مكتملة
+495,Ciprofloxacin 200,ciprofloxacin,200mg,فيال,ابن حيان,ciprofloxacin 200mg / vial,vial,بيانات مكتملة
+496,Clotrimazole 1%,clotrimazole,1%,قطرة أذنية,ابن حيان,clotrimazole 1%,ear-drops,بيانات مكتملة
+497,Clotrimazole 100,clotrimazole 100mg / ovule,,بويضة مهبلية,ابن حيان,clotrimazole 100mg / ovule,ovule,بيانات مكتملة
+498,Clotrimazole 200,clotrimazole 200mg / ovule,,بويضة مهبلية,ابن حيان,clotrimazole 200mg / ovule,ovule,بيانات مكتملة
+499,Clotrimazole 500,clotrimazole 500mg / ovule,,بويضة مهبلية,ابن حيان,clotrimazole 500mg / ovule,ovule,بيانات مكتملة
+500,Cloxam 250,ampicillin + cloxacillin,125mg + 125mg,dry-syrup,ابن حيان,ampicillin 125mg+cloxacillin 125mg / 5ml,dry-syrup,بيانات مكتملة

@@ -1,0 +1,35 @@
+SYRIAN DRUGS CSV TEMPORARY CHUNKS
+========================================
+
+Source file: syrian_drugs_final_verified.csv
+Source SHA256: 99ecb8bc7c5a1e348ccf97cb80600f46063618fdd3d49294ca1c9a6f9d2accdb
+Chunk size: 500 data rows
+Number of chunks: 23
+
+part_001.csv | rows=500 | sha256=0c37bd2f96e568e6a3b4b6f06b678b90c40d9bd8c21145c54a87f678599c1bd5
+part_002.csv | rows=500 | sha256=e705e6a27eb1e98b549abe385da149b29054790db770a70ad6806e5ddbd82d2c
+part_003.csv | rows=500 | sha256=ccfb3837ee9260961064257f5b533d31aaf6523386c631e39bb2e41df2ba9464
+part_004.csv | rows=500 | sha256=c2389e946ca2703204af05621c1582833c1b5fce92e75bca9a1f07eaeeab5f26
+part_005.csv | rows=500 | sha256=5fd13545fc657189cccd2de4fd1a3ab96893e1ce966eb4acc1788886ad586474
+part_006.csv | rows=500 | sha256=c56c2de60a0edb22602a7f7661ada05971b199b9599a99fac5c13ce2f12ba8d8
+part_007.csv | rows=500 | sha256=21f56b21ff17aee65d4053c15dde757dfb661aab477097c763f61db72d8243a7
+part_008.csv | rows=500 | sha256=9a57354efb6e0cc8a2fb8a4300b52f89675b9f6dafe5da3d56a6b2ff804e53ec
+part_009.csv | rows=500 | sha256=4c79710b73e5e4a4e734ad5cd643f06b49eb66684fddc8b5fcd7a4e1ae1be8b7
+part_010.csv | rows=500 | sha256=d7e622358e53f8a7132d4a6c34c32ff88d33bfa17a864fb85463a7982f05f6b1
+part_011.csv | rows=500 | sha256=c8e412e907727cbea7c5e7e012bb508697a1205e46b8b8a8cc4f618a36025b57
+part_012.csv | rows=500 | sha256=116563906b89ca71307d78f6b1a666bba063e4d3f9e1323c77b8bbeea097f49f
+part_013.csv | rows=500 | sha256=ed6d6e1eaa1855869215b49a2915a971a3fe4becf675d30866b12b99ccf072ad
+part_014.csv | rows=500 | sha256=1971bebd427096381e45c9a40fc6eba57c2b8d53eec1531317a9b04c5149cebc
+part_015.csv | rows=500 | sha256=885c48b119718b5f877f792b1fcfee2216f3cd675d80873db78020f3546fb812
+part_016.csv | rows=500 | sha256=f5286e0c0842431e256f42a7f1d259a96fc62fc13bdadc8041f56d7436817e0b
+part_017.csv | rows=500 | sha256=b251d4227deba434fdaffef26ce454b8b2c0553dedb24b93f72ead27ab1504cd
+part_018.csv | rows=500 | sha256=10aac2b9ee124379340d6ce6d64d507df97e6fa158d82e4a500c1af420125d8b
+part_019.csv | rows=500 | sha256=291208987187e6d610c125229a188abaa2907c379045d6afa076dbe8e8a8f008
+part_020.csv | rows=500 | sha256=5145265dc13e46559493b417ce41f41a509dad811b7e8a0127ae024b3634dd85
+part_021.csv | rows=500 | sha256=d4cbf7ad08e753bbb03b191127c4ce77f1b988c7e88ad56da9989600bb4d4ea1
+part_022.csv | rows=500 | sha256=8c91b902a5539b3696fdcfb1c958634c8e7365370d2f9ea453b45e03d9d12d3c
+part_023.csv | rows=299 | sha256=7b404c7ea7f96891450d86c6b02a7d7947232a4c538776c685be13bc633aad5a
+
+Total data rows across chunks: 11299
+
+IMPORTANT: This directory is temporary and must be deleted after the medicine-database merge analysis is completed.
