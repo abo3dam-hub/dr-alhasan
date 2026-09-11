@@ -1,0 +1,690 @@
+name: Analyze Syrian Medicine Merge
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout analysis repository
+        uses: actions/checkout@v4
+
+      - name: Download XRDF source
+        run: |
+          mkdir -p temp/merge_analysis
+
+          curl -L --fail --retry 3 \
+            "https://raw.githubusercontent.com/abo3dam-hub/pharmacy-pos/main/owlapi.xrdf" \
+            -o temp/merge_analysis/owlapi.xrdf
+
+      - name: Run canonical merge analysis
+        env:
+          PYTHONUTF8: "1"
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import csv
+          import json
+          import re
+          import hashlib
+          import unicodedata
+          import xml.etree.ElementTree as ET
+          from collections import defaultdict
+
+          ROOT = Path("temp")
+          CHUNKS = ROOT / "syrian_drugs_chunks"
+          OUT = ROOT / "merge_analysis"
+          OUT.mkdir(parents=True, exist_ok=True)
+
+          XRDF = OUT / "owlapi.xrdf"
+
+          # ============================================================
+          # NORMALIZATION
+          # ============================================================
+
+          ARABIC_DIGITS = str.maketrans(
+              "٠١٢٣٤٥٦٧٨٩",
+              "0123456789"
+          )
+
+          UNIT_REPL = [
+              (r"\bmilligrams?\b", "mg"),
+              (r"\bmilligram\b", "mg"),
+              (r"\bgrams?\b", "g"),
+              (r"\bgram\b", "g"),
+              (r"\bmillilit(?:er|re)s?\b", "ml"),
+              (r"\bmicrograms?\b", "mcg"),
+              (r"\bi\.?\s*u\.?\b", "iu"),
+              (r"\bunits?\b", "iu"),
+          ]
+
+          def norm(value):
+              if value is None:
+                  return ""
+
+              s = str(value)
+              s = s.translate(ARABIC_DIGITS)
+              s = s.strip().lower()
+
+              s = unicodedata.normalize("NFKC", s)
+
+              s = (
+                  s.replace("µ", "u")
+                   .replace("μ", "u")
+              )
+
+              s = re.sub(
+                  r"[\u2010-\u2015]",
+                  "-",
+                  s
+              )
+
+              s = re.sub(
+                  r"[\u066A%]",
+                  "%",
+                  s
+              )
+
+              s = re.sub(
+                  r"[،؛]",
+                  ",",
+                  s
+              )
+
+              s = re.sub(
+                  r"\s+",
+                  " ",
+                  s
+              )
+
+              s = re.sub(
+                  r"\s*([+;/])\s*",
+                  r"\1",
+                  s
+              )
+
+              for pattern, replacement in UNIT_REPL:
+                  s = re.sub(
+                      pattern,
+                      replacement,
+                      s
+                  )
+
+              return s
+
+          def split_multi(value):
+              if not value:
+                  return []
+
+              parts = re.split(
+                  r"\s*(?:\+|,|;|؛)\s*",
+                  str(value)
+              )
+
+              return [
+                  p.strip()
+                  for p in parts
+                  if p.strip()
+              ]
+
+          def parse_pairs(ingredients, strengths):
+              ingredient_parts = split_multi(ingredients)
+              strength_parts = split_multi(strengths)
+
+              pairs = []
+
+              for index, ingredient in enumerate(ingredient_parts):
+                  strength = (
+                      strength_parts[index]
+                      if index < len(strength_parts)
+                      else ""
+                  )
+
+                  pairs.append(
+                      (
+                          norm(ingredient),
+                          norm(strength),
+                      )
+                  )
+
+              # Preserve unmatched strength information.
+              if len(strength_parts) > len(ingredient_parts):
+                  for strength in strength_parts[len(ingredient_parts):]:
+                      pairs.append(
+                          (
+                              "",
+                              norm(strength),
+                          )
+                      )
+
+              # Ingredient order must not affect identity.
+              return tuple(sorted(pairs))
+
+          def identity(
+              trade_name,
+              ingredients,
+              strengths,
+              dosage_form,
+              manufacturer
+          ):
+              return (
+                  norm(trade_name),
+                  parse_pairs(
+                      ingredients,
+                      strengths
+                  ),
+                  norm(dosage_form),
+                  norm(manufacturer),
+              )
+
+          def is_arabic(value):
+              if not value:
+                  return False
+
+              return bool(
+                  re.search(
+                      r"[\u0600-\u06FF]",
+                      str(value)
+                  )
+              )
+
+          def canonical_hash(identity_value):
+              return hashlib.sha256(
+                  repr(identity_value).encode("utf-8")
+              ).hexdigest()
+
+          # ============================================================
+          # READ SYRIAN DRUGS 2026
+          # ============================================================
+
+          chunk_files = sorted(
+              CHUNKS.glob("part_*.csv")
+          )
+
+          guide = []
+
+          for chunk in chunk_files:
+              with chunk.open(
+                  "r",
+                  encoding="utf-8-sig",
+                  newline=""
+              ) as handle:
+
+                  reader = csv.DictReader(handle)
+
+                  for row in reader:
+                      guide.append(row)
+
+          # ============================================================
+          # READ XRDF
+          # ============================================================
+
+          tree = ET.parse(XRDF)
+          root = tree.getroot()
+
+          def local_name(tag):
+              return tag.rsplit("}", 1)[-1]
+
+          drugs = []
+
+          for individual in root.iter():
+
+              if local_name(individual.tag) != "NamedIndividual":
+                  continue
+
+              classes = []
+              values = defaultdict(list)
+
+              for child in individual:
+
+                  property_name = local_name(child.tag)
+
+                  text = (
+                      child.text.strip()
+                      if child.text
+                      else ""
+                  )
+
+                  if property_name == "type":
+
+                      resource = child.attrib.get(
+                          "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource",
+                          ""
+                      )
+
+                      classes.append(
+                          resource.rsplit("#", 1)[-1]
+                                  .rsplit("/", 1)[-1]
+                      )
+
+                  elif text:
+
+                      values[property_name].append(text)
+
+              if "dbo_moh_drugs" not in classes:
+                  continue
+
+              def first(*names):
+                  for name in names:
+                      if values.get(name):
+                          return values[name][0]
+                  return ""
+
+              drugs.append({
+                  "drug_id": first("drug_Id"),
+                  "trade_ar": first(
+                      "drug_traditional_name"
+                  ),
+                  "ingredients": first(
+                      "drug_compo_str"
+                  ),
+                  "strength": first(
+                      "drug_dosage"
+                  ),
+                  "form": first(
+                      "drug_form"
+                  ),
+                  "manufacturer": first(
+                      "drug_factory_str"
+                  ),
+                  "package": first(
+                      "drug_package_shape"
+                  ),
+              })
+
+          # ============================================================
+          # INDEX XRDF
+          # ============================================================
+
+          xrdf_by_key = defaultdict(list)
+
+          for drug in drugs:
+
+              key = identity(
+                  drug["trade_ar"],
+                  drug["ingredients"],
+                  drug["strength"],
+                  drug["form"],
+                  drug["manufacturer"],
+              )
+
+              xrdf_by_key[key].append(drug)
+
+          # ============================================================
+          # INDEX GUIDE
+          # ============================================================
+
+          guide_by_key = defaultdict(list)
+
+          for row in guide:
+
+              key = identity(
+                  row.get("اسم الدواء", ""),
+                  row.get("المواد الفعالة", ""),
+                  row.get("العيارات", ""),
+                  row.get("الشكل الصيدلاني", ""),
+                  row.get("المصنع", ""),
+              )
+
+              guide_by_key[key].append(row)
+
+          # ============================================================
+          # MATCHING
+          # ============================================================
+
+          high = []
+          medium = []
+          low = []
+          conflicts = []
+
+          matched_guide = set()
+          matched_xrdf = set()
+
+          def build_match_row(
+              guide_row,
+              xrdf_row,
+              confidence,
+              reason
+          ):
+
+              key = identity(
+                  guide_row.get("اسم الدواء", ""),
+                  guide_row.get("المواد الفعالة", ""),
+                  guide_row.get("العيارات", ""),
+                  guide_row.get("الشكل الصيدلاني", ""),
+                  guide_row.get("المصنع", ""),
+              )
+
+              return {
+                  "canonical_key":
+                      canonical_hash(key),
+
+                  "trade_name_en":
+                      guide_row.get("اسم الدواء", ""),
+
+                  "trade_name_ar":
+                      (
+                          xrdf_row.get("trade_ar", "")
+                          if is_arabic(
+                              xrdf_row.get("trade_ar", "")
+                          )
+                          else ""
+                      ),
+
+                  "active_ingredients":
+                      guide_row.get(
+                          "المواد الفعالة",
+                          ""
+                      ),
+
+                  "ingredient_strengths":
+                      guide_row.get(
+                          "العيارات",
+                          ""
+                      ),
+
+                  "dosage_form":
+                      guide_row.get(
+                          "الشكل الصيدلاني",
+                          ""
+                      ),
+
+                  "manufacturer_ar":
+                      guide_row.get(
+                          "المصنع",
+                          ""
+                      ),
+
+                  "xrdf_drug_id":
+                      xrdf_row.get(
+                          "drug_id",
+                          ""
+                      ),
+
+                  "guide_source_id":
+                      guide_row.get(
+                          "معرف الدواء",
+                          ""
+                      ),
+
+                  "match_confidence":
+                      confidence,
+
+                  "reason":
+                      reason,
+              }
+
+          # ------------------------------------------------------------
+          # Exact canonical identity
+          # ------------------------------------------------------------
+
+          for guide_index, guide_row in enumerate(guide):
+
+              guide_key = identity(
+                  guide_row.get(
+                      "اسم الدواء",
+                      ""
+                  ),
+                  guide_row.get(
+                      "المواد الفعالة",
+                      ""
+                  ),
+                  guide_row.get(
+                      "العيارات",
+                      ""
+                  ),
+                  guide_row.get(
+                      "الشكل الصيدلاني",
+                      ""
+                  ),
+                  guide_row.get(
+                      "المصنع",
+                      ""
+                  ),
+              )
+
+              candidates = xrdf_by_key.get(
+                  guide_key,
+                  []
+              )
+
+              if candidates:
+
+                  xrdf_row = candidates[0]
+
+                  high.append(
+                      build_match_row(
+                          guide_row,
+                          xrdf_row,
+                          "HIGH",
+                          "exact normalized identity"
+                      )
+                  )
+
+                  matched_guide.add(
+                      guide_index
+                  )
+
+                  for candidate in candidates:
+                      matched_xrdf.add(
+                          candidate["drug_id"]
+                      )
+
+                  continue
+
+              # --------------------------------------------------------
+              # Same trade name, but identity differs
+              # --------------------------------------------------------
+
+              normalized_trade = norm(
+                  guide_row.get(
+                      "اسم الدواء",
+                      ""
+                  )
+              )
+
+              possible = []
+
+              for key, records in xrdf_by_key.items():
+
+                  if key[0] == normalized_trade:
+                      possible.extend(records)
+
+              if possible:
+
+                  guide_pairs = parse_pairs(
+                      guide_row.get(
+                          "المواد الفعالة",
+                          ""
+                      ),
+                      guide_row.get(
+                          "العيارات",
+                          ""
+                      )
+                  )
+
+                  ingredient_matches = [
+                      record
+                      for record in possible
+                      if parse_pairs(
+                          record["ingredients"],
+                          record["strength"]
+                      ) == guide_pairs
+                  ]
+
+                  if ingredient_matches:
+
+                      xrdf_row = ingredient_matches[0]
+
+                      medium.append(
+                          build_match_row(
+                              guide_row,
+                              xrdf_row,
+                              "MEDIUM",
+                              "trade name + ingredient/strength agree; form or manufacturer differs or is missing"
+                          )
+                      )
+
+                      matched_guide.add(
+                          guide_index
+                      )
+
+                      matched_xrdf.add(
+                          xrdf_row["drug_id"]
+                      )
+
+                  else:
+
+                      xrdf_identity_text = []
+
+                      for record in possible[:10]:
+
+                          xrdf_identity_text.append(
+                              " | ".join([
+                                  record["ingredients"],
+                                  record["strength"],
+                                  record["form"],
+                                  record["manufacturer"],
+                              ])
+                          )
+
+                      conflicts.append({
+                          "trade_name_en":
+                              guide_row.get(
+                                  "اسم الدواء",
+                                  ""
+                              ),
+
+                          "guide_identity":
+                              " | ".join([
+                                  guide_row.get(
+                                      "المواد الفعالة",
+                                      ""
+                                  ),
+                                  guide_row.get(
+                                      "العيارات",
+                                      ""
+                                  ),
+                                  guide_row.get(
+                                      "الشكل الصيدلاني",
+                                      ""
+                                  ),
+                                  guide_row.get(
+                                      "المصنع",
+                                      ""
+                                  ),
+                              ]),
+
+                          "xrdf_identity":
+                              " || ".join(
+                                  xrdf_identity_text
+                              ),
+
+                          "differing_fields":
+                              "ingredients/strength/form/manufacturer",
+
+                          "reason":
+                              "same normalized trade name but canonical identity differs",
+                      })
+
+                      matched_guide.add(
+                          guide_index
+                      )
+
+              else:
+
+                  low.append({
+                      "guide_source_id":
+                          guide_row.get(
+                              "معرف الدواء",
+                              ""
+                          ),
+
+                      "trade_name_en":
+                          guide_row.get(
+                              "اسم الدواء",
+                              ""
+                          ),
+
+                      "active_ingredients":
+                          guide_row.get(
+                              "المواد الفعالة",
+                              ""
+                          ),
+
+                      "ingredient_strengths":
+                          guide_row.get(
+                              "العيارات",
+                              ""
+                          ),
+
+                      "dosage_form":
+                          guide_row.get(
+                              "الشكل الصيدلاني",
+                              ""
+                          ),
+
+                      "manufacturer":
+                          guide_row.get(
+                              "المصنع",
+                              ""
+                          ),
+
+                      "reason":
+                          "no XRDF candidate with matching normalized trade name",
+                  })
+
+          # ============================================================
+          # GUIDE ONLY / XRDF ONLY
+          # ============================================================
+
+          guide_only = [
+              row
+              for index, row in enumerate(guide)
+              if index not in matched_guide
+          ]
+
+          xrdf_only = [
+              drug
+              for drug in drugs
+              if drug["drug_id"] not in matched_xrdf
+          ]
+
+          # ============================================================
+          # DUPLICATE CANONICAL IDENTITIES
+          # ============================================================
+
+          duplicate_groups = []
+
+          for key, records in xrdf_by_key.items():
+
+              if len(records) <= 1:
+                  continue
+
+              duplicate_groups.append({
+                  "canonical_key":
+                      canonical_hash(key),
+
+                  "trade_name":
+                      records[0]["trade_ar"],
+
+                  "count":
+                      len(records),
+
+                  "drug_ids":
+                      ";".join(
+                          r["drug_id"]
+                          for r in records
+                      ),
+
+                  "package_shapes":
+                      " || ".join(
+                          sorted(
+                              set(
+                                  r["package"]
+                                
